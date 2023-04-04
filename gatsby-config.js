@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: 'KGLW.today',
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://kglw.today',
   },
   plugins: [
     'gatsby-plugin-sass',
