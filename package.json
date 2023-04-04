@@ -5,13 +5,11 @@
   "description": "kglw.today",
   "author": "Alexander",
   "keywords": [
-    "gatsby"
   ],
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "data:fetch": "node -e '(async() => process.stdout.write(JSON.stringify(await (await fetch(\"https://kglw.songfishapp.com/api/v1/setlists.json?order_by=showdate\")).json())+\"\\n\"))()'",
-    "data:update": "npm run data:fetch >data.json",
+    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.songfishapp.com/api/v1/setlists.json?order_by=showdate\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "gatsby develop"
