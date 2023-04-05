@@ -4,12 +4,11 @@
   "private": true,
   "description": "kglw.today",
   "author": "Alexander",
-  "keywords": [
-  ],
+  "keywords": [],
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.songfishapp.com/api/v1/setlists.json?order_by=showdate\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
+    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.songfishapp.com/api/v1/shows.json\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "start": "gatsby develop"
@@ -19,9 +18,13 @@
     "gatsby-plugin-sass": "^6.8.0",
     "gatsby-plugin-sitemap": "^6.8.0",
     "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-json": "^5.8.0",
     "gatsby-transformer-remark": "^6.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.60.0"
+  },
+  "devDependencies": {
+    "pretty-format": "^29.5.0"
   }
 }
