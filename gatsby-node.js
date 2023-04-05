@@ -1,3 +1,5 @@
+const rootUrl = 'https://kglw.songfishapp.com';
+
 exports.createPages = async ({actions: {createPage}, graphql}) => {
 
   for (let day = new Date(2000,0,1); day.getYear() < 101; day.setDate(day.getDate()+1)) {
@@ -29,7 +31,7 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
       path: `/${yyyy}-${mm}-${dd}`,
       component: require.resolve('./src/templates/redirect.js'),
       context: {
-        redirectTo: `https://kglw.songfishapp.com/setlists/${permalink}`,
+        redirectTo: `${rootUrl}/setlists/${permalink}`,
       },
     });
   });
