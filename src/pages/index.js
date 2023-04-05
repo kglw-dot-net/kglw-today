@@ -13,11 +13,12 @@ const IndexPage = () => {
   }, [])
   return (
     <main>
+      <noscript><strong>This site requires JavaScript.</strong></noscript>
       <h1>Today in King Gizzard History</h1>
       <p>
         {day
           ? <>Today is <Link to={`/${day.toLowerCase().replace(' ','-')}`}>{day}</Link>...</>
-          : <>Brought to you by <a href="http://kglw.net/?src=kglw.today&amp;campaign=credits" target="_blank">KGLW.net</a>!</>
+          : <>Loading...</>
         }
       </p>
       <Footer/>
