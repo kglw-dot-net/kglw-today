@@ -1,4 +1,4 @@
-exports.createPages = async ({ actions: { createPage } }) => {
+exports.createPages = async ({actions: {createPage, createRedirect}, graphql}) => {
 
   for (let day = new Date(2000,0,1); day.getYear() < 101; day.setDate(day.getDate()+1)) {
     // iterating through the year 2000 because it has a leap day
@@ -13,4 +13,24 @@ exports.createPages = async ({ actions: { createPage } }) => {
     });
   }
 
+  // redirect `/YYYY-MM-DD` to Songfish
+  (await graphql(`
+    query ShowUrlsQuery {
+      allShowsJson {
+        nodes {
+          showdate
+          permalink
+        }
+      }
+    }
+  `)).data.allShowsJson.nodes.forEach(({showdate, permalink}) => {
+    const [yyyy,mm,dd] = showdate.split('-');
+    createPage({
+      path: `/${yyyy}-${mm}-${dd}`,
+      component: require.resolve('./src/templates/show-redirect.js'),
+      context: {
+        redirectTo: `https://kglw.songfishapp.com/setlists/${permalink}`,
+      },
+    });
+  });
 };
