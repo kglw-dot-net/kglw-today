@@ -1,11 +1,9 @@
 import React from 'react'
-import {graphql, useStaticQuery} from 'gatsby'
+import {graphql} from 'gatsby'
+
+import {dateToText} from '../helpers';
 
 const rootUrl = 'https://kglw.songfishapp.com'
-
-function dateToText(date, opts={}) {
-  return date.toLocaleString('en', {numberingSystem:'latn',month:'short',day:'numeric',...opts})
-}
 
 // Note: the month value represents Jan=1 Dec=12 to match the data
 export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pageContext: {month, day}}) {
