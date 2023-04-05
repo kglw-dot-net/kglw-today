@@ -1,6 +1,7 @@
 import React from 'react'
 import {graphql} from 'gatsby'
 
+import Footer from '../components/footer';
 import {dateToText} from '../helpers';
 
 const rootUrl = 'https://kglw.songfishapp.com'
@@ -26,8 +27,9 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
           <ul>
             {showsOnDay.sort((a, b) => a.node.show_year - b.node.show_year).map(({node: show}) =>
               <li>
-                <a href={`${rootUrl}/setlists/${show.permalink}`}>{show.show_year}</a>
-                &nbsp;@ {show.venuename}, {show.city}, {show.country}
+                <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&amp;campaign=shows-on-this-day`}>
+                  {show.show_year} @ {show.venuename}, {show.city}, {show.country}
+                </a>
               </li>
             )}
           </ul>
@@ -40,6 +42,8 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
         <a class="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`}>{prevDay}</a>
         <a class="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`}>{nextDay}</a>
       </nav>
+
+      <Footer />
     </div>
   )
 }
