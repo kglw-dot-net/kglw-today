@@ -15,7 +15,7 @@ const IndexPage = () => {
       <h1>Today in King Gizzard History</h1>
       <p>
         {day
-          ? <>Today is <Link to={`/kglw-today/${day.toLowerCase().replace(' ','-')}`}>{day}</Link>...</>
+          ? <>Today is <Link to={`/${day.toLowerCase().replace(' ','-')}`}>{day}</Link>...</>
           : <>Brought to you by <a href="http://kglw.net" target="_blank">KGLW.net</a>!</>
         }
       </p>

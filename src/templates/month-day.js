@@ -37,8 +37,8 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
         </>
       }
       <nav style={{order:-1,margin:'1em',display:'flex',flexFlow:'row nowrap',justifyContent:'space-around'}}>
-        <a class="nav-prev" href={`/kglw-today/${prevDay.toLowerCase().replace(' ', '-')}`}>{prevDay}</a>
-        <a class="nav-next" href={`/kglw-today/${nextDay.toLowerCase().replace(' ', '-')}`}>{nextDay}</a>
+        <a class="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`}>{prevDay}</a>
+        <a class="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`}>{nextDay}</a>
       </nav>
     </div>
   )
