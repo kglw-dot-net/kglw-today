@@ -51,7 +51,7 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
 }
 
 export const query = graphql`
-  query MonthDayQuery($day: Int, $month: Int = 10) {
+  query MonthDayQuery($day: Int, $month: Int) {
     allShowsJson(filter: {show_day: {eq: $day}, show_month: {eq: $month}}) {
       edges {
         node {
