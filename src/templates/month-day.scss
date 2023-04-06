@@ -1,0 +1,44 @@
+.monthday {
+  max-width:33em;
+  margin:auto;
+  display:flex;
+  flex-flow:column nowrap;
+  align-items:center;
+
+  > main {
+     width: 100%;
+     border-radius: 1em;
+     background: #66666666;
+     box-shadow: #221166AA 0.3em 0.6em 1em 0.5em;
+  }
+
+  h1 {
+    margin: 0.75em;
+    text-align: center;
+  }
+
+  ul.monthday--shows {
+    list-style-type: '\261E';
+    padding-left: 1em;
+
+    li {
+      margin: 0.5em;
+
+      a {
+        padding: 0.5em;
+      }
+    }
+  }
+
+  nav {
+    width: 100%;
+    margin: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    a {
+      padding: 2em;
+    }
+  }
+}
