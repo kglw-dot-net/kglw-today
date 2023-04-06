@@ -1,6 +1,9 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+const isProduction = process.env.NODE_ENV === 'production'
+
 module.exports = {
   siteMetadata: {
     title: 'KGLW.today',
@@ -24,6 +27,15 @@ module.exports = {
       options: {
         name: 'data',
         path: `${__dirname}/src/data/`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-goatcounter',
+      options: {
+        code: isProduction ? 'kglw' : '',
+        pixel: true,
+        allowLocal: !isProduction,
+        /* ideally also want to modify all `path` values before they are sent... */
       },
     },
   ],

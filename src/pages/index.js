@@ -4,7 +4,16 @@ import {Link} from 'gatsby'
 import Footer from '../components/footer';
 import {dateToText} from '../helpers';
 
-export const Head = () => <title>Today in King Gizzard History</title>
+export const Head = () => <>
+  <title>Today in King Gizzard History</title>
+  <script>{`
+    window.goatcounter = {
+      path: function() {
+        return '/@today' + location.pathname + location.search + location.hash
+      }
+    };
+  `}</script>
+</>
 
 const IndexPage = () => {
   const [day, setDay] = useState(null);

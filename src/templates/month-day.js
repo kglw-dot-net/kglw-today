@@ -6,6 +6,21 @@ import {dateToText} from '../helpers';
 
 const rootUrl = 'https://kglw.songfishapp.com'
 
+export const Head = ({pageContext:{month,day}}) => {
+  const monthJs = month - 1;
+  const dateObj = new Date(2000, monthJs, day);
+  return <>
+    <title>{dateToText(dateObj)} in King Gizzard History</title>
+    <script>{`
+      window.goatcounter = {
+        path: function() {
+          return '/@today' + location.pathname + location.search + location.hash
+        }
+      };
+    `}</script>
+  </>
+}
+
 // Note: the month value represents Jan=1 Dec=12 to match the data
 export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pageContext: {month, day}}) {
   const monthJs = month - 1;
