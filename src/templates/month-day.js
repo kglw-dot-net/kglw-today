@@ -28,7 +28,7 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
   const nextDay = dateToText(dateObj)
 
   return (
-    <Layout className="monthday">
+    <Layout className="layout-monthday">
 
       <main>
         <h1>{theDay} in King Gizzard History</h1>
