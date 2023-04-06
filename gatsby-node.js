@@ -1,12 +1,10 @@
-import {dateToText} from './src/helpers'
-
 const rootUrl = 'https://kglw.songfishapp.com';
 
 exports.createPages = async ({actions: {createPage}, graphql}) => {
 
   for (let date = new Date(2000,0,1); date.getYear() < 101; date.setDate(date.getDate()+1)) {
     // iterating through the year 2000 because it has a leap day
-    const monthDay = dateToText(date);
+    const monthDay = date.toLocaleString('en', {numberingSystem:'latn',month:'short',day:'numeric'})
     createPage({
       path: `/${monthDay.toLowerCase().replace(' ', '-')}`,
       component: require.resolve('./src/templates/month-day.js'),

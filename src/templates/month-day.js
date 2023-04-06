@@ -1,7 +1,7 @@
 import React from 'react'
 import {graphql} from 'gatsby'
 
-import Footer from '../components/footer';
+import Layout from '../components/layout';
 import {dateToText} from '../helpers';
 
 const rootUrl = 'https://kglw.songfishapp.com'
@@ -11,13 +11,6 @@ export const Head = ({pageContext:{month,day}}) => {
   const dateObj = new Date(2000, monthJs, day);
   return <>
     <title>{dateToText(dateObj)} in King Gizzard History</title>
-    <script>{`
-      window.goatcounter = {
-        path: function() {
-          return '/@today' + location.pathname + location.search + location.hash
-        }
-      };
-    `}</script>
   </>
 }
 
@@ -33,10 +26,10 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
   const nextDay = dateToText(dateObj)
 
   return (
-    <div style={{maxWidth:'40em',margin:'auto',display:'flex',flexFlow:'column nowrap',alignItems:'center'}}>
+    <Layout style={{maxWidth:'33em',margin:'auto',display:'flex',flexFlow:'column nowrap',alignItems:'center'}}>
 
-      <main style={{borderRadius:'1em',background:'#66666666',boxShadow:'1em 1em 1em 1em black'}}>
-        <h1>{theDay} in King Gizzard History</h1>
+      <main style={{width:'100%',borderRadius:'1em',background:'#66666666',boxShadow:'1em 1em 1em 1em black'}}>
+        <h1 style={{margin:'0.75em',textAlign:'center'}}>{theDay} in King Gizzard History</h1>
         {showsOnDay.length
           ? <>
             <ul style={{listStyleType:'"\\261E"',paddingLeft:'1em'}}>
@@ -55,13 +48,12 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
         }
       </main>
 
-      <nav style={{order:-1,width:'100%',margin:'1em',display:'flex',flexFlow:'row nowrap',justifyContent:'space-around'}}>
-        <a class="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{prevDay}</a>
-        <a class="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{nextDay}</a>
+      <nav style={{width:'100%',margin:'1em',display:'flex',flexFlow:'row nowrap',justifyContent:'space-around'}}>
+        <a className="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{prevDay}</a>
+        <a className="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{nextDay}</a>
       </nav>
 
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 

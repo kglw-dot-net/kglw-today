@@ -29,14 +29,5 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-goatcounter',
-      options: {
-        code: isProduction ? 'kglw' : '',
-        pixel: true,
-        allowLocal: !isProduction,
-        /* ideally also want to modify all `path` values before they are sent... */
-      },
-    },
   ],
 };
