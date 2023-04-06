@@ -18,29 +18,31 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
   const nextDay = dateToText(dateObj)
 
   return (
-    <div style={{display:'flex',flexFlow:'column nowrap'}}>
-      <h1>
-        Today in King Gizzard History: {theDay}
-      </h1>
-      {showsOnDay.length
-        ? <>
-          <ul>
-            {showsOnDay.sort((a, b) => a.node.show_year - b.node.show_year).map(({node: show}) =>
-              <li>
-                <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&amp;campaign=shows-on-this-day`}>
-                  {show.show_year} @ {show.venuename}, {show.city}, {show.country}
-                </a>
-              </li>
-            )}
-          </ul>
-        </>
-        : <>
-          <p>No known concerts on {theDay} yet!</p>
-        </>
-      }
-      <nav style={{order:-1,margin:'1em',display:'flex',flexFlow:'row nowrap',justifyContent:'space-around'}}>
-        <a class="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`}>{prevDay}</a>
-        <a class="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`}>{nextDay}</a>
+    <div style={{maxWidth:'40em',margin:'auto',display:'flex',flexFlow:'column nowrap',alignItems:'center'}}>
+
+      <main style={{borderRadius:'1em',background:'#66666666',boxShadow:'1em 1em 1em 1em black'}}>
+        <h1>{theDay} in King Gizzard History</h1>
+        {showsOnDay.length
+          ? <>
+            <ul style={{listStyleType:'"\\261E"',paddingLeft:'1em'}}>
+              {showsOnDay.sort((a, b) => a.node.show_year - b.node.show_year).map(({node: show}) =>
+                <li style={{margin:'0.5em'}}>
+                  <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&amp;campaign=shows-on-this-day`} style={{padding:'0.5em'}}>
+                    {show.show_year} {theDay} @ {show.venuename}, {show.city}, {show.country}
+                  </a>
+                </li>
+              )}
+            </ul>
+          </>
+          : <>
+            <p>No known concerts on {theDay} yet!</p>
+          </>
+        }
+      </main>
+
+      <nav style={{order:-1,width:'100%',margin:'1em',display:'flex',flexFlow:'row nowrap',justifyContent:'space-around'}}>
+        <a class="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{prevDay}</a>
+        <a class="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`} style={{padding:'2em'}}>{nextDay}</a>
       </nav>
 
       <Footer />
