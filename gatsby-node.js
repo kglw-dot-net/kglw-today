@@ -31,7 +31,7 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
       path: `/${yyyy}-${mm}-${dd}`,
       component: require.resolve('./src/templates/redirect.js'),
       context: {
-        redirectTo: `${rootUrl}/setlists/${permalink}?src=kglw.today&amp;campaign=redirect-date-${yyyy}${mm}${dd}`,
+        redirectTo: `${rootUrl}/setlists/${permalink}?src=kglw.today&amp;campaign=${yyyy}-${mm}-${dd}`,
       },
     });
   });
