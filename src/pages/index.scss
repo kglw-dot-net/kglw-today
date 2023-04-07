@@ -13,20 +13,25 @@
     justify-content: center;
     list-style: none;
     > li {
-      flex-basis: 4em;
-      flex-grow: 0;
-      border: 1px solid gray;
+      flex-basis: 3em;
+      flex-grow: 1;
+      border: 1px solid #777;
       padding: 0;
       min-width: 3em;
     }
   }
   h3 {
-    max-width: 100%;
-    background: gray;
-    color: white;
-    margin:0;
+    $side-padding: 0.5em;
+    width: calc(100% - (2 * #{$side-padding}));
+    margin: 0;
+    padding: 0.2em $side-padding;
+    background: #777;
+    color: #eee;
     font-size: 1em;
     text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   li > ul {
     margin: 0;
@@ -36,11 +41,16 @@
     li a {
       display: inline-block;
       height: 2em;
+      width: 90%;
+      padding: 0 0.1em;
       line-height: 2em;
+      white-space: nowrap;
+      &:hover:not(.today) {
+        text-shadow: #00448866 1px 2px 5px;
+      }
       &.today {
         box-shadow: #004488dd 1px 1px 7px 3px;
         border-radius: 0.9em;
-        width: 85%;
       }
     }
   }
