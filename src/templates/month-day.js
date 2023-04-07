@@ -17,36 +17,59 @@ export const Head = ({pageContext:{month,day}}) => {
 }
 
 // Note: the month value represents Jan=1 Dec=12 to match the data
-export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pageContext: {month, day}}) {
+export default function MonthDay({data, pageContext: {month, day}}) {
+  const {
+    allAlbumsJson: {edges: albumsOnDay},
+    allShowsJson: {edges: showsOnDay},
+  } = data;
+
   const monthJs = month - 1;
   const dateObj = new Date(2000, monthJs, day);
-  const theDay = dateToText(dateObj, {month: 'long'});
+  const theDayShort = dateToText(dateObj);
+  const theDayLong = dateToText(dateObj, {month: 'long'});
 
   dateObj.setDate(dateObj.getDate()-1)
   const prevDay = dateToText(dateObj)
   dateObj.setDate(dateObj.getDate()+2)
   const nextDay = dateToText(dateObj)
 
+  const concertsMapping = showsOnDay
+    .map(({node: show}) => {
+      return {
+        year: show.show_year,
+        className: 'concert',
+        content: <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>{show.show_year} {theDayShort} @ {show.venuename}, {show.city}, {show.country}</a>
+    }})
+  // global.console.log({albumsOnDay})
+  const albumsMapping = albumsOnDay
+    .map(({node: {year, name, type, note, url, ...rest}}) => {
+      // if (rest[0]) global.console.log('rest of entry...', ...rest)
+      const entry = <><cite>{name}</cite>{type ? ` ${type}` : false}</>
+      return {
+        year,
+        className: 'release',
+        content: <>
+          {year} {theDayShort}:
+          &nbsp;
+          {url
+            ? <a href={url} target="_blank" rel="noreferrer">{entry}</a>
+            : entry
+          } released {note ? <span className="layout-monthday--entry--note" title={note}>📝</span> : false}
+        </>
+      }
+    })
+
+  const entriesSorted = [...concertsMapping, ...albumsMapping]
+    .sort((a,b) => a.year - b.year)
+
   return (
     <Layout className="layout-monthday">
 
       <main>
-        <h1>{theDay} in King Gizzard History</h1>
-        {showsOnDay.length
-          ? <>
-            <ul className="monthday--shows">
-              {showsOnDay.sort((a, b) => a.node.show_year - b.node.show_year).map(({node: show}) =>
-                <li>
-                  <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>
-                    {show.show_year} {theDay} @ {show.venuename}, {show.city}, {show.country}
-                  </a>
-                </li>
-              )}
-            </ul>
-          </>
-          : <>
-            <p>No known concerts on {theDay} yet!</p>
-          </>
+        <h1>{theDayLong} in King Gizzard History</h1>
+        {entriesSorted.length
+          ? <ul>{entriesSorted.map(entry => <li key={`${entry.year}-${entry.className}`} className={`${entry.className} layout-monthday--entry`}>{entry.content}</li>)}</ul>
+          : <p className="layout-monthday--empty">On {theDayShort}, the band rests.</p>
         }
       </main>
 
@@ -61,6 +84,17 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
 
 export const query = graphql`
   query MonthDayQuery($day: Int, $month: Int) {
+    allAlbumsJson(filter: {day: {eq: $day}, month: {eq: $month}}) {
+      edges {
+        node {
+          year
+          name
+          type
+          note
+          url
+        }
+      }
+    }
     allShowsJson(filter: {show_day: {eq: $day}, show_month: {eq: $month}}) {
       edges {
         node {

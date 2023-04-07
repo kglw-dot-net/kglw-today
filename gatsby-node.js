@@ -2,8 +2,8 @@ const rootUrl = 'https://kglw.songfishapp.com';
 
 exports.createPages = async ({actions: {createPage}, graphql}) => {
 
-  for (let date = new Date(2000,0,1); date.getYear() < 101; date.setDate(date.getDate()+1)) {
-    // iterating through the year 2000 because it has a leap day
+  // create a page for every day in the (leap) year
+  for (let date = new Date(2000,0,1); date.getYear() < 101; date.setDate(date.getDate()+1)) { // iterating through the year 2000 because it has a leap day
     const monthDay = date.toLocaleString('en', {numberingSystem:'latn',month:'short',day:'numeric'})
     createPage({
       path: `/${monthDay.toLowerCase().replace(' ', '-')}`,
@@ -16,23 +16,29 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
   }
 
   // redirect `/YYYY-MM-DD` to Songfish
-  (await graphql(`
-    query ShowUrlsQuery {
-      allShowsJson {
-        nodes {
-          showdate
-          permalink
-        }
-      }
-    }
-  `)).data.allShowsJson.nodes.forEach(({showdate, permalink}) => {
-    const [yyyy,mm,dd] = showdate.split('-');
-    createPage({
-      path: `/${yyyy}-${mm}-${dd}`,
-      component: require.resolve('./src/templates/redirect.js'),
-      context: {
-        redirectTo: `${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
-      },
+  (await graphql(`query ShowUrlsQuery { allShowsJson { nodes { showdate permalink } } }`))
+    .data.allShowsJson.nodes.forEach(({showdate, permalink}) => {
+      const [yyyy,mm,dd] = showdate.split('-');
+      createPage({
+        path: `/${yyyy}-${mm}-${dd}`,
+        component: require.resolve('./src/templates/redirect.js'),
+        context: {
+          redirectTo: `${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
+        },
+      });
     });
-  });
 };
+//
+// exports.createSchemaCustomization = ({actions: {createTypes}}) => {
+//   createTypes(`
+//     type AlbumsJson implements Node {
+//       year: Int
+//       month: Int
+//       day: Int
+//       name: String
+//       type: String
+//       note: String
+//       url: String
+//     }
+//   `)
+// };

@@ -5,34 +5,47 @@
   flex-flow: column nowrap;
   align-items: center;
 
+  a {
+    color: #8877ee;
+  }
+
   > main {
      width: 100%;
      margin: 1em auto;
      border-radius: 1em;
-     background: #66666666;
-     box-shadow: #221166AA 0.3em 0.6em 1em 0.5em;
+     color: #ddd;
+     background: #222222ee;
+     box-shadow: #110033aa 0.3em 0.6em 1em 0.5em;
   }
 
-  h1 {
+  main > h1 {
     margin: 0.75em;
     text-align: center;
   }
 
-  ul.monthday--shows {
-    list-style-type: '\261E';
-    padding-left: 2em;
+  main > ul {
+    margin: 2em 1em;
 
     li {
-      margin: 0.5em;
+      margin: 0.5em 0.5em 1em 0.5em;
+      padding-left: 1em;
+      list-style: outside;
+      list-style-type: '🤘';
+      line-height: 1.5em;
 
-      a {
-        display: block;
-        padding: 0.5em;
+      &.release {
+        list-style-type: '💿';
       }
     }
   }
 
-  nav {
+  .layout-monthday--empty {
+    margin: 3em 1em;
+    color: #666;
+    text-align: center;
+  }
+
+  > nav {
     width: 100%;
     order: -1;
     margin: 0;
@@ -44,4 +57,9 @@
       padding: 1em 2em;
     }
   }
+
+  .layout-monthday--entry--note {
+    cursor: pointer;
+  }
+
 }
