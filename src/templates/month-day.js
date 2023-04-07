@@ -20,6 +20,7 @@ export const Head = ({pageContext:{month,day}}) => {
 export default function MonthDay({data, pageContext: {month, day}}) {
   const {
     allAlbumsJson: {edges: albumsOnDay},
+    allBirthdaysJson: {edges: birthdaysOnDay},
     allShowsJson: {edges: showsOnDay},
   } = data;
 
@@ -40,7 +41,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         className: 'concert',
         content: <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>{show.show_year} {theDayShort} @ {show.venuename}, {show.city}, {show.country}</a>
     }})
-  // global.console.log({albumsOnDay})
+  // global.console.log({birthdaysOnDay})
   const albumsMapping = albumsOnDay
     .map(({node: {year, name, type, note, url, ...rest}}) => {
       // if (rest[0]) global.console.log('rest of entry...', ...rest)
@@ -67,6 +68,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
 
       <main>
         <h1>{theDayLong} in King Gizzard History</h1>
+        {birthdaysOnDay.map(({node: {year, who}}) => <em className="layout-monthday--birthday">Happy Birthday to {who}!!</em>)}
         {entriesSorted.length
           ? <ul>{entriesSorted.map(entry => <li key={`${entry.year}-${entry.className}`} className={`${entry.className} layout-monthday--entry`}>{entry.content}</li>)}</ul>
           : <p className="layout-monthday--empty">On {theDayShort}, the band rests.</p>
@@ -92,6 +94,14 @@ export const query = graphql`
           type
           note
           url
+        }
+      }
+    }
+    allBirthdaysJson(filter: {day: {eq: $day}, month: {eq: $month}}) {
+      edges {
+        node {
+          year
+          who
         }
       }
     }
