@@ -41,10 +41,8 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         className: 'concert',
         content: <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>{show.show_year} {theDayShort} @ {show.venuename}, {show.city}, {show.country}</a>
     }})
-  // global.console.log({birthdaysOnDay})
   const albumsMapping = albumsOnDay
     .map(({node: {year, name, type, note, url, ...rest}}) => {
-      // if (rest[0]) global.console.log('rest of entry...', ...rest)
       const entry = <><cite>{name}</cite>{type ? ` ${type}` : false}</>
       return {
         year,
