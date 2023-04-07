@@ -1,12 +1,13 @@
 .layout-monthday {
-  max-width:33em;
-  margin:auto;
-  display:flex;
-  flex-flow:column nowrap;
-  align-items:center;
+  max-width: 33em;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 
   > main {
      width: 100%;
+     margin: 1em auto;
      border-radius: 1em;
      background: #66666666;
      box-shadow: #221166AA 0.3em 0.6em 1em 0.5em;
@@ -19,12 +20,13 @@
 
   ul.monthday--shows {
     list-style-type: '\261E';
-    padding-left: 1em;
+    padding-left: 2em;
 
     li {
       margin: 0.5em;
 
       a {
+        display: block;
         padding: 0.5em;
       }
     }
@@ -32,13 +34,14 @@
 
   nav {
     width: 100%;
-    margin: 1em;
+    order: -1;
+    margin: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
 
     a {
-      padding: 2em;
+      padding: 1em 2em;
     }
   }
 }
