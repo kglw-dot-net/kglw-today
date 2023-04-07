@@ -37,7 +37,7 @@ export default function MonthDay({data: {allShowsJson: {edges: showsOnDay}}, pag
             <ul className="monthday--shows">
               {showsOnDay.sort((a, b) => a.node.show_year - b.node.show_year).map(({node: show}) =>
                 <li>
-                  <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&amp;campaign=${show.show_year}-${month}-${day}}`}>
+                  <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>
                     {show.show_year} {theDay} @ {show.venuename}, {show.city}, {show.country}
                   </a>
                 </li>
