@@ -22,6 +22,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allAlbumsJson: {edges: albumsOnDay},
     allBirthdaysJson: {edges: birthdaysOnDay},
     allShowsJson: {edges: showsOnDay},
+    allShowNotesJson: {edges: notesOnShows},
   } = data;
 
   const monthJs = month - 1;
@@ -34,12 +35,24 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   dateObj.setDate(dateObj.getDate()+2)
   const nextDay = dateToText(dateObj)
 
+  global.console.log({notesOnShows})
+  const notesByYear = notesOnShows.reduce((acc, {node: {year, note}}) => {
+    if (!acc[year]) acc[year] = []
+    acc[year].push(note)
+    return acc
+  }, {})
+  global.console.log({notesByYear})
+
   const concertsMapping = showsOnDay
-    .map(({node: show}) => {
+    .map(({node: {show_year, permalink, venuename, city, country}}) => {
+      const notes = notesByYear[show_year]?.join("; ")
       return {
-        year: show.show_year,
+        year: show_year,
         className: 'concert',
-        content: <a href={`${rootUrl}/setlists/${show.permalink}?src=kglw.today&campaign=${show.show_year}-${month}-${day}`}>{show.show_year} {theDayShort} @ {show.venuename}, {show.city}, {show.country}</a>
+        content: <>
+          <a href={`${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${show_year}-${month}-${day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
+        </>
     }})
   const albumsMapping = albumsOnDay
     .map(({node: {year, name, type, note, url, ...rest}}) => {
@@ -53,7 +66,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
           {url
             ? <a href={url} target="_blank" rel="noreferrer">{entry}</a>
             : entry
-          } released {note ? <span className="layout-monthday--entry--note" title={note}>📝</span> : false}
+          } released {note && <span className="layout-monthday--entry--note" title={note}>📝</span>}
         </>
       }
     })
@@ -100,6 +113,14 @@ export const query = graphql`
         node {
           year
           who
+        }
+      }
+    }
+    allShowNotesJson(filter: {day: {eq: $day}, month: {eq: $month}}) {
+      edges {
+        node {
+          year
+          note
         }
       }
     }
