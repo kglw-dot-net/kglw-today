@@ -1,4 +1,4 @@
-const rootUrl = 'https://kglw.songfishapp.com';
+const rootUrl = 'https://kglw.net';
 
 exports.createPages = async ({actions: {createPage}, graphql}) => {
 

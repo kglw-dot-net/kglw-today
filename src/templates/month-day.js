@@ -6,7 +6,7 @@ import {dateToText} from '../helpers';
 
 import './month-day.scss'
 
-const rootUrl = 'https://kglw.songfishapp.com'
+const rootUrl = 'https://kglw.net'
 
 export const Head = ({pageContext:{month,day}}) => {
   const monthJs = month - 1;
