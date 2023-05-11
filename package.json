@@ -8,9 +8,10 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.songfishapp.com/api/v1/shows.json\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
+    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.net/api/v1/shows.json\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
+    "prestart": "npm run data:updateShows",
     "start": "gatsby develop"
   },
   "dependencies": {
