@@ -50,7 +50,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         year: show_year,
         className: 'concert',
         content: <>
-          <a href={`${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${show_year}-${month}-${day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          <a href={`${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${show_year}-${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
         </>
     }})
