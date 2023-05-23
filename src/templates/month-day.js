@@ -78,7 +78,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     <Layout className="layout-monthday">
 
       <main>
-        <h1>{theDayLong} in King Gizzard History</h1>
+        <h1>{theDayLong} <br/> in <br/> King Gizzard <br/> History</h1>
         {birthdaysOnDay.map(({node: {year, who}}) => <em className="layout-monthday--birthday">Happy Birthday to {who}!!</em>)}
         {entriesSorted.length
           ? <ul>{entriesSorted.map(entry => <li key={`${entry.year}-${entry.className}`} className={`${entry.className} layout-monthday--entry`}>{entry.content}</li>)}</ul>

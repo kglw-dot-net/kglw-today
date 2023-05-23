@@ -1,11 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&amp;display=swap');
+
+$kglw-phase2-paleblue: #70969f;
+$kglw-phase2-chartreuse: #8ac755;
+
+body {
+  margin: 0;
+  background: #001;
+  color: #ccd;
+  font-family: sans-serif;
+}
+
+a {
+  color: $kglw-phase2-chartreuse;
+  &:visited {
+    color: $kglw-phase2-paleblue;
+  }
+}
+
 .layout-index {
   width: 100%;
-
   text-align: center;
+
+  > p {
+    font-size: 1.5em;
+  }
+}
+
+h1 {
+  margin-top: 0;
+  padding: 0.5em;
+  color: $kglw-phase2-paleblue;
+  font: 2em Silkscreen;
 }
 
 .calendar {
   h2 { display: none; }
+  a {
+    font-family: Silkscreen;
+  }
   > ul {
     padding: 0;
     display: flex;
@@ -15,19 +47,18 @@
     > li {
       flex-basis: 3em;
       flex-grow: 1;
-      border: 1px solid #777;
+      border: 1px solid $kglw-phase2-paleblue;
       padding: 0;
       min-width: 3em;
     }
   }
   h3 {
     $side-padding: 0.5em;
-    width: calc(100% - (2 * #{$side-padding}));
     margin: 0;
     padding: 0.2em $side-padding;
-    background: #777;
-    color: #eee;
-    font-size: 1em;
+    background: $kglw-phase2-paleblue;
+    color: black;
+    font-size: 0.7em;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;

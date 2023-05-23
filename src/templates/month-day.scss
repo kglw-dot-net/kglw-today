@@ -6,21 +6,20 @@
   align-items: center;
 
   a {
-    color: #87E;
     margin-right: 0.2em;
   }
 
   > main {
-     width: 100%;
-     margin: 1em auto;
-     border-radius: 1em;
-     color: #ddd;
-     background: #222222ee;
-     box-shadow: #110033aa 0.3em 0.6em 1em 0.5em;
+    width: 100%;
+    margin: 1em auto;
+    border-radius: 1em;
+    box-shadow: -0.2em -0.1em 0.3em 0.1em #fff6 inset;
+    color: #ddd;
+    background: #6666;
   }
 
   main > h1 {
-    margin: 0.75em;
+    margin: 0.5em 0.1em 0.3em;
     text-align: center;
   }
 

@@ -20,7 +20,7 @@ const IndexPage = () => {
       <h1>Today in King Gizzard History</h1>
       <p>
         {todayDate
-          ? <>Today is <Link to={`/${dateToSlug(todayDate)}`}>{dateToText(todayDate)}</Link>...</>
+          ? <>Today is <Link to={`/${dateToSlug(todayDate)}`}>{dateToText(todayDate)}</Link></>
           : <>Loading...
            <noscript><strong>This site requires JavaScript.</strong></noscript>
           </>
@@ -32,8 +32,8 @@ const IndexPage = () => {
         <ul style={{}}>
           {Array(12).fill().map((_, indexMonth) => {
             const date = new Date(2000, indexMonth, 1); // n.b. despite `date` being a `const`, its value will be modified during runtime...
-            const monthName = dateToText(date, {month:'long'}).split(' ')[0]
-            return <li s>
+            const monthName = dateToText(date, {month:'long'}).split(' ')[0];
+            return <li>
               <h3>{monthName}</h3>
               <ul>
                 {Array(31).fill().map((_, indexDay) => {
