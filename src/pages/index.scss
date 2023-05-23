@@ -36,7 +36,7 @@ h1 {
 .calendar {
   h2 { display: none; }
   a {
-    font-family: Silkscreen;
+    padding: 5px;
   }
   > ul {
     padding: 0;
@@ -47,9 +47,8 @@ h1 {
     > li {
       flex-basis: 3em;
       flex-grow: 1;
-      border: 1px solid $kglw-phase2-paleblue;
+      border: 0.3px solid $kglw-phase2-paleblue;
       padding: 0;
-      min-width: 3em;
     }
   }
   h3 {
@@ -72,15 +71,15 @@ h1 {
     li a {
       display: inline-block;
       height: 2em;
-      width: 90%;
+      margin: 0 0.1em;
       padding: 0 0.1em;
       line-height: 2em;
       white-space: nowrap;
       &:hover:not(.today) {
-        text-shadow: #00448866 1px 2px 5px;
+        text-shadow: #{$kglw-phase2-paleblue}66 1px 2px 5px;
       }
       &.today {
-        box-shadow: #004488dd 1px 1px 7px 3px;
+        box-shadow: #{$kglw-phase2-paleblue}dd 1px 1px 7px 3px;
         border-radius: 0.9em;
       }
     }
