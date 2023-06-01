@@ -25,7 +25,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
-  const monthJs = month - 1;
+  const monthJs = month - 1; // note — JavaScript's Date object treats 0 = January, 11 = November...
   const dateObj = new Date(2000, monthJs, day);
   const theDayShort = dateToText(dateObj);
   const theDayLong = dateToText(dateObj, {month: 'long'});
@@ -35,13 +35,11 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   dateObj.setDate(dateObj.getDate()+2)
   const nextDay = dateToText(dateObj)
 
-  global.console.log({notesOnShows})
   const notesByYear = notesOnShows.reduce((acc, {node: {year, note}}) => {
     if (!acc[year]) acc[year] = []
     acc[year].push(note)
     return acc
   }, {})
-  global.console.log({notesByYear})
 
   const concertsMapping = showsOnDay
     .map(({node: {show_year, permalink, venuename, city, country}}) => {
