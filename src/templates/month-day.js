@@ -6,8 +6,6 @@ import {dateToText} from '../helpers';
 
 import './month-day.scss'
 
-const rootUrl = 'https://kglw.net'
-
 export const Head = ({pageContext:{month,day}}) => {
   const monthJs = month - 1;
   const dateObj = new Date(2000, monthJs, day);
@@ -48,7 +46,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         year: show_year,
         className: 'concert',
         content: <>
-          <a href={`${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
         </>
     }})
