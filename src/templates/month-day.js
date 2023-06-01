@@ -1,10 +1,14 @@
 import React from 'react'
 import {graphql} from 'gatsby'
+// import {format as pf} from 'pretty-format'
+import MarkdownIt from 'markdown-it'
 
 import Layout from '../components/layout';
 import {dateToText} from '../helpers';
 
 import './month-day.scss'
+
+const md = MarkdownIt()
 
 export const Head = ({pageContext:{month,day}}) => {
   const monthJs = month - 1;
@@ -20,6 +24,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allAlbumsJson: {edges: albumsOnDay},
     allBirthdaysJson: {edges: birthdaysOnDay},
     allShowsJson: {edges: showsOnDay},
+    allMiscJson: {edges: miscOnDay},
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
@@ -66,8 +71,19 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         </>
       }
     })
+  const miscMapping = miscOnDay.map(({node: {year, what}}) => {
+    return {
+      year,
+      className: 'misc',
+      content: <>
+        {year} {theDayShort}:
+        &nbsp;
+        <span dangerouslySetInnerHTML={{__html:md.renderInline(what)}} />
+      </>
+    }
+  })
 
-  const entriesSorted = [...concertsMapping, ...albumsMapping]
+  const entriesSorted = [...concertsMapping, ...albumsMapping, ...miscMapping]
     .sort((a,b) => a.year - b.year)
 
   return (
@@ -109,6 +125,14 @@ export const query = graphql`
         node {
           year
           who
+        }
+      }
+    }
+    allMiscJson(filter: {day: {eq: $day}, month: {eq: $month}}) {
+      edges {
+        node {
+          year
+          what
         }
       }
     }
