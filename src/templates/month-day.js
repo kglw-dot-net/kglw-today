@@ -1,12 +1,14 @@
 import React from 'react'
 import {graphql} from 'gatsby'
+// import {format as pf} from 'pretty-format'
+import MarkdownIt from 'markdown-it'
 
 import Layout from '../components/layout';
 import {dateToText} from '../helpers';
 
 import './month-day.scss'
 
-const rootUrl = 'https://kglw.net'
+const md = MarkdownIt()
 
 export const Head = ({pageContext:{month,day}}) => {
   const monthJs = month - 1;
@@ -22,10 +24,11 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allAlbumsJson: {edges: albumsOnDay},
     allBirthdaysJson: {edges: birthdaysOnDay},
     allShowsJson: {edges: showsOnDay},
+    allMiscJson: {edges: miscOnDay},
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
-  const monthJs = month - 1;
+  const monthJs = month - 1; // note — JavaScript's Date object treats 0 = January, 11 = November...
   const dateObj = new Date(2000, monthJs, day);
   const theDayShort = dateToText(dateObj);
   const theDayLong = dateToText(dateObj, {month: 'long'});
@@ -35,13 +38,11 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   dateObj.setDate(dateObj.getDate()+2)
   const nextDay = dateToText(dateObj)
 
-  global.console.log({notesOnShows})
   const notesByYear = notesOnShows.reduce((acc, {node: {year, note}}) => {
     if (!acc[year]) acc[year] = []
     acc[year].push(note)
     return acc
   }, {})
-  global.console.log({notesByYear})
 
   const concertsMapping = showsOnDay
     .map(({node: {show_year, permalink, venuename, city, country}}) => {
@@ -50,7 +51,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         year: show_year,
         className: 'concert',
         content: <>
-          <a href={`${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
         </>
     }})
@@ -70,8 +71,19 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         </>
       }
     })
+  const miscMapping = miscOnDay.map(({node: {year, what}}) => {
+    return {
+      year,
+      className: 'misc',
+      content: <>
+        {year} {theDayShort}:
+        &nbsp;
+        <span dangerouslySetInnerHTML={{__html:md.renderInline(what)}} />
+      </>
+    }
+  })
 
-  const entriesSorted = [...concertsMapping, ...albumsMapping]
+  const entriesSorted = [...concertsMapping, ...albumsMapping, ...miscMapping]
     .sort((a,b) => a.year - b.year)
 
   return (
@@ -113,6 +125,14 @@ export const query = graphql`
         node {
           year
           who
+        }
+      }
+    }
+    allMiscJson(filter: {day: {eq: $day}, month: {eq: $month}}) {
+      edges {
+        node {
+          year
+          what
         }
       }
     }

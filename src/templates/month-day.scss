@@ -39,6 +39,9 @@
       list-style-type: '🤘';
       line-height: 1.5em;
 
+      &.misc {
+        list-style-type: '📍';
+      }
       &.release {
         list-style-type: '💿';
       }

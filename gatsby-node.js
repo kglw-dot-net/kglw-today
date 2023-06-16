@@ -1,5 +1,3 @@
-const rootUrl = 'https://kglw.net';
-
 exports.createPages = async ({actions: {createPage}, graphql}) => {
 
   // create a page for every day in the (leap) year
@@ -23,7 +21,7 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
         path: `/${yyyy}-${mm}-${dd}`,
         component: require.resolve('./src/templates/redirect.js'),
         context: {
-          redirectTo: `${rootUrl}/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
+          redirectTo: `https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
         },
       });
     });
