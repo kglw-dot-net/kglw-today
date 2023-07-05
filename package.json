@@ -29,6 +29,6 @@
     "sass": "^1.63.4"
   },
   "devDependencies": {
-    "pretty-format": "^29.5.0"
+    "pretty-format": "^29.6.0"
   }
 }
