@@ -17,7 +17,7 @@
     "start": "gatsby develop"
   },
   "dependencies": {
-    "gatsby": "^5.11.0",
+    "gatsby": "^5.12.3",
     "gatsby-plugin-sass": "^6.11.0",
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
