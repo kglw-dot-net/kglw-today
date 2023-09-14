@@ -26,7 +26,7 @@
     "markdown-it": "13.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "1.66.1"
+    "sass": "1.67.0"
   },
   "devDependencies": {
     "pretty-format": "29.6.3"
