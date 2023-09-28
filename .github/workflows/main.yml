@@ -1,0 +1,20 @@
+# https://docs.cypress.io/guides/continuous-integration/github-actions
+
+name: Cypress integration tests
+
+on: push
+
+jobs:
+
+  cypress:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          build: npm ci
+          start: npm start -- -p 30000
+          wait-on: 'http://localhost:30000' # quote the url to be safe against YML parsing surprises
+          config: pageLoadTimeout=100000,baseUrl=http://localhost:30000
