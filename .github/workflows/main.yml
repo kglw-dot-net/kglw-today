@@ -14,7 +14,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          build: npm ci
-          start: npm start -- -p 30000
+          build: npm run build
+          start: npm run serve -- -p 30000
           wait-on: 'http://localhost:30000' # quote the url to be safe against YML parsing surprises
           config: pageLoadTimeout=100000,baseUrl=http://localhost:30000
