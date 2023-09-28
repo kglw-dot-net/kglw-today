@@ -1,20 +1,43 @@
 # https://docs.cypress.io/guides/continuous-integration/github-actions
 
-name: Cypress integration tests
+name: main CI jobs (integration tests)
 
 on: push
 
 jobs:
 
-  cypress:
+  install:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Cypress run
+      - name: Cypress install (and build app)
         uses: cypress-io/github-action@v6
         with:
           build: npm run build
-          start: npm run serve -- -p 30000
+          runTests: false # do not run tests within install job
+      - name: Save build folder
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          if-no-files-found: error
+          path: public
+
+
+  cypress:
+    runs-on: ubuntu-22.04
+    needs: install
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download the build folder
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: public
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          start: npm run serve -- --port 30000
           wait-on: 'http://localhost:30000' # quote the url to be safe against YML parsing surprises
-          config: pageLoadTimeout=100000,baseUrl=http://localhost:30000
+          config: pageLoadTimeout=15000,baseUrl=http://localhost:30000
