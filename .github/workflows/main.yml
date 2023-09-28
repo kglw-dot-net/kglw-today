@@ -1,6 +1,6 @@
 # https://docs.cypress.io/guides/continuous-integration/github-actions
 
-name: Cypress integration tests
+name: CI
 
 on: push
 
@@ -14,7 +14,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          build: npm run build
-          start: npm run serve -- -p 30000
+          start: npm run develop -- --port 30000 # this will JIT-compile content, which current saves time vs a full build/serve of the site, since our test suite covers only a small portion of the finished files
           wait-on: 'http://localhost:30000' # quote the url to be safe against YML parsing surprises
           config: pageLoadTimeout=100000,baseUrl=http://localhost:30000
