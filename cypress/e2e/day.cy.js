@@ -60,8 +60,12 @@ describe('day page', () => {
 
     it('shows other dates', () => {
       cy.visit('/oct-9')
+      cy.get('h1').contains('October 9')
       cy.contains('Carlton Dry Global Music Grant')
+
+      cy.log('visit a different page...')
       cy.visit('/oct-19')
+      cy.get('h1').contains('October 19')
       cy.contains('KGLW.net launches!')
     })
   })
