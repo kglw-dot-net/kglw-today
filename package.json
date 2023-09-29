@@ -2,15 +2,19 @@
   "name": "kglw.today",
   "version": "1.0.0",
   "private": true,
+  "license": "JRL",
   "description": "kglw.today",
   "author": "Axe <alxndr+git-kglw-today@gmail.com",
-  "keywords": ["music", "kglw", "gatsby"],
+  "keywords": [
+    "music",
+    "kglw",
+    "gatsby"
+  ],
   "scripts": {
     "prebuild": "npm run data:updateShows",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.net/api/v1/shows.json\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
-    "predevelop": "npm run data:updateShows",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "prestart": "npm run data:updateShows",
@@ -18,18 +22,19 @@
   },
   "dependencies": {
     "gatsby": "5.12.5",
+    "gatsby-plugin-react-svg": "^3.3.0",
     "gatsby-plugin-sass": "6.12.0",
     "gatsby-plugin-sitemap": "6.12.0",
     "gatsby-source-filesystem": "5.12.0",
     "gatsby-transformer-json": "5.12.0",
-    "gatsby-transformer-remark": "6.11.0",
+    "gatsby-transformer-remark": "6.12.0",
     "markdown-it": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "1.67.0"
+    "sass": "1.68.0"
   },
   "devDependencies": {
     "cypress": "^13.3.0",
-    "pretty-format": "29.7.0"
+    "pretty-format": "^29.7.0"
   }
 }
