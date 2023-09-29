@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "kglw.today",
-  "author": "Alexander",
-  "keywords": [],
+  "author": "Axe <alxndr+git-kglw-today@gmail.com",
+  "keywords": ["music", "kglw", "gatsby"],
   "scripts": {
     "prebuild": "npm run data:updateShows",
     "build": "gatsby build",
@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "5.12.0",
     "gatsby-transformer-json": "5.12.0",
     "gatsby-transformer-remark": "6.11.0",
-    "markdown-it": "13.0.1",
+    "markdown-it": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "1.67.0"
