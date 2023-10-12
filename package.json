@@ -31,7 +31,7 @@
     "markdown-it": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "1.68.0"
+    "sass": "1.69.3"
   },
   "devDependencies": {
     "cypress": "^13.3.0",
