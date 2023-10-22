@@ -1,9 +1,9 @@
 {
   "name": "kglw.today",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "license": "JRL",
-  "description": "kglw.today",
+  "description": "Today in King Gizzard History",
   "author": "Axe <alxndr+git-kglw-today@gmail.com",
   "keywords": [
     "music",
@@ -14,7 +14,7 @@
     "prebuild": "npm run data:updateShows",
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "data:updateShows": "node -e '(async() => process.stdout.write(JSON.stringify((await (await fetch(\"https://kglw.net/api/v1/shows.json\")).json()).data,null,2)+\"\\n\"))()' >src/data/shows.json",
+    "data:updateShows": "node updateShows.mjs",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "prestart": "npm run data:updateShows",
