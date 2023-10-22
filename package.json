@@ -18,7 +18,8 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "prestart": "npm run data:updateShows",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "test": "cypress run --config baseUrl=${CYPRESS_BASE_URL:-'http://localhost:8000'}"
   },
   "dependencies": {
     "gatsby": "5.12.5",
