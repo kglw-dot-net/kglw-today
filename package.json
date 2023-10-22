@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "gatsby": "5.12.8",
-    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-react-svg": "3.3.0",
     "gatsby-plugin-sass": "6.12.2",
     "gatsby-plugin-sitemap": "6.12.2",
     "gatsby-source-filesystem": "5.12.0",
@@ -35,7 +35,7 @@
     "sass": "1.69.4"
   },
   "devDependencies": {
-    "cypress": "^13.3.0",
+    "cypress": "^13.3.2",
     "pretty-format": "^29.7.0"
   }
 }
