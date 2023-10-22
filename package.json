@@ -22,10 +22,10 @@
     "test": "cypress run --config baseUrl=${CYPRESS_BASE_URL:-'http://localhost:8000'}"
   },
   "dependencies": {
-    "gatsby": "5.12.5",
+    "gatsby": "5.12.8",
     "gatsby-plugin-react-svg": "^3.3.0",
-    "gatsby-plugin-sass": "6.12.0",
-    "gatsby-plugin-sitemap": "6.12.0",
+    "gatsby-plugin-sass": "6.12.2",
+    "gatsby-plugin-sitemap": "6.12.2",
     "gatsby-source-filesystem": "5.12.0",
     "gatsby-transformer-json": "5.12.0",
     "gatsby-transformer-remark": "6.12.0",
