@@ -19,7 +19,7 @@ export const Head = ({pageContext:{month,day}}) => {
 }
 
 // Note: the month value represents Jan=1 Dec=12 to match the data
-export default function MonthDay({data, pageContext: {month, day}}) {
+export default function MonthDay({data, pageContext: {month, day}, location: {search}}) {
   const {
     allAlbumsJson: {edges: albumsOnDay},
     allBirthdaysJson: {edges: birthdaysOnDay},
@@ -27,6 +27,9 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allMiscJson: {edges: miscOnDay},
     allShowNotesJson: {edges: notesOnShows},
   } = data;
+
+  const isSparseLayout = search === '?ui=sparse'; // TODO this is not very robust
+  global.console.log({isSparseLayout})
 
   const monthJs = month - 1; // note — JavaScript's Date object treats 0 = January, 11 = November...
   const dateObj = new Date(2000, monthJs, day);
@@ -87,7 +90,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     .sort((a,b) => a.year - b.year)
 
   return (
-    <Layout className="layout-monthday">
+    <Layout className={`layout-monthday ${isSparseLayout ? 'layout-monthday-sparse' : ''}`}>
 
       <main>
         <h1>{theDayLong} <br/> in <br/> King Gizzard <br/> History</h1>
@@ -98,7 +101,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         }
       </main>
 
-      <nav style={{}}>
+      <nav>
         <a className="nav-prev" href={`/${prevDay.toLowerCase().replace(' ', '-')}`}>{prevDay}</a>
         <a className="nav-next" href={`/${nextDay.toLowerCase().replace(' ', '-')}`}>{nextDay}</a>
       </nav>
