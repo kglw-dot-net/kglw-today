@@ -8,19 +8,17 @@ export const Head = () => <>
   <title>Right Now in King Gizzard History</title>
 </>;
 
+const dateObjToMonthDaySlug = (dateObj) => dateObj.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')
 
 const NowPage = () => {
   const [todayDate, setDate] = useState(new Date());
   useEffect(() => {
     setDate(new Date());
   }, []);
-  const iframeSrc = useMemo(
-    () => todayDate && `https://kglw.today/${todayDate?.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')}`,
-    [todayDate]
-  );
+  const iframeSrc = useMemo(() => todayDate && `/${dateObjToMonthDaySlug(todayDate)}?ui=sparse`, [todayDate]);
   return <>
     <noscript>This requires JavaScript to determine what day it is for you.</noscript>
-    <iframe src={iframeSrc} style={{width:'100vw',height:'100vh'}} />
+    <iframe src={iframeSrc} style={{width:'100vw',height:'100vh',border:0}} />
   </>
 }
 
