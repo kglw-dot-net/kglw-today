@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [beta]
+## [1.0.2] — 2024-01-04
 
 ### Added
 * Changelog!
@@ -16,7 +16,7 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 ### Changed
 * [style] tweaks
 * [core] use v2 of [Songfish API](https://kglw.net/api/docs.php)
-### Removed
+<!-- ### Removed -->
 
 
 ## [1.0.1] - 2023-10-22
@@ -37,7 +37,7 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 ### Changed
 * [ops] bump NodeJS to [v20.x](https://github.com/kglw-dot-net/kglw-today/commit/7fff025b8a15b79eb)
 * [ops] remove boilerplate
-### Removed
+<!-- ### Removed -->
 
 
 ## [prerelease "1.0.0"] - 2023-04-23
@@ -52,6 +52,7 @@ Initial setup with Gatsby boilerplate.
 
 
 
-[beta]: https://github.com/kglw-dot-net/kglw-today/compare/d4cfcb8...HEAD
+[beta]: https://github.com/kglw-dot-net/kglw-today/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/olivierlacan/keep-a-changelog/compare/d4cfcb8...v1.0.2
 [1.0.1]: https://github.com/kglw-dot-net/kglw-today/compare/e66ea851d1b0a2...d4cfcb8
 [prerelease "1.0.0"]: https://github.com/kglw-dot-net/kglw-today/commit/e66ea851d1b0a2a5378f33d243dc3a27aab0d5d0
