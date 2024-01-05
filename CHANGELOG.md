@@ -8,7 +8,8 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 
 ## [beta]
 
-<!-- ### Added -->
+### Added
+* [feature] route: `/now` to be used [e.g. with iframes](https://github.com/kglw-dot-net/kglw-today/issues/65)
 <!-- ### Changed -->
 <!-- ### Removed -->
 
