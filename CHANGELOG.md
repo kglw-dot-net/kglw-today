@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project attempts to adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [beta]
+
+<!-- ### Added -->
+<!-- ### Changed -->
+<!-- ### Removed -->
+
+
 ## [1.0.2] — 2024-01-04
 
 ### Added
@@ -53,6 +60,6 @@ Initial setup with Gatsby boilerplate.
 
 
 [beta]: https://github.com/kglw-dot-net/kglw-today/compare/v1.0.2...HEAD
-[1.0.2]: https://github.com/olivierlacan/keep-a-changelog/compare/d4cfcb8...v1.0.2
-[1.0.1]: https://github.com/kglw-dot-net/kglw-today/compare/e66ea851d1b0a2...d4cfcb8
+[1.0.2]: https://github.com/kglw-dot-net/kglw-today/compare/d4cfcb8b93099e7315e8b44e3d16655a63232a2e...v1.0.2
+[1.0.1]: https://github.com/kglw-dot-net/kglw-today/compare/e66ea851d1b0a2...d4cfcb8b93099e7315e8b44e3d16655a63232a2e
 [prerelease "1.0.0"]: https://github.com/kglw-dot-net/kglw-today/commit/e66ea851d1b0a2a5378f33d243dc3a27aab0d5d0
