@@ -1,10 +1,8 @@
 import React, {useEffect, useMemo, useState} from 'react';
 import GoatCounter from '../components/goat-counter';
-import Footer from '../components/footer';
 import {dateToSlug, dateToText} from '../helpers';
 
 export const Head = () => <>
-  <GoatCounter renderedAt={new Date().toDateString().split(' ').slice(1, 3).join(' ')} />
   <title>Right Now in King Gizzard History</title>
 </>;
 
