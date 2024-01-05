@@ -71,5 +71,26 @@
       padding: 1em 2em;
     }
   }
-
 }
+
+.layout-monthday-sparse {
+  > main {
+    margin: 0;
+    box-shadow: none;
+    background: transparent;
+    > h1 {
+      margin-top: 0;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+    .layout-monthday--empty {
+      margin-top: 1em;
+    }
+  }
+  & + footer,
+  > nav {
+    display: none;
+  }
+}
+

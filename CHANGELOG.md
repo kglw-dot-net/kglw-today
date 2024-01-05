@@ -13,6 +13,14 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 <!-- ### Removed -->
 
 
+## [1.1.0] — 2024-01-05
+
+### Added
+* [feature] route: `/now` to be used [e.g. with iframes](https://github.com/kglw-dot-net/kglw-today/issues/65)
+<!-- ### Changed -->
+<!-- ### Removed -->
+
+
 ## [1.0.2] — 2024-01-04
 
 ### Added
@@ -59,7 +67,8 @@ Initial setup with Gatsby boilerplate.
 
 
 
-[beta]: https://github.com/kglw-dot-net/kglw-today/compare/v1.0.2...HEAD
+[beta]: https://github.com/kglw-dot-net/kglw-today/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/kglw-dot-net/kglw-today/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/kglw-dot-net/kglw-today/compare/d4cfcb8b93099e7315e8b44e3d16655a63232a2e...v1.0.2
 [1.0.1]: https://github.com/kglw-dot-net/kglw-today/compare/e66ea851d1b0a2...d4cfcb8b93099e7315e8b44e3d16655a63232a2e
 [prerelease "1.0.0"]: https://github.com/kglw-dot-net/kglw-today/commit/e66ea851d1b0a2a5378f33d243dc3a27aab0d5d0
