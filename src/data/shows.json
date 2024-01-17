@@ -1325,7 +1325,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-18-2011-the-tote-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "M+N CURATES THE TOTE’S 30 BIRTHDAY",
     "venue_id": 570,
     "venuename": "The Tote Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -1340,7 +1340,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-05-09 01:58:12",
+    "updated_at": "2023-12-07 04:06:10",
     "created_at": "2023-03-11 21:37:08"
   },
   {
@@ -1604,7 +1604,7 @@
     "show_dayname": "Sunday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-08-31 20:40:53",
+    "updated_at": "2023-12-08 02:32:50",
     "created_at": "2023-03-12 03:53:59"
   },
   {
@@ -2432,9 +2432,9 @@
     "showtitle": "",
     "venue_id": 174,
     "venuename": "Astor Theatre",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 38,
     "tourname": "Australia 2013",
@@ -2690,12 +2690,36 @@
   {
     "show_id": 1678642445,
     "showdate": "2013-09-11",
-    "permalink": "king-gizzard-the-lizard-wizard-september-11-2013-electric-playground-brisbane-qld-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-11-2013-electric-playground-brisbane-qld-australia-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 258,
     "venuename": "Electric Playground",
+    "location": "Brisbane, QLD, Australia",
+    "city": "Brisbane",
+    "state": "QLD",
+    "country": "Australia",
+    "tour_id": 38,
+    "tourname": "Australia 2013",
+    "showorder": 2,
+    "show_year": 2013,
+    "show_day": 11,
+    "show_dayname": "Wednesday",
+    "show_month": 9,
+    "show_monthname": "September",
+    "updated_at": "2023-12-25 21:13:37",
+    "created_at": "2023-03-12 17:34:05"
+  },
+  {
+    "show_id": 1703538770,
+    "showdate": "2013-09-11",
+    "permalink": "king-gizzard-the-lizard-wizard-september-11-2013-house-party-brisbane-qld-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 759,
+    "venuename": "House Party",
     "location": "Brisbane, QLD, Australia",
     "city": "Brisbane",
     "state": "QLD",
@@ -2708,8 +2732,32 @@
     "show_dayname": "Wednesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-09-09 14:43:54",
-    "created_at": "2023-03-12 17:34:05"
+    "updated_at": "2023-12-29 13:57:48",
+    "created_at": "2023-12-25 21:12:50"
+  },
+  {
+    "show_id": 1703539118,
+    "showdate": "2013-09-11",
+    "permalink": "king-gizzard-the-lizard-wizard-september-11-2013-alhambra-lounge-fortitude-valley-qld-australia-3.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 760,
+    "venuename": "Alhambra Lounge",
+    "location": "Fortitude Valley, QLD, Australia",
+    "city": "Fortitude Valley",
+    "state": "QLD",
+    "country": "Australia",
+    "tour_id": 38,
+    "tourname": "Australia 2013",
+    "showorder": 3,
+    "show_year": 2013,
+    "show_day": 11,
+    "show_dayname": "Wednesday",
+    "show_month": 9,
+    "show_monthname": "September",
+    "updated_at": "2023-12-29 13:59:39",
+    "created_at": "2023-12-25 21:18:38"
   },
   {
     "show_id": 1694270241,
@@ -2756,7 +2804,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-09 14:54:20",
+    "updated_at": "2023-12-20 04:51:29",
     "created_at": "2023-03-12 17:36:02"
   },
   {
@@ -3428,7 +3476,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-15 03:17:38",
+    "updated_at": "2023-12-01 01:26:40",
     "created_at": "2023-03-12 19:19:59"
   },
   {
@@ -6010,7 +6058,7 @@
     "venuename": "AreaFiftyOne Skatepark",
     "location": "Eindhoven, Netherlands",
     "city": "Eindhoven",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 42,
     "tourname": "Europe/UK Summer 2015",
@@ -6020,7 +6068,7 @@
     "show_dayname": "Thursday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-04-14 15:28:58",
+    "updated_at": "2023-12-11 20:06:44",
     "created_at": "2023-03-13 00:27:57"
   },
   {
@@ -6034,7 +6082,7 @@
     "venuename": "La Machine du Moulin Rouge",
     "location": "Paris, France",
     "city": "Paris",
-    "state": null,
+    "state": "",
     "country": "France",
     "tour_id": 42,
     "tourname": "Europe/UK Summer 2015",
@@ -6764,7 +6812,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-14 16:57:55",
+    "updated_at": "2023-12-19 15:08:06",
     "created_at": "2023-03-13 00:50:39"
   },
   {
@@ -6812,7 +6860,7 @@
     "show_dayname": "Tuesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-05-02 00:57:14",
+    "updated_at": "2023-12-05 19:38:18",
     "created_at": "2023-05-02 00:52:10"
   },
   {
@@ -7088,9 +7136,9 @@
     "showtitle": "",
     "venue_id": 360,
     "venuename": "Marion Bay Falls Festival Site",
-    "location": "Marion Bay, SA, Australia",
-    "city": "Marion Bay",
-    "state": "SA",
+    "location": "Bream Creek, TAS, Australia",
+    "city": "Bream Creek",
+    "state": "TAS",
     "country": "Australia",
     "tour_id": 44,
     "tourname": "NYE Run 2015-16",
@@ -7676,7 +7724,7 @@
     "show_dayname": "Sunday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-06 15:58:37",
+    "updated_at": "2023-12-11 19:57:20",
     "created_at": "2023-03-15 02:11:00"
   },
   {
@@ -7820,7 +7868,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-03-15 02:47:10",
+    "updated_at": "2024-01-14 21:52:52",
     "created_at": "2023-03-15 02:13:47"
   },
   {
@@ -8228,7 +8276,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-08 05:19:24",
+    "updated_at": "2023-12-01 01:48:04",
     "created_at": "2023-03-15 02:25:00"
   },
   {
@@ -8432,9 +8480,9 @@
     "showtitle": "",
     "venue_id": 179,
     "venuename": "Badlands Bar",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 23,
     "tourname": "Nonagon Infinity",
@@ -8456,9 +8504,9 @@
     "showtitle": "",
     "venue_id": 179,
     "venuename": "Badlands Bar",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 23,
     "tourname": "Nonagon Infinity",
@@ -10328,8 +10376,8 @@
     "showtitle": "Primavera Sound",
     "venue_id": 424,
     "venuename": "Parc del Fòrum",
-    "location": "Sant Adrià de Besòs, Spain",
-    "city": "Sant Adrià de Besòs",
+    "location": "Barcelona, Spain",
+    "city": "Barcelona",
     "state": "",
     "country": "Spain",
     "tour_id": 17,
@@ -10562,15 +10610,15 @@
   {
     "show_id": 1678671572,
     "showdate": "2017-06-16",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-16-2017-beekse-bergen-hilvarenbeek-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-16-2017-best-kept-secret-festival-hilvarenbeek-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Best Kept Secret",
-    "venue_id": 191,
-    "venuename": "Beekse Bergen",
+    "showtitle": "",
+    "venue_id": 757,
+    "venuename": "Best Kept Secret Festival",
     "location": "Hilvarenbeek, Netherlands",
     "city": "Hilvarenbeek",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 17,
     "tourname": "Flying Microtonal Banana",
@@ -10580,7 +10628,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-17 00:59:58",
+    "updated_at": "2023-12-22 04:07:43",
     "created_at": "2023-03-13 01:39:32"
   },
   {
@@ -10610,12 +10658,12 @@
   {
     "show_id": 1678671683,
     "showdate": "2017-06-18",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-18-2017-maimarktgelande-mannheim-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-18-2017-maifeld-derby-festival-mannheim-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Maifeld Derby",
-    "venue_id": 355,
-    "venuename": "Maimarktgelände",
+    "showtitle": "",
+    "venue_id": 758,
+    "venuename": "Maifeld Derby Festival",
     "location": "Mannheim, Germany",
     "city": "Mannheim",
     "state": "",
@@ -10628,7 +10676,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-17 01:01:49",
+    "updated_at": "2023-12-22 04:22:29",
     "created_at": "2023-03-13 01:41:23"
   },
   {
@@ -13436,16 +13484,16 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-17 01:28:42",
+    "updated_at": "2023-12-01 06:23:58",
     "created_at": "2023-03-16 04:12:00"
   },
   {
     "show_id": 1678940001,
     "showdate": "2018-12-29",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-29-2018-lorne-falls-festival-site-lorne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-29-2018-lorne-falls-festival-site-lorne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival",
     "venue_id": 353,
     "venuename": "Lorne Falls Festival Site",
     "location": "Lorne, VIC, Australia",
@@ -13460,21 +13508,21 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-18 20:13:27",
+    "updated_at": "2023-12-20 10:42:36",
     "created_at": "2023-03-16 04:13:21"
   },
   {
     "show_id": 1678940033,
     "showdate": "2018-12-31",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-31-2018-marion-bay-falls-festival-site-marion-bay-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-31-2018-marion-bay-falls-festival-site-marion-bay-sa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival",
     "venue_id": 360,
     "venuename": "Marion Bay Falls Festival Site",
-    "location": "Marion Bay, SA, Australia",
-    "city": "Marion Bay",
-    "state": "SA",
+    "location": "Bream Creek, TAS, Australia",
+    "city": "Bream Creek",
+    "state": "TAS",
     "country": "Australia",
     "tour_id": 46,
     "tourname": "NYE Run 2018-19",
@@ -13484,7 +13532,7 @@
     "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-18 20:13:34",
+    "updated_at": "2023-12-20 10:31:07",
     "created_at": "2023-03-16 04:13:53"
   },
   {
@@ -13760,9 +13808,9 @@
     "showtitle": "",
     "venue_id": 174,
     "venuename": "Astor Theatre",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 27,
     "tourname": "World Tour 2019",
@@ -13850,7 +13898,7 @@
   {
     "show_id": 1678418479,
     "showdate": "2019-08-14",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-14-2019-svn-west-san-francisco-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-14-2019-svn-west-san-francisco-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -13868,7 +13916,7 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-10 03:21:19",
+    "updated_at": "2024-01-13 21:55:45",
     "created_at": "2023-03-10 03:21:19"
   },
   {
@@ -14300,7 +14348,7 @@
     "show_dayname": "Tuesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-09-25 08:06:19",
+    "updated_at": "2024-01-11 10:59:12",
     "created_at": "2023-03-10 04:13:54"
   },
   {
@@ -14660,7 +14708,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-12 14:49:15",
+    "updated_at": "2023-12-01 01:54:03",
     "created_at": "2023-03-10 04:44:30"
   },
   {
@@ -14834,10 +14882,10 @@
   {
     "show_id": 1678423968,
     "showdate": "2019-11-23",
-    "permalink": "king-gizzard-and-the-lizard-wizard-november-23-2019-fort-canning-park-singapore-singapore.html",
+    "permalink": "king-gizzard-the-lizard-wizard-november-23-2019-fort-canning-park-singapore-singapore.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Neon Lights Festival",
     "venue_id": 276,
     "venuename": "Fort Canning Park",
     "location": "Singapore, Singapore",
@@ -14852,16 +14900,16 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-03-10 04:52:48",
+    "updated_at": "2023-12-20 09:49:04",
     "created_at": "2023-03-10 04:52:48"
   },
   {
     "show_id": 1678335066,
     "showdate": "2020-01-27",
-    "permalink": "king-gizzard-and-the-lizard-wizard-january-27-2020-albert-park-auckland-aotearoa-new-zealand.html",
+    "permalink": "king-gizzard-the-lizard-wizard-january-27-2020-albert-park-auckland-aotearoa-new-zealand.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Laneway Festival",
     "venue_id": 161,
     "venuename": "Albert Park",
     "location": "Auckland, Aotearoa (New Zealand)",
@@ -14869,23 +14917,23 @@
     "state": "",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 27,
     "show_dayname": "Monday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-03-09 04:19:55",
+    "updated_at": "2023-12-20 08:06:06",
     "created_at": "2023-03-09 04:11:06"
   },
   {
     "show_id": 1678335478,
     "showdate": "2020-02-01",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-1-2020-brisbane-showgrounds-brisbane-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-1-2020-brisbane-showgrounds-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Laneway Festival",
     "venue_id": 203,
     "venuename": "Brisbane Showgrounds",
     "location": "Brisbane, QLD, Australia",
@@ -14893,23 +14941,23 @@
     "state": "QLD",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 1,
     "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-09 04:20:06",
+    "updated_at": "2023-12-20 08:26:41",
     "created_at": "2023-03-09 04:17:58"
   },
   {
     "show_id": 1678335705,
     "showdate": "2020-02-02",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-2-2020-the-domain-sydney-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-2-2020-the-domain-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Laneway Festival",
     "venue_id": 517,
     "venuename": "The Domain",
     "location": "Eora (Sydney), NSW, Australia",
@@ -14917,23 +14965,23 @@
     "state": "NSW",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 2,
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-09 04:21:45",
+    "updated_at": "2023-12-20 08:27:32",
     "created_at": "2023-03-09 04:21:45"
   },
   {
     "show_id": 1678335985,
     "showdate": "2020-02-07",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-7-2020-harts-mill-adelaide-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-7-2020-harts-mill-adelaide-sa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Laneway Festival Adelaide",
+    "showtitle": "Laneway Festival",
     "venue_id": 309,
     "venuename": "Harts Mill",
     "location": "Adelaide, SA, Australia",
@@ -14941,23 +14989,23 @@
     "state": "SA",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 7,
     "show_dayname": "Friday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-17 01:36:34",
+    "updated_at": "2023-12-20 08:28:35",
     "created_at": "2023-03-09 04:26:25"
   },
   {
     "show_id": 1678336080,
     "showdate": "2020-02-08",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-8-2020-footscray-park-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-8-2020-footscray-park-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Laneway Festival",
     "venue_id": 273,
     "venuename": "Footscray Park",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -14965,23 +15013,23 @@
     "state": "VIC",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 8,
     "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-09 04:28:00",
+    "updated_at": "2023-12-20 08:33:50",
     "created_at": "2023-03-09 04:28:00"
   },
   {
     "show_id": 1678336170,
     "showdate": "2020-02-09",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-9-2020-esplanade-reserve-fremantle-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-9-2020-esplanade-reserve-fremantle-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Laneway Festival Fremantle",
+    "showtitle": "Laneway Festival",
     "venue_id": 263,
     "venuename": "Esplanade Reserve",
     "location": "Fremantle, WA, Australia",
@@ -14989,14 +15037,14 @@
     "state": "WA",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 9,
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-17 01:36:16",
+    "updated_at": "2023-12-20 08:34:21",
     "created_at": "2023-03-09 04:29:30"
   },
   {
@@ -15013,7 +15061,7 @@
     "state": "VIC",
     "country": "Australia",
     "tour_id": 8,
-    "tourname": "Australia 2020",
+    "tourname": "Laneway Festival Tour 2020",
     "showorder": 1,
     "show_year": 2020,
     "show_day": 21,
@@ -15116,7 +15164,7 @@
     "show_dayname": "Friday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-04-30 19:11:31",
+    "updated_at": "2023-12-01 01:36:03",
     "created_at": "2023-03-09 18:48:45"
   },
   {
@@ -15212,7 +15260,7 @@
     "show_dayname": "Thursday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-04-30 19:12:33",
+    "updated_at": "2023-12-01 01:33:11",
     "created_at": "2023-03-09 18:49:39"
   },
   {
@@ -15284,7 +15332,7 @@
     "show_dayname": "Sunday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-04-30 19:12:52",
+    "updated_at": "2023-12-20 11:00:52",
     "created_at": "2023-03-09 18:50:30"
   },
   {
@@ -15356,7 +15404,7 @@
     "show_dayname": "Sunday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-09-28 23:22:06",
+    "updated_at": "2023-12-20 11:00:19",
     "created_at": "2023-03-09 18:51:06"
   },
   {
@@ -15452,7 +15500,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-17 23:25:50",
+    "updated_at": "2023-12-08 03:07:53",
     "created_at": "2023-03-09 00:38:42"
   },
   {
@@ -15476,7 +15524,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-17 23:33:24",
+    "updated_at": "2023-12-08 03:08:52",
     "created_at": "2023-03-09 00:38:06"
   },
   {
@@ -15836,7 +15884,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-20 19:24:26",
+    "updated_at": "2023-12-08 03:09:49",
     "created_at": "2023-03-08 23:22:33"
   },
   {
@@ -15914,7 +15962,7 @@
   {
     "show_id": 1678317066,
     "showdate": "2022-05-14",
-    "permalink": "king-gizzard-and-the-lizard-wizard-may-14-2022-cervecera-hrcules-santiago-de-quertaro-mexico.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-14-2022-cerveceria-hercules-santiago-de-queretaro-mexico.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -15932,7 +15980,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-09 00:35:46",
+    "updated_at": "2023-12-08 06:06:50",
     "created_at": "2023-03-08 23:11:06"
   },
   {
@@ -16004,7 +16052,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-13 19:45:53",
+    "updated_at": "2023-12-08 03:24:57",
     "created_at": "2023-03-08 23:00:19"
   },
   {
@@ -16034,7 +16082,7 @@
   {
     "show_id": 1678316139,
     "showdate": "2022-05-24",
-    "permalink": "king-gizzard-and-the-lizard-wizard-may-24-2022-water-street-music-hall-rochester-ny-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-24-2022-water-street-music-hall-rochester-ny-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -16052,7 +16100,7 @@
     "show_dayname": "Tuesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-03-08 22:55:39",
+    "updated_at": "2023-11-28 00:48:36",
     "created_at": "2023-03-08 22:55:39"
   },
   {
@@ -16154,14 +16202,14 @@
   {
     "show_id": 1678315740,
     "showdate": "2022-06-03",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-3-2022-parc-del-forum-sant-adria-de-besos-spain.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-3-2022-parc-del-forum-barcelona-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Primavera Sound",
     "venue_id": 424,
     "venuename": "Parc del Fòrum",
-    "location": "Sant Adrià de Besòs, Spain",
-    "city": "Sant Adrià de Besòs",
+    "location": "Barcelona, Spain",
+    "city": "Barcelona",
     "state": "",
     "country": "Spain",
     "tour_id": 3,
@@ -16172,7 +16220,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-17 01:41:19",
+    "updated_at": "2024-01-11 00:31:11",
     "created_at": "2023-03-08 22:49:00"
   },
   {
@@ -16196,13 +16244,13 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-05-09 00:23:58",
+    "updated_at": "2024-01-11 01:16:49",
     "created_at": "2023-03-08 22:47:51"
   },
   {
     "show_id": 1678315340,
     "showdate": "2022-06-06",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-6-2022-razzmatazz-2-barcelona-spain.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-6-2022-razzmatazz-2-barcelona-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Primavera Sound",
@@ -16220,7 +16268,7 @@
     "show_dayname": "Monday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-17 01:42:05",
+    "updated_at": "2024-01-10 19:49:21",
     "created_at": "2023-03-08 22:42:20"
   },
   {
@@ -16250,14 +16298,14 @@
   {
     "show_id": 1678315070,
     "showdate": "2022-06-09",
-    "permalink": "king-gizzard-the-lizard-wizard-june-9-2022-parc-del-forum-sant-adria-de-besos-spain.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-9-2022-parc-del-forum-barcelona-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Primavera Sound",
     "venue_id": 424,
     "venuename": "Parc del Fòrum",
-    "location": "Sant Adrià de Besòs, Spain",
-    "city": "Sant Adrià de Besòs",
+    "location": "Barcelona, Spain",
+    "city": "Barcelona",
     "state": "",
     "country": "Spain",
     "tour_id": 3,
@@ -16268,18 +16316,18 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-05-09 00:18:04",
+    "updated_at": "2024-01-11 10:54:19",
     "created_at": "2023-03-08 22:37:50"
   },
   {
     "show_id": 1678314977,
     "showdate": "2022-06-11",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-11-2022-maimarktgelande-mannheim-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-11-2022-maifeld-derby-festival-mannheim-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Maifeld Derby",
-    "venue_id": 355,
-    "venuename": "Maimarktgelände",
+    "showtitle": "",
+    "venue_id": 758,
+    "venuename": "Maifeld Derby Festival",
     "location": "Mannheim, Germany",
     "city": "Mannheim",
     "state": "",
@@ -16292,21 +16340,21 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-18 20:51:29",
+    "updated_at": "2023-12-22 04:23:04",
     "created_at": "2023-03-08 22:36:17"
   },
   {
     "show_id": 1678314086,
     "showdate": "2022-06-12",
-    "permalink": "king-gizzard-the-lizard-wizard-june-12-2022-beekse-bergen-hilvarenbeek-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-12-2022-best-kept-secret-festival-hilvarenbeek-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Best Kept Secret",
-    "venue_id": 191,
-    "venuename": "Beekse Bergen",
+    "showtitle": "",
+    "venue_id": 757,
+    "venuename": "Best Kept Secret Festival",
     "location": "Hilvarenbeek, Netherlands",
     "city": "Hilvarenbeek",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 3,
     "tourname": "World Tour 2022 Spring/Summer",
@@ -16316,13 +16364,13 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-05-09 00:17:07",
+    "updated_at": "2023-12-22 04:16:41",
     "created_at": "2023-03-08 22:21:26"
   },
   {
     "show_id": 1678313991,
     "showdate": "2022-06-14",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-14-2022-tempodrom-berlin-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-14-2022-tempodrom-berlin-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -16340,7 +16388,7 @@
     "show_dayname": "Tuesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-08 22:19:51",
+    "updated_at": "2023-12-21 23:50:47",
     "created_at": "2023-03-08 22:19:51"
   },
   {
@@ -16364,7 +16412,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-25 16:08:53",
+    "updated_at": "2023-12-01 01:13:16",
     "created_at": "2023-03-08 22:18:15"
   },
   {
@@ -16388,7 +16436,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-25 06:58:15",
+    "updated_at": "2023-11-27 18:22:29",
     "created_at": "2023-03-08 22:17:18"
   },
   {
@@ -16412,7 +16460,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-19 18:27:17",
+    "updated_at": "2023-11-28 19:47:54",
     "created_at": "2023-03-08 22:16:37"
   },
   {
@@ -16556,7 +16604,7 @@
     "show_dayname": "Sunday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 01:10:34",
+    "updated_at": "2023-12-08 03:33:15",
     "created_at": "2023-03-08 21:31:41"
   },
   {
@@ -16604,7 +16652,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-19 18:12:03",
+    "updated_at": "2023-12-08 03:35:14",
     "created_at": "2023-03-08 21:29:52"
   },
   {
@@ -16700,7 +16748,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 01:15:07",
+    "updated_at": "2023-12-21 21:37:47",
     "created_at": "2023-03-08 20:56:04"
   },
   {
@@ -16868,7 +16916,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-03 18:08:22",
+    "updated_at": "2023-12-08 03:39:06",
     "created_at": "2023-03-08 05:34:02"
   },
   {
@@ -16940,7 +16988,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 01:49:20",
+    "updated_at": "2024-01-16 21:58:28",
     "created_at": "2023-03-08 04:25:32"
   },
   {
@@ -16988,7 +17036,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-20 06:39:25",
+    "updated_at": "2023-12-08 03:40:21",
     "created_at": "2023-03-08 04:06:23"
   },
   {
@@ -17060,7 +17108,7 @@
     "show_dayname": "Wednesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-19 17:48:49",
+    "updated_at": "2023-12-01 01:08:15",
     "created_at": "2023-03-07 05:42:21"
   },
   {
@@ -17300,7 +17348,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-09-25 02:53:07",
+    "updated_at": "2023-12-07 19:26:13",
     "created_at": "2023-03-05 18:48:39"
   },
   {
@@ -17492,7 +17540,7 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-11-19 18:13:11",
+    "updated_at": "2024-01-13 03:41:48",
     "created_at": "2023-03-05 21:34:50"
   },
   {
@@ -17516,7 +17564,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-10-23 22:40:20",
+    "updated_at": "2023-12-29 13:52:13",
     "created_at": "2023-03-05 21:35:53"
   },
   {
@@ -17540,7 +17588,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-11-19 18:13:56",
+    "updated_at": "2023-12-07 19:23:49",
     "created_at": "2023-03-24 18:48:49"
   },
   {
@@ -17612,7 +17660,7 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-11-19 18:07:00",
+    "updated_at": "2023-12-07 19:20:39",
     "created_at": "2023-03-05 21:40:06"
   },
   {
@@ -17828,7 +17876,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-25 03:02:33",
+    "updated_at": "2023-12-22 01:06:37",
     "created_at": "2023-03-08 06:30:42"
   },
   {
@@ -17852,7 +17900,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-25 03:06:29",
+    "updated_at": "2023-12-07 19:18:00",
     "created_at": "2023-03-08 06:33:47"
   },
   {
@@ -17876,7 +17924,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-27 19:36:58",
+    "updated_at": "2023-12-07 19:18:38",
     "created_at": "2023-03-08 06:34:30"
   },
   {
@@ -17900,7 +17948,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-23 22:31:34",
+    "updated_at": "2023-12-07 19:41:58",
     "created_at": "2023-03-08 06:35:01"
   },
   {
@@ -17948,7 +17996,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-14 07:37:58",
+    "updated_at": "2023-11-30 23:44:54",
     "created_at": "2023-03-08 06:38:20"
   },
   {
@@ -18020,7 +18068,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-23 22:33:28",
+    "updated_at": "2023-12-19 03:22:05",
     "created_at": "2023-03-08 06:39:52"
   },
   {
@@ -18092,7 +18140,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-25 04:11:07",
+    "updated_at": "2023-12-07 19:04:10",
     "created_at": "2023-03-08 06:40:44"
   },
   {
@@ -18164,7 +18212,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 04:26:03",
+    "updated_at": "2023-12-11 04:53:19",
     "created_at": "2023-03-10 00:42:10"
   },
   {
@@ -18188,7 +18236,7 @@
     "show_dayname": "Monday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-10-27 19:48:52",
+    "updated_at": "2023-12-12 15:25:10",
     "created_at": "2023-03-10 00:43:01"
   },
   {
@@ -18247,7 +18295,7 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 653,
-    "venuename": "La Route du Rock",
+    "venuename": "La Route du Rock Festival",
     "location": "Saint-Malo, France",
     "city": "Saint-Malo",
     "state": "",
@@ -18260,7 +18308,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 04:43:43",
+    "updated_at": "2024-01-02 18:43:57",
     "created_at": "2023-03-10 00:48:46"
   },
   {
@@ -18308,7 +18356,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 04:52:54",
+    "updated_at": "2023-12-01 17:50:41",
     "created_at": "2023-03-10 00:50:55"
   },
   {
@@ -18356,7 +18404,7 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-03 18:36:19",
+    "updated_at": "2023-12-11 05:06:13",
     "created_at": "2023-03-10 00:52:45"
   },
   {
@@ -18391,7 +18439,7 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 659,
-    "venuename": "Canela Party",
+    "venuename": "Canela Party Festival",
     "location": "Torremolinos, Spain",
     "city": "Torremolinos",
     "state": "",
@@ -18404,7 +18452,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 05:45:36",
+    "updated_at": "2023-12-01 17:51:38",
     "created_at": "2023-03-10 00:55:08"
   },
   {
@@ -18428,7 +18476,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 05:10:08",
+    "updated_at": "2024-01-02 18:57:38",
     "created_at": "2023-03-10 00:55:45"
   },
   {
@@ -18500,7 +18548,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 05:13:17",
+    "updated_at": "2024-01-11 23:20:35",
     "created_at": "2023-03-10 00:57:54"
   },
   {
@@ -18574,6 +18622,126 @@
     "show_monthname": "March",
     "updated_at": "2023-11-21 20:50:52",
     "created_at": "2023-11-21 20:50:52"
+  },
+  {
+    "show_id": 1702592345,
+    "showdate": "2024-03-15",
+    "permalink": "king-gizzard-the-lizard-wizard-march-15-2024-lollapalooza-chile-festival-santiago-chile.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 756,
+    "venuename": "Lollapalooza Chile Festival",
+    "location": "Santiago, Chile",
+    "city": "Santiago",
+    "state": "",
+    "country": "Chile",
+    "tour_id": 53,
+    "tourname": "South America 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 15,
+    "show_dayname": "Friday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2023-12-14 22:19:05",
+    "created_at": "2023-12-14 22:19:05"
+  },
+  {
+    "show_id": 1702577658,
+    "showdate": "2024-03-17",
+    "permalink": "king-gizzard-the-lizard-wizard-march-17-2024-lollapalooza-argentina-festival-buenos-aires-argentina.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 751,
+    "venuename": "Lollapalooza Argentina Festival",
+    "location": "Buenos Aires, Argentina",
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "tour_id": 53,
+    "tourname": "South America 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 17,
+    "show_dayname": "Sunday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2023-12-14 18:14:18",
+    "created_at": "2023-12-14 18:14:18"
+  },
+  {
+    "show_id": 1702577285,
+    "showdate": "2024-03-18",
+    "permalink": "king-gizzard-the-lizard-wizard-march-18-2024-teatro-vorterix-buenos-aires-argentina.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "Lollapalooza Argentina Side Show",
+    "venue_id": 755,
+    "venuename": "Teatro Vorterix",
+    "location": "Buenos Aires, Argentina",
+    "city": "Buenos Aires",
+    "state": "",
+    "country": "Argentina",
+    "tour_id": 53,
+    "tourname": "South America 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 18,
+    "show_dayname": "Monday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2023-12-14 18:19:22",
+    "created_at": "2023-12-14 18:08:05"
+  },
+  {
+    "show_id": 1702577792,
+    "showdate": "2024-03-21",
+    "permalink": "king-gizzard-the-lizard-wizard-march-21-2024-festival-estereo-picnic-bogota-columbia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 753,
+    "venuename": "Festival Estereo Picnic",
+    "location": "Bogotá, Columbia",
+    "city": "Bogotá",
+    "state": "",
+    "country": "Columbia",
+    "tour_id": 53,
+    "tourname": "South America 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 21,
+    "show_dayname": "Thursday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2023-12-14 18:16:32",
+    "created_at": "2023-12-14 18:16:32"
+  },
+  {
+    "show_id": 1702577847,
+    "showdate": "2024-03-23",
+    "permalink": "king-gizzard-the-lizard-wizard-march-23-2024-lollapalooza-brasil-festival-sao-paulo-brazil.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 752,
+    "venuename": "Lollapalooza Brasil Festival",
+    "location": "São Paulo, Brazil",
+    "city": "São Paulo",
+    "state": "",
+    "country": "Brazil",
+    "tour_id": 53,
+    "tourname": "South America 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 23,
+    "show_dayname": "Saturday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2023-12-14 18:17:27",
+    "created_at": "2023-12-14 18:17:27"
   },
   {
     "show_id": 1699369248,
@@ -18888,6 +19056,30 @@
     "created_at": "2023-11-07 15:13:43"
   },
   {
+    "show_id": 1702003478,
+    "showdate": "2024-06-03",
+    "permalink": "king-gizzard-the-lizard-wizard-june-3-2024-les-nuits-de-fourviere-lyon-france.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 744,
+    "venuename": "Les Nuits de Fourviere",
+    "location": "Lyon, France",
+    "city": "Lyon",
+    "state": "",
+    "country": "France",
+    "tour_id": 51,
+    "tourname": "Europe/UK Spring 2024",
+    "showorder": 1,
+    "show_year": 2024,
+    "show_day": 3,
+    "show_dayname": "Monday",
+    "show_month": 6,
+    "show_monthname": "June",
+    "updated_at": "2023-12-08 02:44:38",
+    "created_at": "2023-12-08 02:44:38"
+  },
+  {
     "show_id": 1699370103,
     "showdate": "2024-06-04",
     "permalink": "king-gizzard-the-lizard-wizard-june-4-2024-unaltrofestival-milan-italy.html",
@@ -18932,7 +19124,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:19:58",
+    "updated_at": "2023-12-08 02:46:18",
     "created_at": "2023-11-08 00:19:58"
   },
   {
@@ -18956,7 +19148,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-09 00:16:36",
+    "updated_at": "2023-12-08 02:47:05",
     "created_at": "2023-09-15 17:22:30"
   },
   {
@@ -18980,7 +19172,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-09 00:16:55",
+    "updated_at": "2023-12-08 02:47:24",
     "created_at": "2023-09-12 17:01:39"
   },
   {
@@ -19004,7 +19196,7 @@
     "show_dayname": "Monday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-09 00:17:10",
+    "updated_at": "2023-12-08 02:47:54",
     "created_at": "2023-11-07 15:26:31"
   },
   {
@@ -19028,7 +19220,7 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:21:19",
+    "updated_at": "2023-12-08 02:48:20",
     "created_at": "2023-11-08 00:21:19"
   },
   {
@@ -19052,7 +19244,7 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:21:51",
+    "updated_at": "2023-12-08 02:48:42",
     "created_at": "2023-11-08 00:21:51"
   },
   {
@@ -19076,7 +19268,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:22:31",
+    "updated_at": "2023-12-08 02:49:41",
     "created_at": "2023-11-08 00:22:31"
   },
   {
@@ -19100,7 +19292,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:23:07",
+    "updated_at": "2023-12-08 02:49:58",
     "created_at": "2023-11-08 00:23:07"
   },
   {
@@ -19124,7 +19316,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:23:53",
+    "updated_at": "2023-12-08 02:50:13",
     "created_at": "2023-11-08 00:23:53"
   },
   {
@@ -19148,7 +19340,7 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:24:31",
+    "updated_at": "2023-12-08 02:50:37",
     "created_at": "2023-11-08 00:24:31"
   },
   {
@@ -19172,7 +19364,7 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:25:14",
+    "updated_at": "2023-12-08 02:50:54",
     "created_at": "2023-11-08 00:25:14"
   },
   {
@@ -19196,7 +19388,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:25:57",
+    "updated_at": "2023-12-08 02:51:08",
     "created_at": "2023-11-08 00:25:57"
   },
   {
@@ -19220,7 +19412,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-11-08 00:26:35",
+    "updated_at": "2023-12-08 02:51:28",
     "created_at": "2023-11-08 00:26:35"
   },
   {
@@ -19244,7 +19436,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-09 00:17:28",
+    "updated_at": "2023-12-08 02:51:45",
     "created_at": "2023-09-12 17:00:44"
   },
   {
@@ -19268,21 +19460,21 @@
     "show_dayname": "Tuesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:27:11",
+    "updated_at": "2023-12-08 02:51:56",
     "created_at": "2023-11-08 00:27:11"
   },
   {
     "show_id": 1699403282,
     "showdate": "2024-09-04",
-    "permalink": "king-gizzard-the-lizard-wizard-september-4-2024-miller-high-life-theatre-wi-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-4-2024-miller-high-life-theatre-milwaukee-wi-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 723,
     "venuename": "Miller High Life Theatre",
-    "location": "WI, USA",
-    "city": "WI",
-    "state": "",
+    "location": "Milwaukee, WI, USA",
+    "city": "Milwaukee",
+    "state": "WI",
     "country": "USA",
     "tour_id": 52,
     "tourname": "USA/Canada 2024",
@@ -19292,7 +19484,7 @@
     "show_dayname": "Wednesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:28:02",
+    "updated_at": "2023-12-08 02:52:11",
     "created_at": "2023-11-08 00:28:02"
   },
   {
@@ -19316,7 +19508,7 @@
     "show_dayname": "Thursday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:28:37",
+    "updated_at": "2023-12-08 02:52:25",
     "created_at": "2023-11-08 00:28:37"
   },
   {
@@ -19340,7 +19532,7 @@
     "show_dayname": "Friday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:29:30",
+    "updated_at": "2023-12-08 02:52:42",
     "created_at": "2023-11-08 00:29:30"
   },
   {
@@ -19364,7 +19556,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:29:54",
+    "updated_at": "2023-12-08 02:53:01",
     "created_at": "2023-11-08 00:29:54"
   },
   {
@@ -19388,7 +19580,7 @@
     "show_dayname": "Monday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:30:22",
+    "updated_at": "2023-12-08 02:53:14",
     "created_at": "2023-11-08 00:30:22"
   },
   {
@@ -19412,7 +19604,7 @@
     "show_dayname": "Monday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:30:42",
+    "updated_at": "2023-12-08 02:53:25",
     "created_at": "2023-11-08 00:30:42"
   },
   {
@@ -19436,7 +19628,7 @@
     "show_dayname": "Wednesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:31:22",
+    "updated_at": "2023-12-08 02:53:37",
     "created_at": "2023-11-08 00:31:22"
   },
   {
@@ -19460,7 +19652,7 @@
     "show_dayname": "Thursday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-08 00:31:58",
+    "updated_at": "2023-12-08 02:53:49",
     "created_at": "2023-11-08 00:31:58"
   },
   {
@@ -19484,7 +19676,7 @@
     "show_dayname": "Saturday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-09 00:18:14",
+    "updated_at": "2023-12-08 02:54:09",
     "created_at": "2023-09-12 17:02:29"
   },
   {
@@ -19508,7 +19700,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:32:36",
+    "updated_at": "2023-12-08 02:54:56",
     "created_at": "2023-11-08 00:32:36"
   },
   {
@@ -19532,7 +19724,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:33:21",
+    "updated_at": "2023-12-08 02:55:16",
     "created_at": "2023-11-08 00:33:21"
   },
   {
@@ -19556,7 +19748,7 @@
     "show_dayname": "Sunday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:34:07",
+    "updated_at": "2023-12-08 02:55:30",
     "created_at": "2023-11-08 00:34:07"
   },
   {
@@ -19580,7 +19772,7 @@
     "show_dayname": "Monday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:34:44",
+    "updated_at": "2023-12-08 02:55:40",
     "created_at": "2023-11-08 00:34:44"
   },
   {
@@ -19604,7 +19796,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:35:22",
+    "updated_at": "2023-12-08 02:55:51",
     "created_at": "2023-11-08 00:35:22"
   },
   {
@@ -19628,7 +19820,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:36:38",
+    "updated_at": "2023-12-08 02:56:12",
     "created_at": "2023-11-08 00:36:38"
   },
   {
@@ -19652,7 +19844,7 @@
     "show_dayname": "Sunday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:38:10",
+    "updated_at": "2023-12-08 02:56:26",
     "created_at": "2023-11-08 00:38:10"
   },
   {
@@ -19676,7 +19868,7 @@
     "show_dayname": "Tuesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:38:34",
+    "updated_at": "2023-12-08 02:56:36",
     "created_at": "2023-11-08 00:38:34"
   },
   {
@@ -19700,7 +19892,7 @@
     "show_dayname": "Wednesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:39:31",
+    "updated_at": "2023-12-08 02:56:48",
     "created_at": "2023-11-08 00:39:31"
   },
   {
@@ -19724,7 +19916,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-09 00:17:42",
+    "updated_at": "2023-12-08 02:57:01",
     "created_at": "2023-09-12 17:03:56"
   },
   {
@@ -19748,7 +19940,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:40:24",
+    "updated_at": "2023-12-08 02:57:13",
     "created_at": "2023-11-08 00:40:24"
   },
   {
@@ -19772,7 +19964,7 @@
     "show_dayname": "Sunday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:40:57",
+    "updated_at": "2023-12-08 02:57:26",
     "created_at": "2023-11-08 00:40:57"
   },
   {
@@ -19796,7 +19988,7 @@
     "show_dayname": "Tuesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:41:53",
+    "updated_at": "2023-12-08 02:57:37",
     "created_at": "2023-11-08 00:41:53"
   },
   {
@@ -19820,7 +20012,7 @@
     "show_dayname": "Wednesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:42:26",
+    "updated_at": "2023-12-08 02:57:49",
     "created_at": "2023-11-08 00:42:26"
   },
   {
@@ -19844,7 +20036,7 @@
     "show_dayname": "Thursday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-08 00:42:52",
+    "updated_at": "2023-12-08 02:57:58",
     "created_at": "2023-11-08 00:42:52"
   }
 ]
