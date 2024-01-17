@@ -29,7 +29,6 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   const [isSparseLayout, setSparseLayout] = useState(false);
   useEffect(() => {
     setSparseLayout(global?.location?.search === '?ui=sparse') // TODO this is not very robust
-    global?.console.log({isSparseLayout})
   }, []);
 
   const dateObj = new Date(2000, month - 1, day); // note — JavaScript's Date object treats 0 = January, 11 = November...

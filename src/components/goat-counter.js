@@ -4,7 +4,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 
 export default function GoatCounter() {
   if (isProduction)
-    if (window && window.location && !window.location.host.startsWith('localhost'))
+    if (global && global.location && !global.location.host.startsWith('localhost')) // intentionally not using ?.
       return <>
         <script>{`
           window.goatcounter = {
