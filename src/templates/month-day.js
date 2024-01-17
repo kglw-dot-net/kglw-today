@@ -11,8 +11,7 @@ import './month-day.scss'
 const md = MarkdownIt()
 
 export const Head = ({pageContext:{month,day}}) => {
-  const monthJs = month - 1;
-  const dateObj = new Date(2000, monthJs, day);
+  const dateObj = new Date(2000, month - 1, day); // note — JavaScript's Date object treats 0 = January, 11 = November...
   return <>
     <title>{dateToText(dateObj)} in King Gizzard History</title>
   </>
