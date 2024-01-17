@@ -1,10 +1,8 @@
 import React, {useEffect, useMemo, useState} from 'react';
-import GoatCounter from '../components/goat-counter';
 // import {dateToSlug, dateToText} from '../helpers';
 
 export const Head = () => <>
   <title>Right Now in King Gizzard History</title>
-  <GoatCounter />
 </>;
 
 const dateObjToMonthDaySlug = (dateObj) => dateObj?.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')
