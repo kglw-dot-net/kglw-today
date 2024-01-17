@@ -1,6 +1,8 @@
 import React, {useEffect, useMemo, useState} from 'react';
 // import {dateToSlug, dateToText} from '../helpers';
 
+import './now.scss'
+
 export const Head = () => <>
   <title>Right Now in King Gizzard History</title>
 </>;
