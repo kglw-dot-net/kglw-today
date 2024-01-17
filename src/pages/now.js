@@ -9,7 +9,7 @@ export const Head = () => <>
 const dateObjToMonthDaySlug = (dateObj) => dateObj.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')
 
 const NowPage = () => {
-  const [todayDate, setDate] = useState(new Date());
+  const [todayDate, setDate] = useState(null);
   useEffect(() => {
     setDate(new Date());
   }, []);
