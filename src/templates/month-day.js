@@ -18,8 +18,8 @@ export const Head = ({pageContext:{month,day}}) => {
   </>
 }
 
-// Note: the month value represents Jan=1 Dec=12 to match the data
-export default function MonthDay({data, pageContext: {month, day}, location: {search}}) {
+// Note: the month value represents Jan=1 Dec=12 to match the source data
+export default function MonthDay({data, pageContext: {month, day}}) {
   const {
     allAlbumsJson: {edges: albumsOnDay},
     allBirthdaysJson: {edges: birthdaysOnDay},
@@ -28,11 +28,10 @@ export default function MonthDay({data, pageContext: {month, day}, location: {se
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
-  const isSparseLayout = search === '?ui=sparse'; // TODO this is not very robust
+  const isSparseLayout = window?.location?.search === '?ui=sparse'; // TODO this is not very robust
   global.console.log({isSparseLayout})
 
-  const monthJs = month - 1; // note — JavaScript's Date object treats 0 = January, 11 = November...
-  const dateObj = new Date(2000, monthJs, day);
+  const dateObj = new Date(2000, month - 1, day); // note — JavaScript's Date object treats 0 = January, 11 = November...
   const theDayShort = dateToText(dateObj);
   const theDayLong = dateToText(dateObj, {month: 'long'});
 
