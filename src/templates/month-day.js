@@ -1,6 +1,5 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react';
 import {graphql} from 'gatsby'
-// import {format as pf} from 'pretty-format'
 import MarkdownIt from 'markdown-it'
 
 import Layout from '../components/layout';
@@ -27,8 +26,11 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
-  const isSparseLayout = global?.location?.search === '?ui=sparse'; // TODO this is not very robust
-  global.console.log({isSparseLayout})
+  const [isSparseLayout, setSparseLayout] = useState(false);
+  useEffect(() => {
+    setSparseLayout(global?.location?.search === '?ui=sparse') // TODO this is not very robust
+    global?.console.log({isSparseLayout})
+  }, []);
 
   const dateObj = new Date(2000, month - 1, day); // note — JavaScript's Date object treats 0 = January, 11 = November...
   const theDayShort = dateToText(dateObj);
