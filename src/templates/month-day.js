@@ -27,7 +27,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     allShowNotesJson: {edges: notesOnShows},
   } = data;
 
-  const isSparseLayout = window?.location?.search === '?ui=sparse'; // TODO this is not very robust
+  const isSparseLayout = global?.location?.search === '?ui=sparse'; // TODO this is not very robust
   global.console.log({isSparseLayout})
 
   const dateObj = new Date(2000, month - 1, day); // note — JavaScript's Date object treats 0 = January, 11 = November...
