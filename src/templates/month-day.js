@@ -53,7 +53,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         year: show_year,
         className: 'concert',
         content: <>
-          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`}>{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noopener">{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
         </>
     }})
@@ -67,7 +67,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
           {year} {theDayShort}:
           &nbsp;
           {url
-            ? <a href={url} target="_blank" rel="noreferrer">{entry}</a>
+            ? <a href={url} target="_blank" rel="noopener">{entry}</a>
             : entry
           } released {note && <span className="layout-monthday--entry--note" title={note}>📝</span>}
         </>
