@@ -12,7 +12,7 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 <!-- ### Removed -->
 
 
-## [beta] — untagged
+## [1.1.1] — 2024-02-03
 
 ### Added
 * test for `/yyyy-mm-dd` redirect
@@ -78,7 +78,7 @@ Initial setup with Gatsby boilerplate.
 
 
 
-[beta]: https://github.com/kglw-dot-net/kglw-today/compare/v1.1.0...HEAD
+[1.1.1]: https://github.com/kglw-dot-net/kglw-today/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/kglw-dot-net/kglw-today/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/kglw-dot-net/kglw-today/compare/d4cfcb8b93099e7315e8b44e3d16655a63232a2e...v1.0.2
 [1.0.1]: https://github.com/kglw-dot-net/kglw-today/compare/e66ea851d1b0a2...d4cfcb8b93099e7315e8b44e3d16655a63232a2e
