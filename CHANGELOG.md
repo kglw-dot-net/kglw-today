@@ -14,11 +14,13 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 
 ## [beta] — untagged
 
-<!-- ### Added -->
+### Added
+* test for `/yyyy-mm-dd` redirect
 ### Changed
 * set `target` attribute on concert links (to work better with `/now` iframe)
 * link "King Gizzard History" in the title to the `kglw.today` landing page
 * adjust background color
+* updated various dependencies
 <!-- ### Removed -->
 
 
