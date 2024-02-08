@@ -28,7 +28,7 @@
     "gatsby-plugin-sitemap": "6.13.1",
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-json": "5.13.1",
-    "gatsby-transformer-remark": "6.12.3",
+    "gatsby-transformer-remark": "6.13.1",
     "markdown-it": "14.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
