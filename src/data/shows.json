@@ -20,7 +20,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-10-10 01:18:00",
+    "updated_at": "2024-03-24 05:07:19",
     "created_at": "2023-03-07 04:22:03"
   },
   {
@@ -68,7 +68,7 @@
     "show_dayname": "Thursday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-15 01:14:27",
+    "updated_at": "2024-03-21 04:45:10",
     "created_at": "2023-09-25 02:41:09"
   },
   {
@@ -77,7 +77,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-21-2010-flemington-drains-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Generator Party #3",
     "venue_id": 270,
     "venuename": "Flemington Drains",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -92,7 +92,7 @@
     "show_dayname": "Sunday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-05-09 01:44:03",
+    "updated_at": "2024-02-23 20:58:00",
     "created_at": "2023-03-07 04:36:21"
   },
   {
@@ -338,7 +338,7 @@
   {
     "show_id": 1693594161,
     "showdate": "2011-02-12",
-    "permalink": "king-gizzard-the-lizard-wizard-february-12-2011-geelong-gaol-geelong-vic-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-12-2011-geelong-gaol-museum-geelong-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -356,13 +356,37 @@
     "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-02-03 22:03:26",
+    "updated_at": "2024-03-24 05:06:53",
     "created_at": "2023-09-01 18:49:21"
   },
   {
+    "show_id": 1708724623,
+    "showdate": "2011-02-17",
+    "permalink": "king-gizzard-the-lizard-wizard-february-17-2011-pon-de-thursdays-fitzroy-vic-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 771,
+    "venuename": "Pon De Thursdays",
+    "location": "Fitzroy, VIC, Australia",
+    "city": "Fitzroy",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2011,
+    "show_day": 17,
+    "show_dayname": "Thursday",
+    "show_month": 2,
+    "show_monthname": "February",
+    "updated_at": "2024-02-23 21:53:16",
+    "created_at": "2024-02-23 21:43:43"
+  },
+  {
     "show_id": 1678583937,
-    "showdate": "2011-02-28",
-    "permalink": "king-gizzard-the-lizard-wizard-february-28-2011-the-national-hotel-geelong-vic-australia-2.html",
+    "showdate": "2011-02-26",
+    "permalink": "king-gizzard-the-lizard-wizard-february-26-2011-the-national-hotel-geelong-vic-australia-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -376,11 +400,11 @@
     "tourname": "Australia 2011",
     "showorder": 2,
     "show_year": 2011,
-    "show_day": 28,
-    "show_dayname": "Monday",
+    "show_day": 26,
+    "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-02-04 00:08:42",
+    "updated_at": "2024-02-24 03:50:33",
     "created_at": "2023-03-12 01:18:57"
   },
   {
@@ -404,7 +428,7 @@
     "show_dayname": "Monday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-05-09 01:47:45",
+    "updated_at": "2024-03-26 21:12:43",
     "created_at": "2023-03-12 01:42:13"
   },
   {
@@ -428,7 +452,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-02-02 01:04:00",
+    "updated_at": "2024-03-25 05:00:17",
     "created_at": "2023-03-07 04:38:45"
   },
   {
@@ -845,7 +869,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-july-9-2011-oxford-art-factory-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Gallery Bar",
+    "showtitle": "",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
     "location": "Eora (Sydney), NSW, Australia",
@@ -860,7 +884,7 @@
     "show_dayname": "Saturday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2024-02-06 04:24:35",
+    "updated_at": "2024-02-24 03:52:24",
     "created_at": "2023-03-11 21:00:51"
   },
   {
@@ -965,7 +989,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-12-2011-the-tote-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "The Toot Toot Toots, Mesa Cosa",
+    "showtitle": "",
     "venue_id": 570,
     "venuename": "The Tote Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -980,7 +1004,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-02-04 03:53:53",
+    "updated_at": "2024-02-23 22:46:08",
     "created_at": "2023-03-12 01:21:47"
   },
   {
@@ -1004,7 +1028,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-02-04 06:42:20",
+    "updated_at": "2024-04-02 20:43:36",
     "created_at": "2023-03-11 21:27:22"
   },
   {
@@ -1160,8 +1184,8 @@
     "showtitle": "",
     "venue_id": 295,
     "venuename": "Goodgod Small Club",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Sydney, NSW, Australia",
+    "city": "Sydney",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 36,
@@ -1220,7 +1244,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-10-19 05:49:07",
+    "updated_at": "2024-02-22 00:55:41",
     "created_at": "2023-03-11 21:59:04"
   },
   {
@@ -1349,7 +1373,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-18-2011-the-tote-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "M+N CURATES THE TOTE’S 30 BIRTHDAY",
+    "showtitle": "The Tote’s 30th Birthday",
     "venue_id": 570,
     "venuename": "The Tote Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -1364,7 +1388,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-12-07 04:06:10",
+    "updated_at": "2024-02-23 18:59:09",
     "created_at": "2023-03-11 21:37:08"
   },
   {
@@ -1445,7 +1469,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-december-31-2011-the-esplanade-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Espy NYE",
     "venue_id": 523,
     "venuename": "The Esplanade Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -1460,7 +1484,7 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-21 22:31:40",
+    "updated_at": "2024-03-25 05:16:44",
     "created_at": "2023-03-11 22:23:04"
   },
   {
@@ -1517,7 +1541,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-january-31-2012-palace-theatre-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Girl Talk (Headliner)",
     "venue_id": 417,
     "venuename": "Palace Theatre",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -1532,8 +1556,56 @@
     "show_dayname": "Tuesday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-05-09 02:11:35",
+    "updated_at": "2024-03-01 22:04:05",
     "created_at": "2023-03-12 03:52:21"
+  },
+  {
+    "show_id": 1709093839,
+    "showdate": "2012-03-07",
+    "permalink": "stu-mackenzie-march-7-2012-the-national-hotel-geelong-vic-australia.html",
+    "artist_id": 4,
+    "artist": "Stu Mackenzie",
+    "showtitle": "",
+    "venue_id": 546,
+    "venuename": "The National Hotel",
+    "location": "Geelong, VIC, Australia",
+    "city": "Geelong",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2012,
+    "show_day": 7,
+    "show_dayname": "Wednesday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2024-02-28 04:17:19",
+    "created_at": "2024-02-28 04:17:19"
+  },
+  {
+    "show_id": 1711566676,
+    "showdate": "2012-03-09",
+    "permalink": "king-gizzard-the-lizard-wizard-march-9-2012-kindred-studios-yarraville-vic-aus-2.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 776,
+    "venuename": "Kindred Studios",
+    "location": "Yarraville, VIC, AUS",
+    "city": "Yarraville",
+    "state": "VIC",
+    "country": "AUS",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 2,
+    "show_year": 2012,
+    "show_day": 9,
+    "show_dayname": "Friday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2024-03-27 19:17:15",
+    "created_at": "2024-03-27 19:11:16"
   },
   {
     "show_id": 1697696129,
@@ -1589,7 +1661,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-april-8-2012-bruzzys-farm-tallarook-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Boogie 6 Festival",
+    "showtitle": "Boogie Festival 6",
     "venue_id": 208,
     "venuename": "Bruzzy's Farm",
     "location": "Tallarook, VIC, Australia",
@@ -1604,7 +1676,7 @@
     "show_dayname": "Sunday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-12-08 02:32:50",
+    "updated_at": "2024-04-02 22:24:14",
     "created_at": "2023-03-12 03:53:59"
   },
   {
@@ -1652,7 +1724,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-09 02:12:25",
+    "updated_at": "2024-02-23 22:29:55",
     "created_at": "2023-03-12 03:55:30"
   },
   {
@@ -1700,20 +1772,20 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-02-05 22:57:52",
+    "updated_at": "2024-02-23 22:45:16",
     "created_at": "2023-03-12 03:56:58"
   },
   {
     "show_id": 1678593481,
     "showdate": "2012-05-10",
-    "permalink": "king-gizzard-the-lizard-wizard-may-10-2012-goodgod-small-club-eora-sydney-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-10-2012-goodgod-small-club-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 295,
     "venuename": "Goodgod Small Club",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Sydney, NSW, Australia",
+    "city": "Sydney",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 14,
@@ -1724,7 +1796,7 @@
     "show_dayname": "Thursday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-09 02:13:03",
+    "updated_at": "2024-02-23 23:01:34",
     "created_at": "2023-03-12 03:58:01"
   },
   {
@@ -1748,7 +1820,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-02-04 23:10:38",
+    "updated_at": "2024-03-25 05:23:01",
     "created_at": "2023-03-12 03:58:38"
   },
   {
@@ -1757,7 +1829,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-12-2012-judith-wright-centre-of-contemporary-arts-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Cheap Thrills",
+    "showtitle": "Cheap Thrills Festival",
     "venue_id": 328,
     "venuename": "Judith Wright Centre of Contemporary Arts",
     "location": "Brisbane, QLD, Australia",
@@ -1772,8 +1844,32 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-12 14:53:02",
+    "updated_at": "2024-02-23 22:23:58",
     "created_at": "2023-03-12 03:59:29"
+  },
+  {
+    "show_id": 1709331732,
+    "showdate": "2012-05-17",
+    "permalink": "stu-mackenzie-may-17-2012-the-retreat-hotel-brunswick-vic-usa.html",
+    "artist_id": 4,
+    "artist": "Stu Mackenzie",
+    "showtitle": "",
+    "venue_id": 774,
+    "venuename": "The Retreat Hotel",
+    "location": "Brunswick, VIC, Australia",
+    "city": "Brunswick",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2012,
+    "show_day": 17,
+    "show_dayname": "Thursday",
+    "show_month": 5,
+    "show_monthname": "May",
+    "updated_at": "2024-03-01 22:22:12",
+    "created_at": "2024-03-01 22:22:12"
   },
   {
     "show_id": 1678593610,
@@ -1844,7 +1940,7 @@
     "show_dayname": "Thursday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2024-02-06 04:34:18",
+    "updated_at": "2024-02-23 19:42:13",
     "created_at": "2023-03-12 04:02:05"
   },
   {
@@ -1868,7 +1964,7 @@
     "show_dayname": "Tuesday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-09-01 05:41:22",
+    "updated_at": "2024-02-24 03:58:38",
     "created_at": "2023-05-07 03:53:51"
   },
   {
@@ -1892,8 +1988,32 @@
     "show_dayname": "Friday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-09-01 14:02:14",
+    "updated_at": "2024-03-25 05:27:12",
     "created_at": "2023-03-12 04:03:05"
+  },
+  {
+    "show_id": 1709332093,
+    "showdate": "2012-08-15",
+    "permalink": "stu-mackenzie-august-15-2012-the-old-bar-naarm-melbourne-vic-australia.html",
+    "artist_id": 4,
+    "artist": "Stu Mackenzie",
+    "showtitle": "",
+    "venue_id": 553,
+    "venuename": "The Old Bar",
+    "location": "Naarm (Melbourne), VIC, Australia",
+    "city": "Naarm (Melbourne)",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2012,
+    "show_day": 15,
+    "show_dayname": "Wednesday",
+    "show_month": 8,
+    "show_monthname": "August",
+    "updated_at": "2024-03-01 22:28:13",
+    "created_at": "2024-03-01 22:28:13"
   },
   {
     "show_id": 1678593813,
@@ -1916,7 +2036,7 @@
     "show_dayname": "Saturday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-15 02:03:33",
+    "updated_at": "2024-03-25 05:28:40",
     "created_at": "2023-03-12 04:03:33"
   },
   {
@@ -1940,7 +2060,7 @@
     "show_dayname": "Saturday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2024-01-22 00:55:36",
+    "updated_at": "2024-03-26 21:02:06",
     "created_at": "2023-09-01 15:54:29"
   },
   {
@@ -1949,7 +2069,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-september-12-2012-oh-hello-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "BIGSOUND",
+    "showtitle": "BIGSOUND Festival",
     "venue_id": 408,
     "venuename": "Oh Hello!",
     "location": "Brisbane, QLD, Australia",
@@ -1964,7 +2084,7 @@
     "show_dayname": "Wednesday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2024-02-04 06:36:08",
+    "updated_at": "2024-02-23 19:11:02",
     "created_at": "2023-03-12 04:04:36"
   },
   {
@@ -2112,6 +2232,30 @@
     "created_at": "2023-03-12 04:07:47"
   },
   {
+    "show_id": 1709096372,
+    "showdate": "2012-10-25",
+    "permalink": "stu-mackenzie-october-25-2012-the-old-bar-naarm-melbourne-vic-australia.html",
+    "artist_id": 4,
+    "artist": "Stu Mackenzie",
+    "showtitle": "",
+    "venue_id": 553,
+    "venuename": "The Old Bar",
+    "location": "Naarm (Melbourne), VIC, Australia",
+    "city": "Naarm (Melbourne)",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2012,
+    "show_day": 25,
+    "show_dayname": "Thursday",
+    "show_month": 10,
+    "show_monthname": "October",
+    "updated_at": "2024-02-28 04:59:32",
+    "created_at": "2024-02-28 04:59:32"
+  },
+  {
     "show_id": 1697310297,
     "showdate": "2012-11-22",
     "permalink": "king-gizzard-the-lizard-wizard-november-22-2012-1000-bend-naarm-melbourne-vic-australia.html",
@@ -2138,25 +2282,25 @@
   {
     "show_id": 1705877848,
     "showdate": "2012-11-22",
-    "permalink": "stu-mackenzie-november-22-2012-pony-melbourne-vic-usa.html",
+    "permalink": "stu-mackenzie-november-22-2012-pony-melbourne-vic-usa-2.html",
     "artist_id": 4,
     "artist": "Stu Mackenzie",
     "showtitle": "Melbourne Music Week 2012",
     "venue_id": 761,
     "venuename": "Pony",
-    "location": "Melbourne, VIC, USA",
+    "location": "Melbourne, VIC, Australia",
     "city": "Melbourne",
     "state": "VIC",
-    "country": "USA",
+    "country": "Australia",
     "tour_id": 1,
     "tourname": "Not Part of a Tour",
-    "showorder": 1,
+    "showorder": 2,
     "show_year": 2012,
     "show_day": 22,
     "show_dayname": "Thursday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-01-21 23:06:28",
+    "updated_at": "2024-02-24 04:01:51",
     "created_at": "2024-01-21 22:57:28"
   },
   {
@@ -2232,6 +2376,30 @@
     "created_at": "2023-03-12 04:08:03"
   },
   {
+    "show_id": 1709330198,
+    "showdate": "2012-12-26",
+    "permalink": "stu-mackenzie-december-26-2012-barwon-club-hotel-geelong-vic-australia.html",
+    "artist_id": 4,
+    "artist": "Stu Mackenzie",
+    "showtitle": "Boxing Day Slam",
+    "venue_id": 187,
+    "venuename": "Barwon Club Hotel",
+    "location": "Geelong, VIC, Australia",
+    "city": "Geelong",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2012,
+    "show_day": 26,
+    "show_dayname": "Wednesday",
+    "show_month": 12,
+    "show_monthname": "December",
+    "updated_at": "2024-03-01 21:56:38",
+    "created_at": "2024-03-01 21:56:38"
+  },
+  {
     "show_id": 1678594124,
     "showdate": "2012-12-29",
     "permalink": "king-gizzard-the-lizard-wizard-december-29-2012-lorne-falls-festival-site-lorne-vic-australia.html",
@@ -2261,7 +2429,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-december-31-2012-the-esplanade-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Espy NYE",
     "venue_id": 523,
     "venuename": "The Esplanade Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -2276,8 +2444,32 @@
     "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-02-05 01:19:30",
+    "updated_at": "2024-03-01 17:54:36",
     "created_at": "2024-02-04 08:43:14"
+  },
+  {
+    "show_id": 1708924867,
+    "showdate": "2013-01-17",
+    "permalink": "king-gizzard-the-lizard-wizard-january-17-2013-the-standard-hotel-eora-sydney-nsw-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 567,
+    "venuename": "The Standard Hotel",
+    "location": "Eora (Sydney), NSW, Australia",
+    "city": "Eora (Sydney)",
+    "state": "NSW",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2013,
+    "show_day": 17,
+    "show_dayname": "Thursday",
+    "show_month": 1,
+    "show_monthname": "January",
+    "updated_at": "2024-03-29 20:32:33",
+    "created_at": "2024-02-26 05:21:07"
   },
   {
     "show_id": 1697698406,
@@ -2300,7 +2492,7 @@
     "show_dayname": "Wednesday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2024-02-06 21:37:42",
+    "updated_at": "2024-03-29 20:31:56",
     "created_at": "2023-10-19 06:53:26"
   },
   {
@@ -2376,6 +2568,30 @@
     "created_at": "2023-03-12 17:11:37"
   },
   {
+    "show_id": 1708449738,
+    "showdate": "2013-02-09",
+    "permalink": "king-gizzard-the-lizard-wizard-february-9-2013-evelyn-hotel-fitzroy-vic-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "Cheap Monday - Backyard Sessions",
+    "venue_id": 769,
+    "venuename": "Evelyn Hotel",
+    "location": "Fitzroy, VIC, Australia",
+    "city": "Fitzroy",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2013,
+    "show_day": 9,
+    "show_dayname": "Saturday",
+    "show_month": 2,
+    "show_monthname": "February",
+    "updated_at": "2024-02-21 00:19:57",
+    "created_at": "2024-02-20 17:22:18"
+  },
+  {
     "show_id": 1678641144,
     "showdate": "2013-02-23",
     "permalink": "king-gizzard-the-lizard-wizard-february-23-2013-corner-hotel-naarm-melbourne-vic-australia.html",
@@ -2396,7 +2612,7 @@
     "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-01-25 05:43:50",
+    "updated_at": "2024-03-27 18:46:20",
     "created_at": "2023-03-12 17:12:24"
   },
   {
@@ -2492,7 +2708,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 01:29:27",
+    "updated_at": "2024-04-17 19:53:51",
     "created_at": "2023-03-12 17:13:59"
   },
   {
@@ -2516,7 +2732,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-08 12:23:27",
+    "updated_at": "2024-03-25 05:34:52",
     "created_at": "2023-03-12 17:14:16"
   },
   {
@@ -2568,6 +2784,30 @@
     "created_at": "2023-03-12 17:15:24"
   },
   {
+    "show_id": 1711827402,
+    "showdate": "2013-05-18",
+    "permalink": "king-gizzard-the-lizard-wizard-may-18-2013-waring-gardens-deniliquin-nsw-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "Reverberate: Interactive Festival of Sound",
+    "venue_id": 779,
+    "venuename": "Waring Gardens",
+    "location": "Deniliquin, NSW, Australia",
+    "city": "Deniliquin",
+    "state": "NSW",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2013,
+    "show_day": 18,
+    "show_dayname": "Saturday",
+    "show_month": 5,
+    "show_monthname": "May",
+    "updated_at": "2024-03-30 19:43:51",
+    "created_at": "2024-03-30 19:36:42"
+  },
+  {
     "show_id": 1678641450,
     "showdate": "2013-06-23",
     "permalink": "king-gizzard-the-lizard-wizard-june-23-2013-elsternwick-park-naarm-melbourne-vic-australia.html",
@@ -2588,7 +2828,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-02-02 01:15:22",
+    "updated_at": "2024-02-23 20:50:40",
     "created_at": "2023-03-12 17:17:30"
   },
   {
@@ -2618,14 +2858,14 @@
   {
     "show_id": 1678641612,
     "showdate": "2013-08-22",
-    "permalink": "king-gizzard-the-lizard-wizard-august-22-2013-goodgod-small-club-eora-sydney-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-22-2013-goodgod-small-club-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "FAFYL Album Preview",
     "venue_id": 295,
     "venuename": "Goodgod Small Club",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Sydney, NSW, Australia",
+    "city": "Sydney",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 16,
@@ -2636,7 +2876,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-24 22:18:48",
+    "updated_at": "2024-02-24 04:03:50",
     "created_at": "2023-03-12 17:20:12"
   },
   {
@@ -2684,7 +2924,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-27 00:41:00",
+    "updated_at": "2024-03-25 05:41:58",
     "created_at": "2023-03-12 17:30:35"
   },
   {
@@ -2762,10 +3002,10 @@
   {
     "show_id": 1694270241,
     "showdate": "2013-10-09",
-    "permalink": "king-gizzard-the-lizard-wizard-october-9-2013-revolt-art-space-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-october-9-2013-revolt-art-space-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Independent Music Awards",
     "venue_id": 691,
     "venuename": "Revolt Art Space",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -2780,16 +3020,16 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-09 14:37:21",
+    "updated_at": "2024-02-24 00:17:29",
     "created_at": "2023-09-09 14:37:21"
   },
   {
     "show_id": 1678642562,
     "showdate": "2013-10-16",
-    "permalink": "king-gizzard-and-the-lizard-wizard-october-16-2013-red-bennies-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-october-16-2013-red-bennies-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "ABABCd Episode 3",
     "venue_id": 665,
     "venuename": "Red Bennies",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -2804,7 +3044,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-12-20 04:51:29",
+    "updated_at": "2024-02-24 00:27:15",
     "created_at": "2023-03-12 17:36:02"
   },
   {
@@ -2876,13 +3116,13 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-02-06 23:08:11",
+    "updated_at": "2024-03-06 15:11:59",
     "created_at": "2023-03-12 17:38:02"
   },
   {
     "show_id": 1678642710,
     "showdate": "2013-11-02",
-    "permalink": "king-gizzard-the-lizard-wizard-november-2-2013-the-standard-eora-sydney-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-november-2-2013-the-standard-hotel-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -2900,7 +3140,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-01-24 03:35:14",
+    "updated_at": "2024-03-12 22:27:42",
     "created_at": "2023-03-12 17:38:30"
   },
   {
@@ -2912,9 +3152,9 @@
     "showtitle": "",
     "venue_id": 621,
     "venuename": "Ya-Ya's",
-    "location": "Northbridge, Western Australia, Australia",
+    "location": "Northbridge, W.A., Australia",
     "city": "Northbridge",
-    "state": "Western Australia",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 15,
     "tourname": "Float Along - Fill Your Lungs",
@@ -2936,9 +3176,9 @@
     "showtitle": "",
     "venue_id": 379,
     "venuename": "Mojo's Bar",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 15,
     "tourname": "Float Along - Fill Your Lungs",
@@ -2972,7 +3212,7 @@
     "show_dayname": "Wednesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-02-04 00:09:12",
+    "updated_at": "2024-03-24 04:35:47",
     "created_at": "2023-03-12 17:39:53"
   },
   {
@@ -3031,9 +3271,9 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "St. Kilda Festival",
     "venue_id": 487,
-    "venuename": "St Kilda Foreshore",
-    "location": "Naarm (Melbourne), VIC, Australia",
-    "city": "Naarm (Melbourne)",
+    "venuename": "O’Donnell Gardens Stage",
+    "location": "St Kilda, VIC, Australia",
+    "city": "St Kilda",
     "state": "VIC",
     "country": "Australia",
     "tour_id": 1,
@@ -3044,7 +3284,7 @@
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-10-19 19:18:00",
+    "updated_at": "2024-02-24 00:53:27",
     "created_at": "2023-03-12 17:59:49"
   },
   {
@@ -3056,8 +3296,8 @@
     "showtitle": "Secret Garden Festival",
     "venue_id": 206,
     "venuename": "Brownlow Hill Farm",
-    "location": "Brownlow Hill, NSW, Australia",
-    "city": "Brownlow Hill",
+    "location": "Cobbitty, NSW, Australia",
+    "city": "Cobbitty",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 24,
@@ -3092,7 +3332,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-02-03 23:47:44",
+    "updated_at": "2024-03-29 20:22:08",
     "created_at": "2023-03-12 18:06:06"
   },
   {
@@ -3104,9 +3344,9 @@
     "showtitle": "",
     "venue_id": 465,
     "venuename": "Rosemount Hotel",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 24,
     "tourname": "Oddments",
@@ -3128,9 +3368,9 @@
     "showtitle": "",
     "venue_id": 379,
     "venuename": "Mojo's Bar",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 24,
     "tourname": "Oddments",
@@ -3164,7 +3404,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-10-19 19:36:19",
+    "updated_at": "2024-04-08 23:47:02",
     "created_at": "2023-03-12 18:08:09"
   },
   {
@@ -3188,13 +3428,13 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-10-19 19:46:26",
+    "updated_at": "2024-03-29 19:09:09",
     "created_at": "2023-03-12 18:08:45"
   },
   {
     "show_id": 1678644646,
     "showdate": "2014-03-28",
-    "permalink": "king-gizzard-the-lizard-wizard-march-28-2014-boney-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-28-2014-boney-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -3212,7 +3452,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-24 19:24:12",
+    "updated_at": "2024-04-09 00:04:49",
     "created_at": "2023-03-12 18:10:46"
   },
   {
@@ -3332,7 +3572,7 @@
     "show_dayname": "Sunday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-10-20 01:59:30",
+    "updated_at": "2024-02-28 05:53:21",
     "created_at": "2023-03-12 18:12:26"
   },
   {
@@ -3362,7 +3602,7 @@
   {
     "show_id": 1678644827,
     "showdate": "2014-04-10",
-    "permalink": "king-gizzard-the-lizard-wizard-april-10-2014-the-roller-den-sydney-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-10-2014-the-roller-den-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -3380,7 +3620,7 @@
     "show_dayname": "Thursday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-03-24 19:25:21",
+    "updated_at": "2024-04-08 23:44:43",
     "created_at": "2023-03-12 18:13:47"
   },
   {
@@ -3434,10 +3674,10 @@
   {
     "show_id": 1678644911,
     "showdate": "2014-04-13",
-    "permalink": "king-gizzard-the-lizard-wizard-april-13-2014-university-of-wollongong-wollongong-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-13-2014-university-of-wollongong-wollongong-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Farmer & The Owl Presents: A Secret Laneway Party",
     "venue_id": 666,
     "venuename": "University of Wollongong",
     "location": "Wollongong, NSW, Australia",
@@ -3452,7 +3692,7 @@
     "show_dayname": "Sunday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-03-24 19:25:50",
+    "updated_at": "2024-04-08 23:40:25",
     "created_at": "2023-03-12 18:15:11"
   },
   {
@@ -3476,7 +3716,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-29 17:44:39",
+    "updated_at": "2024-03-24 04:54:44",
     "created_at": "2023-03-12 19:19:59"
   },
   {
@@ -3500,7 +3740,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-16 02:46:00",
+    "updated_at": "2024-03-29 20:52:32",
     "created_at": "2023-10-20 04:04:41"
   },
   {
@@ -3572,7 +3812,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-10-20 01:59:16",
+    "updated_at": "2024-03-29 20:14:36",
     "created_at": "2023-03-12 19:21:15"
   },
   {
@@ -3692,7 +3932,7 @@
     "show_dayname": "Monday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-03-24 19:27:13",
+    "updated_at": "2024-02-24 01:33:34",
     "created_at": "2023-03-12 19:23:22"
   },
   {
@@ -3764,7 +4004,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-10-20 03:10:46",
+    "updated_at": "2024-02-24 01:34:11",
     "created_at": "2023-03-12 19:24:04"
   },
   {
@@ -3788,7 +4028,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-10-20 03:37:10",
+    "updated_at": "2024-04-09 04:09:19",
     "created_at": "2023-03-12 19:24:30"
   },
   {
@@ -3860,7 +4100,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-27 21:12:01",
+    "updated_at": "2024-04-06 00:58:17",
     "created_at": "2023-03-12 19:25:17"
   },
   {
@@ -3884,7 +4124,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-10-21 20:33:27",
+    "updated_at": "2024-03-29 20:17:10",
     "created_at": "2023-03-12 19:25:51"
   },
   {
@@ -4016,8 +4256,8 @@
     "showtitle": "",
     "venue_id": 295,
     "venuename": "Goodgod Small Club",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Sydney, NSW, Australia",
+    "city": "Sydney",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 25,
@@ -4061,12 +4301,12 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-30-2014-modern-sky-festival-beijing-china.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Modern Sky Festival",
     "venue_id": 375,
-    "venuename": "Modern Sky Festival",
+    "venuename": "Changyang Binhe Park",
     "location": "Beijing, China",
     "city": "Beijing",
-    "state": null,
+    "state": "",
     "country": "China",
     "tour_id": 25,
     "tourname": "Sino-Aus Tour",
@@ -4076,7 +4316,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-10-27 03:27:01",
+    "updated_at": "2024-04-07 05:16:57",
     "created_at": "2023-03-12 19:42:56"
   },
   {
@@ -4154,10 +4394,10 @@
   {
     "show_id": 1678650276,
     "showdate": "2014-09-11",
-    "permalink": "king-gizzard-the-lizard-wizard-september-11-2014-the-elephant-hotel-brisbane-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-11-2014-the-elephant-hotel-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "BIGSOUND Festival",
     "venue_id": 522,
     "venuename": "The Elephant Hotel",
     "location": "Brisbane, QLD, Australia",
@@ -4172,7 +4412,7 @@
     "show_dayname": "Thursday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-03-24 19:29:22",
+    "updated_at": "2024-04-09 04:03:28",
     "created_at": "2023-03-12 19:44:36"
   },
   {
@@ -4304,9 +4544,9 @@
     "showtitle": "",
     "venue_id": 508,
     "venuename": "The Bakery",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 25,
     "tourname": "Sino-Aus Tour",
@@ -4316,7 +4556,7 @@
     "show_dayname": "Friday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-05 01:22:26",
+    "updated_at": "2024-03-29 20:08:06",
     "created_at": "2023-03-12 19:48:50"
   },
   {
@@ -4328,9 +4568,9 @@
     "showtitle": "Wave Rock Weekender",
     "venue_id": 612,
     "venuename": "Wave Rock Caravan Park",
-    "location": "Hyden, WA, Australia",
+    "location": "Hyden, W.A., Australia",
     "city": "Hyden",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 25,
     "tourname": "Sino-Aus Tour",
@@ -4364,7 +4604,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-26 23:34:58",
+    "updated_at": "2024-03-29 20:10:43",
     "created_at": "2024-01-26 23:34:58"
   },
   {
@@ -4388,7 +4628,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-15 04:08:59",
+    "updated_at": "2024-03-29 20:13:30",
     "created_at": "2023-03-12 19:52:28"
   },
   {
@@ -4508,7 +4748,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-02 02:50:44",
+    "updated_at": "2024-03-29 20:15:47",
     "created_at": "2023-03-12 19:55:08"
   },
   {
@@ -4580,7 +4820,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-02 02:52:23",
+    "updated_at": "2024-03-29 20:18:26",
     "created_at": "2023-03-12 19:56:29"
   },
   {
@@ -4604,7 +4844,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-12 01:53:51",
+    "updated_at": "2024-03-29 21:04:28",
     "created_at": "2023-03-12 19:56:59"
   },
   {
@@ -4676,7 +4916,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-10-27 22:09:02",
+    "updated_at": "2024-04-09 02:15:08",
     "created_at": "2023-03-12 19:57:56"
   },
   {
@@ -4700,7 +4940,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-02 02:30:12",
+    "updated_at": "2024-03-29 20:22:09",
     "created_at": "2023-03-12 19:58:16"
   },
   {
@@ -4724,7 +4964,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-12 01:57:16",
+    "updated_at": "2024-03-29 19:00:29",
     "created_at": "2023-03-12 19:58:54"
   },
   {
@@ -4748,7 +4988,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-02 02:29:07",
+    "updated_at": "2024-04-09 18:10:17",
     "created_at": "2023-05-01 18:01:44"
   },
   {
@@ -4772,7 +5012,7 @@
     "show_dayname": "Sunday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-11-11 09:06:39",
+    "updated_at": "2024-03-29 20:38:53",
     "created_at": "2023-03-12 19:59:31"
   },
   {
@@ -4820,7 +5060,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-10-29 01:59:20",
+    "updated_at": "2024-03-29 21:07:49",
     "created_at": "2023-03-12 20:00:35"
   },
   {
@@ -4844,7 +5084,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-02 02:22:09",
+    "updated_at": "2024-03-29 20:49:52",
     "created_at": "2023-03-12 20:04:59"
   },
   {
@@ -4916,7 +5156,7 @@
     "show_dayname": "Monday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-02 02:17:29",
+    "updated_at": "2024-03-29 20:51:32",
     "created_at": "2023-03-12 20:29:45"
   },
   {
@@ -4940,7 +5180,7 @@
     "show_dayname": "Tuesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-02-06 04:59:27",
+    "updated_at": "2024-04-09 01:41:12",
     "created_at": "2023-03-12 20:30:25"
   },
   {
@@ -5060,7 +5300,7 @@
     "show_dayname": "Tuesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-11-02 19:40:06",
+    "updated_at": "2024-03-29 20:51:50",
     "created_at": "2023-03-12 20:33:01"
   },
   {
@@ -5098,7 +5338,7 @@
     "venuename": "TivoliVredenburg Pandora",
     "location": "Utrecht, Netherlands",
     "city": "Utrecht",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 19,
     "tourname": "I'm In Your Mind Fuzz Europe",
@@ -5108,7 +5348,7 @@
     "show_dayname": "Thursday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-03-24 19:32:56",
+    "updated_at": "2024-04-01 01:01:57",
     "created_at": "2023-03-12 20:33:49"
   },
   {
@@ -5156,7 +5396,7 @@
     "show_dayname": "Monday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-03-24 19:33:09",
+    "updated_at": "2024-04-06 00:56:44",
     "created_at": "2023-03-12 20:34:43"
   },
   {
@@ -5336,9 +5576,9 @@
     "showtitle": "",
     "venue_id": 465,
     "venuename": "Rosemount Hotel",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 18,
     "tourname": "I'm In Your Mind Fuzz Australia",
@@ -5348,7 +5588,7 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-11-15 16:54:45",
+    "updated_at": "2024-03-29 20:53:43",
     "created_at": "2023-03-12 20:41:48"
   },
   {
@@ -5360,9 +5600,9 @@
     "showtitle": "",
     "venue_id": 379,
     "venuename": "Mojo's Bar",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 18,
     "tourname": "I'm In Your Mind Fuzz Australia",
@@ -5396,7 +5636,7 @@
     "show_dayname": "Friday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-11-12 02:41:01",
+    "updated_at": "2024-03-13 14:22:28",
     "created_at": "2023-03-12 20:48:24"
   },
   {
@@ -5420,7 +5660,7 @@
     "show_dayname": "Saturday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-11-18 22:07:15",
+    "updated_at": "2024-04-08 21:15:40",
     "created_at": "2023-03-13 00:17:07"
   },
   {
@@ -5429,7 +5669,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-2-2015-corner-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Matinee Show",
+    "showtitle": "Gizzfest Matinee Show",
     "venue_id": 234,
     "venuename": "Corner Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -5444,7 +5684,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-19 02:13:37",
+    "updated_at": "2024-04-14 00:42:23",
     "created_at": "2023-03-13 00:17:34"
   },
   {
@@ -5522,10 +5762,10 @@
   {
     "show_id": 1678666679,
     "showdate": "2015-05-22",
-    "permalink": "king-gizzard-the-lizard-wizard-may-22-2015-fowlers-live-adelaide-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-22-2015-fowlers-live-adelaide-sa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "The Dawn of Gizzfest",
     "venue_id": 278,
     "venuename": "Fowlers Live",
     "location": "Adelaide, SA, Australia",
@@ -5540,21 +5780,21 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-04-14 15:27:06",
+    "updated_at": "2024-02-25 08:48:59",
     "created_at": "2023-03-13 00:17:59"
   },
   {
     "show_id": 1678666694,
     "showdate": "2015-05-23",
-    "permalink": "king-gizzard-the-lizard-wizard-may-23-2015-rosemount-hotel-perth-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-23-2015-rosemount-hotel-perth-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "The Dawn of Gizzfest",
     "venue_id": 465,
     "venuename": "Rosemount Hotel",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 40,
     "tourname": "The Dawn of Gizzfest Tour 2015",
@@ -5564,7 +5804,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-04-14 15:27:16",
+    "updated_at": "2024-04-06 14:14:18",
     "created_at": "2023-03-13 00:18:14"
   },
   {
@@ -5573,7 +5813,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-30-2015-the-factory-theatre-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "The Dawn of Gizzfest",
     "venue_id": 524,
     "venuename": "The Factory Theatre",
     "location": "Eora (Sydney), NSW, Australia",
@@ -5588,7 +5828,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-21 16:11:39",
+    "updated_at": "2024-04-06 14:14:11",
     "created_at": "2023-03-13 00:18:28"
   },
   {
@@ -5597,7 +5837,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-31-2015-the-brightside-carpark-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "The Dawn of Gizzfest",
     "venue_id": 513,
     "venuename": "The Brightside Carpark",
     "location": "Brisbane, QLD, Australia",
@@ -5612,7 +5852,7 @@
     "show_dayname": "Sunday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-21 16:13:12",
+    "updated_at": "2024-02-26 04:31:24",
     "created_at": "2023-03-13 00:19:11"
   },
   {
@@ -5642,12 +5882,12 @@
   {
     "show_id": 1678666810,
     "showdate": "2015-06-12",
-    "permalink": "king-gizzard-the-lizard-wizard-june-12-2015-bonnaroo-music-arts-festival-manchester-tn-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-12-2015-great-stage-park-manchester-tn-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Bonnaroo Music & Arts Festival",
     "venue_id": 299,
-    "venuename": "Bonnaroo Music & Arts Festival",
+    "venuename": "Great Stage Park",
     "location": "Manchester, TN, USA",
     "city": "Manchester",
     "state": "TN",
@@ -5660,8 +5900,32 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-21 09:15:14",
+    "updated_at": "2024-02-24 03:22:59",
     "created_at": "2023-03-13 00:20:10"
+  },
+  {
+    "show_id": 1712365650,
+    "showdate": "2015-06-12",
+    "permalink": "king-gizzard-the-lizard-wizard-june-12-2015-great-stage-park-manchester-tn-usa-2.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "Secret Set at The Backyard",
+    "venue_id": 299,
+    "venuename": "Great Stage Park",
+    "location": "Manchester, TN, USA",
+    "city": "Manchester",
+    "state": "TN",
+    "country": "USA",
+    "tour_id": 43,
+    "tourname": "North America Summer 2015",
+    "showorder": 2,
+    "show_year": 2015,
+    "show_day": 12,
+    "show_dayname": "Friday",
+    "show_month": 6,
+    "show_monthname": "June",
+    "updated_at": "2024-04-08 21:23:02",
+    "created_at": "2024-04-06 01:07:30"
   },
   {
     "show_id": 1678666856,
@@ -5708,7 +5972,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-21 09:14:38",
+    "updated_at": "2024-02-16 18:42:38",
     "created_at": "2023-03-13 00:21:07"
   },
   {
@@ -5744,9 +6008,9 @@
     "showtitle": "",
     "venue_id": 157,
     "venuename": "Adelaide Hall",
-    "location": "Toronto, Ontario, Canada",
+    "location": "Toronto, ON, Canada",
     "city": "Toronto",
-    "state": "Ontario",
+    "state": "ON",
     "country": "Canada",
     "tour_id": 54,
     "tourname": "USA + Canada June 2015",
@@ -5828,7 +6092,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-21 09:16:54",
+    "updated_at": "2024-03-01 22:51:49",
     "created_at": "2023-03-13 00:23:50"
   },
   {
@@ -5885,7 +6149,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-24-2015-babys-all-right-brooklyn-ny-usa-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Surprise Midnight Show",
+    "showtitle": "",
     "venue_id": 177,
     "venuename": "Baby's All Right",
     "location": "Brooklyn, NY, USA",
@@ -5900,7 +6164,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-21 09:19:05",
+    "updated_at": "2024-02-24 03:00:18",
     "created_at": "2023-03-13 00:25:04"
   },
   {
@@ -5909,7 +6173,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-24-2015-babys-all-right-brooklyn-ny-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "'Acoustic' Show",
     "venue_id": 177,
     "venuename": "Baby's All Right",
     "location": "Brooklyn, NY, USA",
@@ -5924,22 +6188,22 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-06-17 20:43:43",
+    "updated_at": "2024-03-29 19:25:23",
     "created_at": "2023-03-13 00:36:20"
   },
   {
     "show_id": 1678667143,
     "showdate": "2015-06-26",
-    "permalink": "king-gizzard-the-lizard-wizard-june-26-2015-glastonbury-festival-pilton-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-26-2015-the-park-glastonbury-united-kingdom.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 684,
-    "venuename": "Glastonbury Festival",
-    "location": "Pilton, England",
-    "city": "Pilton",
+    "showtitle": "Glastonbury Festival",
+    "venue_id": 778,
+    "venuename": "The Park",
+    "location": "Glastonbury, United Kingdom",
+    "city": "Glastonbury",
     "state": "",
-    "country": "England",
+    "country": "United Kingdom",
     "tour_id": 42,
     "tourname": "Europe/UK Summer 2015",
     "showorder": 1,
@@ -5948,22 +6212,22 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-06-04 02:01:15",
+    "updated_at": "2024-03-29 23:54:34",
     "created_at": "2023-03-13 00:25:43"
   },
   {
     "show_id": 1685845705,
     "showdate": "2015-06-27",
-    "permalink": "king-gizzard-the-lizard-wizard-june-27-2015-glastonbury-festival-pilton-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-27-2015-the-park-glastonbury-united-kingdom.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Secret Set at the Crow's Nest",
-    "venue_id": 684,
-    "venuename": "Glastonbury Festival",
-    "location": "Pilton, England",
-    "city": "Pilton",
+    "showtitle": "Secret Set at The Crow's Nest",
+    "venue_id": 778,
+    "venuename": "The Park",
+    "location": "Glastonbury, United Kingdom",
+    "city": "Glastonbury",
     "state": "",
-    "country": "England",
+    "country": "United Kingdom",
     "tour_id": 1,
     "tourname": "Not Part of a Tour",
     "showorder": 1,
@@ -5972,16 +6236,16 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-06-04 02:28:25",
+    "updated_at": "2024-03-29 23:59:31",
     "created_at": "2023-06-04 02:28:25"
   },
   {
     "show_id": 1678667176,
     "showdate": "2015-06-28",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-28-2015-vakantiepark-de-groene-heuvels-beuningen-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-28-2015-vakantiepark-de-groene-heuvels-beuningen-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Down the Rabbit Hole",
+    "showtitle": "Down the Rabbit Hole Festival",
     "venue_id": 601,
     "venuename": "Vakantiepark De Groene Heuvels",
     "location": "Beuningen, Netherlands",
@@ -5996,7 +6260,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-21 09:51:06",
+    "updated_at": "2024-02-24 04:05:54",
     "created_at": "2023-03-13 00:26:16"
   },
   {
@@ -6098,10 +6362,10 @@
   {
     "show_id": 1678667290,
     "showdate": "2015-07-03",
-    "permalink": "king-gizzard-and-the-lizard-wizard-july-3-2015-la-machine-du-moulin-rouge-paris-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-3-2015-la-machine-du-moulin-rouge-paris-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Paris International Festival of Psychedelic Music",
     "venue_id": 339,
     "venuename": "La Machine du Moulin Rouge",
     "location": "Paris, France",
@@ -6116,7 +6380,7 @@
     "show_dayname": "Friday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-03-18 19:21:53",
+    "updated_at": "2024-04-03 01:11:16",
     "created_at": "2023-03-13 00:28:10"
   },
   {
@@ -6125,7 +6389,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-july-5-2015-the-kazimier-liverpool-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Heavenly 25",
     "venue_id": 538,
     "venuename": "The Kazimier",
     "location": "Liverpool, England",
@@ -6140,7 +6404,7 @@
     "show_dayname": "Sunday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-04-14 15:29:14",
+    "updated_at": "2024-02-09 17:50:45",
     "created_at": "2023-03-13 00:28:47"
   },
   {
@@ -6154,7 +6418,7 @@
     "venuename": "Rescue Rooms",
     "location": "Nottingham, England",
     "city": "Nottingham",
-    "state": null,
+    "state": "",
     "country": "England",
     "tour_id": 42,
     "tourname": "Europe/UK Summer 2015",
@@ -6242,12 +6506,12 @@
   {
     "show_id": 1687711878,
     "showdate": "2015-07-11",
-    "permalink": "king-gizzard-the-lizard-wizard-july-11-2015-les-ardentes-festival-liege-belgium.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-11-2015-parc-astrid-de-coronmeuse-liege-belgium.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Aquarium Stage",
+    "showtitle": "Les Ardennes Festival",
     "venue_id": 685,
-    "venuename": "Les Ardentes Festival",
+    "venuename": "Parc Astrid de Coronmeuse",
     "location": "Liege, Belgium",
     "city": "Liege",
     "state": "",
@@ -6260,7 +6524,7 @@
     "show_dayname": "Saturday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-06-25 16:51:18",
+    "updated_at": "2024-02-24 03:13:12",
     "created_at": "2023-06-25 16:51:18"
   },
   {
@@ -6271,7 +6535,7 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 178,
-    "venuename": "Bad Bonn Kilbi Festival",
+    "venuename": "Café Bad Bonn",
     "location": "Düdingen, Switzerland",
     "city": "Düdingen",
     "state": "",
@@ -6290,12 +6554,12 @@
   {
     "show_id": 1687717546,
     "showdate": "2015-07-13",
-    "permalink": "king-gizzard-the-lizard-wizard-july-13-2015-montreux-jazz-festival-montreux-switzerland.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-13-2015-la-cave-montreux-switzerland.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Montreux Jazz Festival",
     "venue_id": 686,
-    "venuename": "Montreux Jazz Festival",
+    "venuename": "La Cave",
     "location": "Montreux, Switzerland",
     "city": "Montreux",
     "state": "",
@@ -6308,7 +6572,7 @@
     "show_dayname": "Monday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-06-25 18:25:46",
+    "updated_at": "2024-02-24 04:44:26",
     "created_at": "2023-06-25 18:25:46"
   },
   {
@@ -6362,15 +6626,15 @@
   {
     "show_id": 1678667590,
     "showdate": "2015-07-18",
-    "permalink": "king-gizzard-the-lizard-wizard-july-18-2015-zvejnieku-parks-salacgriva-latvia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-18-2015-zvejnieku-park-salacgriva-latvia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Positivus Festival 2015",
     "venue_id": 624,
-    "venuename": "Zvejnieku parks",
+    "venuename": "Zvejnieku Park",
     "location": "Salacgriva, Latvia",
     "city": "Salacgriva",
-    "state": null,
+    "state": "",
     "country": "Latvia",
     "tour_id": 42,
     "tourname": "Europe/UK Summer 2015",
@@ -6380,18 +6644,18 @@
     "show_dayname": "Saturday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2024-01-23 21:08:52",
+    "updated_at": "2024-04-02 19:08:09",
     "created_at": "2023-03-13 00:33:10"
   },
   {
     "show_id": 1678667815,
     "showdate": "2015-08-23",
-    "permalink": "king-gizzard-the-lizard-wizard-august-23-2015-la-sports-arena-exposition-park-los-angeles-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-23-2015-exposition-park-los-angeles-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "California FYF Fest",
+    "showtitle": "FYF Festival",
     "venue_id": 341,
-    "venuename": "LA Sports Arena & Exposition Park",
+    "venuename": "Exposition Park",
     "location": "Los Angeles, CA, USA",
     "city": "Los Angeles",
     "state": "CA",
@@ -6404,7 +6668,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-05-10 20:28:01",
+    "updated_at": "2024-03-06 04:00:32",
     "created_at": "2023-03-13 00:36:55"
   },
   {
@@ -6428,13 +6692,13 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-05-02 00:06:19",
+    "updated_at": "2024-02-09 20:01:31",
     "created_at": "2023-03-13 00:37:20"
   },
   {
     "show_id": 1678667878,
     "showdate": "2015-08-26",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-26-2015-the-echo-los-angeles-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-26-2015-the-echo-los-angeles-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -6452,7 +6716,7 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-18 19:23:32",
+    "updated_at": "2024-02-24 05:02:06",
     "created_at": "2023-03-13 00:37:58"
   },
   {
@@ -6500,7 +6764,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-18 19:23:45",
+    "updated_at": "2024-03-06 04:02:40",
     "created_at": "2023-03-13 00:38:39"
   },
   {
@@ -6938,7 +7202,7 @@
   {
     "show_id": 1678668841,
     "showdate": "2015-12-04",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-4-2015-croxton-park-hotel-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-4-2015-croxton-park-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -6956,13 +7220,13 @@
     "show_dayname": "Friday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-13 00:54:01",
+    "updated_at": "2024-02-24 07:37:09",
     "created_at": "2023-03-13 00:54:01"
   },
   {
     "show_id": 1678668964,
     "showdate": "2015-12-05",
-    "permalink": "king-gizzard-the-lizard-wizard-december-5-2015-howler-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-5-2015-howler-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -6980,13 +7244,13 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-04-14 15:31:51",
+    "updated_at": "2024-02-24 07:39:40",
     "created_at": "2023-03-13 00:56:04"
   },
   {
     "show_id": 1678669084,
     "showdate": "2015-12-06",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-6-2015-howler-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-6-2015-howler-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7004,13 +7268,13 @@
     "show_dayname": "Sunday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-13 00:58:04",
+    "updated_at": "2024-02-24 07:40:07",
     "created_at": "2023-03-13 00:58:04"
   },
   {
     "show_id": 1678669122,
     "showdate": "2015-12-08",
-    "permalink": "king-gizzard-the-lizard-wizard-december-8-2015-the-triffid-brisbane-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-8-2015-the-triffid-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7028,13 +7292,13 @@
     "show_dayname": "Tuesday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-04-14 15:32:11",
+    "updated_at": "2024-02-24 07:40:35",
     "created_at": "2023-03-13 00:58:42"
   },
   {
     "show_id": 1678669138,
     "showdate": "2015-12-09",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-9-2015-the-metro-theatre-sydney-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-9-2015-the-metro-theatre-eora-sydney-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7052,45 +7316,45 @@
     "show_dayname": "Wednesday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-13 00:58:58",
+    "updated_at": "2024-02-24 07:40:46",
     "created_at": "2023-03-13 00:58:58"
   },
   {
     "show_id": 1678669191,
     "showdate": "2015-12-11",
-    "permalink": "king-gizzard-the-lizard-wizard-december-11-2015-unibar-university-of-wollongong-wollongong-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-11-2015-unibar-university-of-wollongong-wollongong-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "A Psychedelic Chrizzmas Party",
     "venue_id": 595,
     "venuename": "UniBar, University of Wollongong",
     "location": "Wollongong, NSW, Australia",
     "city": "Wollongong",
     "state": "NSW",
     "country": "Australia",
-    "tour_id": 29,
-    "tourname": "Goat Co-Headlining Australian Tour",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
     "showorder": 1,
     "show_year": 2015,
     "show_day": 11,
     "show_dayname": "Friday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-04-14 15:32:34",
+    "updated_at": "2024-02-24 07:47:30",
     "created_at": "2023-03-13 00:59:51"
   },
   {
     "show_id": 1678669247,
     "showdate": "2015-12-12",
-    "permalink": "king-gizzard-the-lizard-wizard-december-12-2015-disconnect-festival-perth-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-12-2015-fairbridge-village-pinjarra-western-australia-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Disconnect Festival",
     "venue_id": 667,
-    "venuename": "Disconnect Festival",
-    "location": "Perth, WA, Australia",
-    "city": "Perth",
-    "state": "WA",
+    "venuename": "Fairbridge Village",
+    "location": "Pinjarra, W.A., Australia",
+    "city": "Pinjarra",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 29,
     "tourname": "Goat Co-Headlining Australian Tour",
@@ -7100,7 +7364,7 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-05-02 01:49:59",
+    "updated_at": "2024-02-24 08:13:39",
     "created_at": "2023-03-13 01:00:47"
   },
   {
@@ -7111,10 +7375,10 @@
     "artist": "Goat",
     "showtitle": "",
     "venue_id": 667,
-    "venuename": "Disconnect Festival",
-    "location": "Perth, WA, Australia",
-    "city": "Perth",
-    "state": "WA",
+    "venuename": "Fairbridge Village",
+    "location": "Pinjarra, W.A., Australia",
+    "city": "Pinjarra",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 1,
     "tourname": "Not Part of a Tour",
@@ -7129,11 +7393,11 @@
   },
   {
     "show_id": 1678669268,
-    "showdate": "2015-12-30",
-    "permalink": "king-gizzard-the-lizard-wizard-december-30-2015-mount-duneed-estate-geelong-australia.html",
+    "showdate": "2015-12-28",
+    "permalink": "king-gizzard-the-lizard-wizard-december-28-2015-mount-duneed-estate-geelong-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival - Lorne",
     "venue_id": 384,
     "venuename": "Mount Duneed Estate",
     "location": "Geelong, VIC, Australia",
@@ -7144,22 +7408,22 @@
     "tourname": "NYE Run 2015-16",
     "showorder": 1,
     "show_year": 2015,
-    "show_day": 30,
-    "show_dayname": "Wednesday",
+    "show_day": 28,
+    "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-04-14 15:33:49",
+    "updated_at": "2024-02-24 08:02:21",
     "created_at": "2023-03-13 01:01:08"
   },
   {
     "show_id": 1678669282,
     "showdate": "2015-12-31",
-    "permalink": "king-gizzard-and-the-lizard-wizard-december-31-2015-marion-bay-falls-festival-site-marion-bay-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-31-2015-marion-bay-festival-site-bream-creek-tas-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival - Tasmania",
     "venue_id": 360,
-    "venuename": "Marion Bay Falls Festival Site",
+    "venuename": "Marion Bay Festival Site",
     "location": "Bream Creek, TAS, Australia",
     "city": "Bream Creek",
     "state": "TAS",
@@ -7172,20 +7436,20 @@
     "show_dayname": "Thursday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-03-18 19:26:23",
+    "updated_at": "2024-02-24 08:29:04",
     "created_at": "2023-03-13 01:01:22"
   },
   {
     "show_id": 1678845239,
     "showdate": "2016-01-01",
-    "permalink": "king-gizzard-and-the-lizard-wizard-january-1-2016-north-byron-parklands-byron-bay-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-january-1-2016-north-byron-parklands-byron-bay-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival",
     "venue_id": 394,
     "venuename": "North Byron Parklands",
-    "location": "Byron Bay, NSW, Australia",
-    "city": "Byron Bay",
+    "location": "Wooyung, NSW, Australia",
+    "city": "Wooyung",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 44,
@@ -7196,21 +7460,21 @@
     "show_dayname": "Friday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-03-18 19:26:34",
+    "updated_at": "2024-02-24 08:32:07",
     "created_at": "2023-03-15 01:53:59"
   },
   {
     "show_id": 1678845253,
     "showdate": "2016-01-10",
-    "permalink": "king-gizzard-and-the-lizard-wizard-january-10-2016-metro-city-concert-club-perth-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-january-10-2016-metro-city-concert-club-perth-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
     "venue_id": 370,
     "venuename": "Metro City Concert Club",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 1,
     "tourname": "Not Part of a Tour",
@@ -7220,8 +7484,32 @@
     "show_dayname": "Sunday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-08-15 22:10:30",
+    "updated_at": "2024-02-24 08:34:51",
     "created_at": "2023-03-15 01:54:13"
+  },
+  {
+    "show_id": 1708900570,
+    "showdate": "2016-01-20",
+    "permalink": "king-gizzard-the-lizard-wizard-january-20-2016-howler-naarm-melbourne-vic-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 319,
+    "venuename": "Howler",
+    "location": "Naarm (Melbourne), VIC, Australia",
+    "city": "Naarm (Melbourne)",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 1,
+    "show_year": 2016,
+    "show_day": 20,
+    "show_dayname": "Wednesday",
+    "show_month": 1,
+    "show_monthname": "January",
+    "updated_at": "2024-02-25 22:40:19",
+    "created_at": "2024-02-25 22:36:10"
   },
   {
     "show_id": 1678845275,
@@ -7274,7 +7562,7 @@
   {
     "show_id": 1678845355,
     "showdate": "2016-02-16",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-16-2016-rescue-rooms-nottingham-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-16-2016-rescue-rooms-nottingham-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7282,7 +7570,7 @@
     "venuename": "Rescue Rooms",
     "location": "Nottingham, England",
     "city": "Nottingham",
-    "state": null,
+    "state": "",
     "country": "England",
     "tour_id": 26,
     "tourname": "Europe/UK Winter 2016",
@@ -7292,7 +7580,7 @@
     "show_dayname": "Tuesday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-18 19:47:37",
+    "updated_at": "2024-02-24 08:46:00",
     "created_at": "2023-03-15 01:55:55"
   },
   {
@@ -7388,8 +7676,32 @@
     "show_dayname": "Saturday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-18 19:48:10",
+    "updated_at": "2024-02-20 15:19:15",
     "created_at": "2023-03-15 01:58:04"
+  },
+  {
+    "show_id": 1709332419,
+    "showdate": "2016-02-20",
+    "permalink": "king-gizzard-the-lizard-wizard-february-20-2016-oedipus-brewing-amsterdam-netherlands-2.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 406,
+    "venuename": "Oedipus Brewing",
+    "location": "Amsterdam, Netherlands",
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
+    "showorder": 2,
+    "show_year": 2016,
+    "show_day": 20,
+    "show_dayname": "Saturday",
+    "show_month": 2,
+    "show_monthname": "February",
+    "updated_at": "2024-03-01 22:35:05",
+    "created_at": "2024-03-01 22:33:39"
   },
   {
     "show_id": 1678845499,
@@ -7418,7 +7730,7 @@
   {
     "show_id": 1678845562,
     "showdate": "2016-02-22",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-22-2016-pumpehuset-copenhagen-denmark.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-22-2016-pumpehuset-copenhagen-denmark.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7436,7 +7748,7 @@
     "show_dayname": "Monday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-18 19:48:25",
+    "updated_at": "2024-02-22 17:41:55",
     "created_at": "2023-03-15 01:59:22"
   },
   {
@@ -7556,7 +7868,7 @@
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-18 19:49:03",
+    "updated_at": "2024-04-05 15:30:05",
     "created_at": "2023-03-15 02:02:04"
   },
   {
@@ -7690,7 +8002,7 @@
     "venuename": "TivoliVredenburg Ronda",
     "location": "Utrecht, Netherlands",
     "city": "Utrecht",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 26,
     "tourname": "Europe/UK Winter 2016",
@@ -7700,7 +8012,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-18 19:49:47",
+    "updated_at": "2024-03-05 02:32:37",
     "created_at": "2023-03-15 02:10:13"
   },
   {
@@ -7850,7 +8162,7 @@
   {
     "show_id": 1678846377,
     "showdate": "2016-05-06",
-    "permalink": "king-gizzard-and-the-lizard-wizard-may-6-2016-the-grey-eagle-asheville-nc-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-6-2016-the-grey-eagle-asheville-nc-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7868,7 +8180,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-03-15 02:43:46",
+    "updated_at": "2024-04-11 20:37:39",
     "created_at": "2023-03-15 02:12:57"
   },
   {
@@ -7970,7 +8282,7 @@
   {
     "show_id": 1678846665,
     "showdate": "2016-05-11",
-    "permalink": "king-gizzard-and-the-lizard-wizard-may-11-2016-bar-le-ritz-pdb-montreal-canada.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-11-2016-bar-le-ritz-pdb-montreal-canada.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -7988,7 +8300,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-03-15 02:48:22",
+    "updated_at": "2024-02-25 09:56:45",
     "created_at": "2023-03-15 02:17:45"
   },
   {
@@ -8300,7 +8612,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-12-01 01:48:04",
+    "updated_at": "2024-03-25 16:14:52",
     "created_at": "2023-03-15 02:25:00"
   },
   {
@@ -8384,8 +8696,8 @@
     "showtitle": "Sasquatch! Music Festival",
     "venue_id": 530,
     "venuename": "The Gorge Amphitheatre",
-    "location": "George, WA, USA",
-    "city": "George",
+    "location": "Quincy, WA, USA",
+    "city": "Quincy",
     "state": "WA",
     "country": "USA",
     "tour_id": 30,
@@ -8402,7 +8714,7 @@
   {
     "show_id": 1678848955,
     "showdate": "2016-06-12",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-12-2016-the-shadow-electric-bar-the-abbotsford-convent-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-12-2016-the-shadow-electric-bar-the-abbotsford-convent-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -8420,16 +8732,16 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-15 02:55:55",
+    "updated_at": "2024-02-25 11:46:16",
     "created_at": "2023-03-15 02:55:55"
   },
   {
     "show_id": 1678848984,
     "showdate": "2016-06-18",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-18-2016-odeon-theatre-hobart-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-18-2016-odeon-theatre-hobart-tas-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Dark Mofo Festival",
     "venue_id": 405,
     "venuename": "Odeon Theatre",
     "location": "Hobart, TAS, Australia",
@@ -8444,7 +8756,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-15 02:56:24",
+    "updated_at": "2024-02-25 22:29:46",
     "created_at": "2023-03-15 02:56:24"
   },
   {
@@ -8552,9 +8864,9 @@
     "showtitle": "",
     "venue_id": 379,
     "venuename": "Mojo's Bar",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 23,
     "tourname": "Nonagon Infinity",
@@ -8588,7 +8900,7 @@
     "show_dayname": "Friday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-03-15 03:03:50",
+    "updated_at": "2024-02-25 12:19:35",
     "created_at": "2023-03-15 03:03:50"
   },
   {
@@ -8690,14 +9002,14 @@
   {
     "show_id": 1678849593,
     "showdate": "2016-07-23",
-    "permalink": "king-gizzard-the-lizard-wizard-july-23-2016-splendour-in-the-grass-festival-byron-bay-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-23-2016-north-byron-parklands-wooyung-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 671,
-    "venuename": "Splendour in the Grass Festival",
-    "location": "Byron Bay, NSW, Australia",
-    "city": "Byron Bay",
+    "showtitle": "Splendour In The Grass Festival",
+    "venue_id": 394,
+    "venuename": "North Byron Parklands",
+    "location": "Wooyung, NSW, Australia",
+    "city": "Wooyung",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 23,
@@ -8708,7 +9020,7 @@
     "show_dayname": "Saturday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-04-22 04:12:44",
+    "updated_at": "2024-02-25 18:51:50",
     "created_at": "2023-03-15 03:06:33"
   },
   {
@@ -8834,14 +9146,14 @@
   {
     "show_id": 1678850501,
     "showdate": "2016-08-20",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-20-2016-pukkelpop-kiewit-hasselt-belgium.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-20-2016-festivalpark-kiewit-hasselt-belgium.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Pukkelpop Festival",
     "venue_id": 655,
-    "venuename": "Pukkelpop Festival",
-    "location": "Kiewit-Hasselt, Belgium",
-    "city": "Kiewit-Hasselt",
+    "venuename": "Festivalpark Kiewit",
+    "location": "Hasselt, Belgium",
+    "city": "Hasselt",
     "state": "",
     "country": "Belgium",
     "tour_id": 45,
@@ -8852,7 +9164,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-18 22:54:49",
+    "updated_at": "2024-02-25 19:45:54",
     "created_at": "2023-03-15 03:21:41"
   },
   {
@@ -8861,7 +9173,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-20-2016-walibi-holland-biddinghuizen-netherlands-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Lowlands Festival",
     "venue_id": 764,
     "venuename": "Walibi Holland",
     "location": "Biddinghuizen, Netherlands",
@@ -8876,7 +9188,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-27 22:13:09",
+    "updated_at": "2024-02-25 19:52:05",
     "created_at": "2023-03-15 03:23:20"
   },
   {
@@ -9050,7 +9362,7 @@
   {
     "show_id": 1678851441,
     "showdate": "2016-08-29",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-29-2016-moth-club-london-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-29-2016-moth-club-london-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -9068,8 +9380,32 @@
     "show_dayname": "Monday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-18 19:53:50",
+    "updated_at": "2024-02-25 21:12:38",
     "created_at": "2023-03-15 03:37:21"
+  },
+  {
+    "show_id": 1708895622,
+    "showdate": "2016-08-29",
+    "permalink": "king-gizzard-the-lizard-wizard-august-29-2016-moth-club-london-england-2.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 383,
+    "venuename": "MOTH Club",
+    "location": "London, England",
+    "city": "London",
+    "state": null,
+    "country": "England",
+    "tour_id": 45,
+    "tourname": "Europe/UK Summer 2016",
+    "showorder": 2,
+    "show_year": 2016,
+    "show_day": 29,
+    "show_dayname": "Monday",
+    "show_month": 8,
+    "show_monthname": "August",
+    "updated_at": "2024-02-25 21:14:45",
+    "created_at": "2024-02-25 21:13:42"
   },
   {
     "show_id": 1678851493,
@@ -9122,10 +9458,10 @@
   {
     "show_id": 1678851582,
     "showdate": "2016-09-02",
-    "permalink": "king-gizzard-and-the-lizard-wizard-september-2-2016-stortemelk-vlieland-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-2-2016-stortemelk-vlieland-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Into the Great Wide Open",
+    "showtitle": "Into the Great Wide Open Festival",
     "venue_id": 493,
     "venuename": "Stortemelk",
     "location": "Vlieland, Netherlands",
@@ -9140,18 +9476,18 @@
     "show_dayname": "Friday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-03-18 23:01:40",
+    "updated_at": "2024-02-25 21:20:02",
     "created_at": "2023-03-15 03:39:42"
   },
   {
     "show_id": 1678851596,
     "showdate": "2016-09-04",
-    "permalink": "king-gizzard-and-the-lizard-wizard-september-4-2016-end-of-the-road-festival-salisbury-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-4-2016-end-of-the-road-festival-salisbury-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "End of the Road Festival",
     "venue_id": 662,
-    "venuename": "End of the Road Festival",
+    "venuename": "Larmer Tree Gardens",
     "location": "Salisbury, England",
     "city": "Salisbury",
     "state": "",
@@ -9164,7 +9500,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-03-18 23:01:51",
+    "updated_at": "2024-02-25 21:23:23",
     "created_at": "2023-03-15 03:39:56"
   },
   {
@@ -9290,7 +9626,7 @@
   {
     "show_id": 1678851821,
     "showdate": "2016-09-22",
-    "permalink": "king-gizzard-the-lizard-wizard-september-22-2016-bakehouse-studios-naarm-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-22-2016-bakehouse-studios-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -9308,18 +9644,18 @@
     "show_dayname": "Thursday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-04-28 20:37:59",
+    "updated_at": "2024-02-25 21:43:46",
     "created_at": "2023-03-15 03:43:41"
   },
   {
     "show_id": 1678851920,
     "showdate": "2016-10-14",
-    "permalink": "king-gizzard-the-lizard-wizard-october-14-2016-desert-daze-festival-joshua-tree-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-october-14-2016-institute-of-mentalphysics-joshua-tree-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Desert Daze Festival",
     "venue_id": 688,
-    "venuename": "Desert Daze Festival",
+    "venuename": "Institute of Mentalphysics",
     "location": "Joshua Tree, CA, USA",
     "city": "Joshua Tree",
     "state": "CA",
@@ -9332,7 +9668,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-07-14 01:03:02",
+    "updated_at": "2024-02-25 02:09:40",
     "created_at": "2023-03-15 03:45:20"
   },
   {
@@ -9464,9 +9800,9 @@
     "showtitle": "Gizzfest Perth",
     "venue_id": 184,
     "venuename": "Bar Pop Urban Orchard",
-    "location": "Perth, WA, Australia",
+    "location": "Perth, W.A., Australia",
     "city": "Perth",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 31,
     "tourname": "Gizzfest 2016",
@@ -9506,15 +9842,15 @@
   {
     "show_id": 1678570637,
     "showdate": "2017-01-07",
-    "permalink": "king-gizzard-the-lizard-wizard-january-7-2017-kings-square-fremantle-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-january-7-2017-kings-square-fremantle-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Falls Festival",
     "venue_id": 333,
     "venuename": "Kings Square",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 32,
     "tourname": "Australia Winter 2017",
@@ -9524,7 +9860,7 @@
     "show_dayname": "Saturday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-04-08 18:12:24",
+    "updated_at": "2024-02-24 09:01:41",
     "created_at": "2023-03-11 21:37:17"
   },
   {
@@ -9596,7 +9932,7 @@
     "show_dayname": "Saturday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2024-01-31 02:45:56",
+    "updated_at": "2024-03-30 23:26:53",
     "created_at": "2023-03-11 21:46:10"
   },
   {
@@ -9680,9 +10016,9 @@
     "showtitle": "Laneway Festival",
     "venue_id": 263,
     "venuename": "Esplanade Reserve",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 32,
     "tourname": "Australia Winter 2017",
@@ -9722,7 +10058,7 @@
   {
     "show_id": 1678571694,
     "showdate": "2017-03-19",
-    "permalink": "king-gizzard-and-the-lizard-wizard-march-19-2017-the-night-cat-melbourne-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-19-2017-the-night-cat-naarm-melbourne-vic-australia-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -9734,14 +10070,38 @@
     "country": "Australia",
     "tour_id": 17,
     "tourname": "Flying Microtonal Banana",
+    "showorder": 2,
+    "show_year": 2017,
+    "show_day": 19,
+    "show_dayname": "Sunday",
+    "show_month": 3,
+    "show_monthname": "March",
+    "updated_at": "2024-02-24 09:19:58",
+    "created_at": "2023-03-11 21:54:54"
+  },
+  {
+    "show_id": 1708766498,
+    "showdate": "2017-03-19",
+    "permalink": "king-gizzard-the-lizard-wizard-march-19-2017-the-night-cat-naarm-melbourne-vic-australia.html",
+    "artist_id": 1,
+    "artist": "King Gizzard & the Lizard Wizard",
+    "showtitle": "",
+    "venue_id": 548,
+    "venuename": "The Night Cat",
+    "location": "Naarm (Melbourne), VIC, Australia",
+    "city": "Naarm (Melbourne)",
+    "state": "VIC",
+    "country": "Australia",
+    "tour_id": 1,
+    "tourname": "Not Part of a Tour",
     "showorder": 1,
     "show_year": 2017,
     "show_day": 19,
     "show_dayname": "Sunday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-11 21:54:54",
-    "created_at": "2023-03-11 21:54:54"
+    "updated_at": "2024-02-24 09:23:49",
+    "created_at": "2024-02-24 09:21:38"
   },
   {
     "show_id": 1678571785,
@@ -9932,7 +10292,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-09 00:54:10",
+    "updated_at": "2024-02-26 03:46:53",
     "created_at": "2023-03-11 22:03:29"
   },
   {
@@ -9956,7 +10316,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-09 00:54:17",
+    "updated_at": "2024-02-26 03:47:26",
     "created_at": "2023-03-11 22:04:18"
   },
   {
@@ -10004,7 +10364,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-09 00:54:29",
+    "updated_at": "2024-04-03 14:35:04",
     "created_at": "2023-03-11 22:05:47"
   },
   {
@@ -10028,7 +10388,7 @@
     "show_dayname": "Tuesday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-09 00:54:56",
+    "updated_at": "2024-04-03 16:19:18",
     "created_at": "2023-03-11 22:06:42"
   },
   {
@@ -10100,7 +10460,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-09 00:55:13",
+    "updated_at": "2024-04-07 19:49:13",
     "created_at": "2023-03-11 22:09:18"
   },
   {
@@ -10274,7 +10634,7 @@
   {
     "show_id": 1678573158,
     "showdate": "2017-04-17",
-    "permalink": "king-gizzard-and-the-lizard-wizard-april-17-2017-the-roxy-west-hollywood-ca-usa-2.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-17-2017-the-roxy-west-hollywood-ca-usa-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -10292,7 +10652,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-03-17 00:55:41",
+    "updated_at": "2024-04-03 01:13:29",
     "created_at": "2023-03-11 22:19:18"
   },
   {
@@ -10301,7 +10661,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-april-17-2017-warner-bros-studios-burbank-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Conan",
     "venue_id": 609,
     "venuename": "Warner Bros. Studios",
     "location": "Burbank, CA, USA",
@@ -10316,7 +10676,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 05:22:18",
+    "updated_at": "2024-02-26 03:57:05",
     "created_at": "2023-03-11 22:20:29"
   },
   {
@@ -10370,10 +10730,10 @@
   {
     "show_id": 1678573395,
     "showdate": "2017-04-21",
-    "permalink": "king-gizzard-and-the-lizard-wizard-april-21-2017-empire-polo-club-indio-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-21-2017-empire-polo-club-indio-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Coachella Valley Music and Arts Festival",
     "venue_id": 260,
     "venuename": "Empire Polo Club",
     "location": "Indio, CA, USA",
@@ -10388,7 +10748,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-03-11 22:23:15",
+    "updated_at": "2024-02-26 04:20:55",
     "created_at": "2023-03-11 22:23:15"
   },
   {
@@ -10442,12 +10802,12 @@
   {
     "show_id": 1678671165,
     "showdate": "2017-06-04",
-    "permalink": "king-gizzard-the-lizard-wizard-june-4-2017-bad-bonn-kilbi-festival-ddingen-switzerland.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-4-2017-cafe-bad-bonn-ddingen-switzerland.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Kilbe Festival ",
     "venue_id": 178,
-    "venuename": "Bad Bonn Kilbi Festival",
+    "venuename": "Café Bad Bonn",
     "location": "Düdingen, Switzerland",
     "city": "Düdingen",
     "state": "",
@@ -10460,7 +10820,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-04-08 18:15:31",
+    "updated_at": "2024-02-24 04:20:35",
     "created_at": "2023-03-13 01:32:45"
   },
   {
@@ -10490,7 +10850,7 @@
   {
     "show_id": 1678671246,
     "showdate": "2017-06-08",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-8-2017-joy-eslava-madrid-spain.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-8-2017-joy-eslava-madrid-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -10508,7 +10868,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-13 01:34:06",
+    "updated_at": "2024-03-06 01:42:48",
     "created_at": "2023-03-13 01:34:06"
   },
   {
@@ -10538,10 +10898,10 @@
   {
     "show_id": 1678671376,
     "showdate": "2017-06-11",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-11-2017-paloma-nimes-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-11-2017-paloma-nimes-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "This Is Not A Love Song",
+    "showtitle": "This Is Not A Love Song Festival",
     "venue_id": 419,
     "venuename": "Paloma",
     "location": "Nîmes, France",
@@ -10556,7 +10916,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-17 00:59:01",
+    "updated_at": "2024-03-06 01:35:49",
     "created_at": "2023-03-13 01:36:16"
   },
   {
@@ -10586,7 +10946,7 @@
   {
     "show_id": 1678671480,
     "showdate": "2017-06-14",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-14-2017-albert-hall-manchester-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-14-2017-albert-hall-manchester-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -10604,7 +10964,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-13 01:38:00",
+    "updated_at": "2024-02-22 21:40:18",
     "created_at": "2023-03-13 01:38:00"
   },
   {
@@ -10634,12 +10994,12 @@
   {
     "show_id": 1678671572,
     "showdate": "2017-06-16",
-    "permalink": "king-gizzard-the-lizard-wizard-june-16-2017-best-kept-secret-festival-hilvarenbeek-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-16-2017-safaripark-beekse-bergen-hilvarenbeek-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Best Kept Secret Festival",
     "venue_id": 757,
-    "venuename": "Best Kept Secret Festival",
+    "venuename": "Safaripark Beekse Bergen",
     "location": "Hilvarenbeek, Netherlands",
     "city": "Hilvarenbeek",
     "state": "",
@@ -10652,7 +11012,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-22 04:07:43",
+    "updated_at": "2024-03-06 01:52:17",
     "created_at": "2023-03-13 01:39:32"
   },
   {
@@ -10661,9 +11021,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-17-2017-freak-valley-festival-netphen-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Freak Valley Festival",
     "venue_id": 176,
-    "venuename": "Freak Valley Festival",
+    "venuename": "Vortex Surfer",
     "location": "Netphen, Germany",
     "city": "Netphen",
     "state": "",
@@ -10676,18 +11036,18 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-04-16 14:28:47",
+    "updated_at": "2024-03-06 01:55:27",
     "created_at": "2023-03-13 01:40:35"
   },
   {
     "show_id": 1678671683,
     "showdate": "2017-06-18",
-    "permalink": "king-gizzard-the-lizard-wizard-june-18-2017-maifeld-derby-festival-mannheim-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-18-2017-maimarktgelande-mannheim-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Maifeld Derby Festival",
     "venue_id": 758,
-    "venuename": "Maifeld Derby Festival",
+    "venuename": "Maimarktgelände",
     "location": "Mannheim, Germany",
     "city": "Mannheim",
     "state": "",
@@ -10700,7 +11060,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-22 04:22:29",
+    "updated_at": "2024-04-07 05:46:11",
     "created_at": "2023-03-13 01:41:23"
   },
   {
@@ -10724,7 +11084,7 @@
     "show_dayname": "Monday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-13 01:42:37",
+    "updated_at": "2024-04-03 16:53:33",
     "created_at": "2023-03-13 01:42:37"
   },
   {
@@ -10802,14 +11162,14 @@
   {
     "show_id": 1678671964,
     "showdate": "2017-06-24",
-    "permalink": "king-gizzard-the-lizard-wizard-june-24-2017-glastonbury-festival-pilton-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-24-2017-worthy-farm-shepton-mallet-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Glastonbury Festival",
     "venue_id": 684,
-    "venuename": "Glastonbury Festival",
-    "location": "Pilton, England",
-    "city": "Pilton",
+    "venuename": "Worthy Farm",
+    "location": "Shepton Mallet, England",
+    "city": "Shepton Mallet",
     "state": "",
     "country": "England",
     "tour_id": 17,
@@ -10820,20 +11180,20 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-06-04 02:01:56",
+    "updated_at": "2024-04-07 07:28:41",
     "created_at": "2023-03-13 01:46:04"
   },
   {
     "show_id": 1685846629,
     "showdate": "2017-06-24",
-    "permalink": "king-gizzard-the-lizard-wizard-june-24-2017-glastonbury-festival-pilton-england-2.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-24-2017-worthy-farm-shepton-mallet-england-2.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Secret Set At The Crow's Nest",
+    "showtitle": "Glastonbury Festival Secret Set At The Crow's Nest",
     "venue_id": 684,
-    "venuename": "Glastonbury Festival",
-    "location": "Pilton, England",
-    "city": "Pilton",
+    "venuename": "Worthy Farm",
+    "location": "Shepton Mallet, England",
+    "city": "Shepton Mallet",
     "state": "",
     "country": "England",
     "tour_id": 1,
@@ -10844,20 +11204,20 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-02-02 01:53:01",
+    "updated_at": "2024-04-07 07:29:20",
     "created_at": "2023-06-04 02:43:49"
   },
   {
     "show_id": 1678672200,
     "showdate": "2017-06-25",
-    "permalink": "king-gizzard-the-lizard-wizard-june-25-2017-glastonbury-festival-pilton-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-25-2017-worthy-farm-shepton-mallet-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Glastonbury Festival",
     "venue_id": 684,
-    "venuename": "Glastonbury Festival",
-    "location": "Pilton, England",
-    "city": "Pilton",
+    "venuename": "Worthy Farm",
+    "location": "Shepton Mallet, England",
+    "city": "Shepton Mallet",
     "state": "",
     "country": "England",
     "tour_id": 17,
@@ -10868,20 +11228,20 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-06-04 02:02:08",
+    "updated_at": "2024-04-07 07:26:01",
     "created_at": "2023-03-13 01:50:00"
   },
   {
     "show_id": 1678672254,
     "showdate": "2017-07-23",
-    "permalink": "king-gizzard-and-the-lizard-wizard-july-23-2017-north-byron-parklands-byron-bay-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-23-2017-north-byron-parklands-wooyung-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Splendour In The Grass",
     "venue_id": 394,
     "venuename": "North Byron Parklands",
-    "location": "Byron Bay, NSW, Australia",
-    "city": "Byron Bay",
+    "location": "Wooyung, NSW, Australia",
+    "city": "Wooyung",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 1,
@@ -10892,7 +11252,7 @@
     "show_dayname": "Sunday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-03-18 16:52:10",
+    "updated_at": "2024-02-25 18:54:42",
     "created_at": "2023-03-13 01:50:54"
   },
   {
@@ -11300,7 +11660,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-30 00:19:12",
+    "updated_at": "2024-03-16 20:51:28",
     "created_at": "2023-03-13 02:05:09"
   },
   {
@@ -11330,12 +11690,12 @@
   {
     "show_id": 1678673208,
     "showdate": "2017-10-14",
-    "permalink": "king-gizzard-the-lizard-wizard-october-14-2017-desert-daze-festival-joshua-tree-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-october-14-2017-institute-of-mentalphysics-joshua-tree-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Desert Daze Festival",
     "venue_id": 688,
-    "venuename": "Desert Daze Festival",
+    "venuename": "Institute of Mentalphysics",
     "location": "Joshua Tree, CA, USA",
     "city": "Joshua Tree",
     "state": "CA",
@@ -11348,7 +11708,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-07-14 01:03:31",
+    "updated_at": "2024-02-25 02:07:18",
     "created_at": "2023-03-13 02:06:48"
   },
   {
@@ -11480,9 +11840,9 @@
     "showtitle": "Gizzfest",
     "venue_id": 433,
     "venuename": "Port Beach",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 33,
     "tourname": "Australia/Aotearoa Fall 2017",
@@ -11714,7 +12074,7 @@
   {
     "show_id": 1678674744,
     "showdate": "2018-02-22",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-22-2018-manchester-academy-1-university-of-manchester-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-22-2018-manchester-academy-manchester-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -11732,7 +12092,7 @@
     "show_dayname": "Thursday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-13 02:32:24",
+    "updated_at": "2024-02-22 21:33:55",
     "created_at": "2023-03-13 02:32:24"
   },
   {
@@ -11882,10 +12242,10 @@
   {
     "show_id": 1678847821,
     "showdate": "2018-03-02",
-    "permalink": "king-gizzard-and-the-lizard-wizard-march-2-2018-le-transbordeur-villeurbanne-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-2-2018-le-transbordeur-villeurbanne-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Transfer Festival",
     "venue_id": 346,
     "venuename": "Le Transbordeur",
     "location": "Villeurbanne, France",
@@ -11900,7 +12260,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-16 00:41:59",
+    "updated_at": "2024-02-25 05:23:36",
     "created_at": "2023-03-15 02:37:01"
   },
   {
@@ -11948,7 +12308,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-15 02:39:03",
+    "updated_at": "2024-03-05 02:33:15",
     "created_at": "2023-03-15 02:39:03"
   },
   {
@@ -11972,13 +12332,13 @@
     "show_dayname": "Tuesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-02-07 03:22:05",
+    "updated_at": "2024-03-17 02:27:37",
     "created_at": "2023-03-15 02:45:21"
   },
   {
     "show_id": 1678848995,
     "showdate": "2018-03-07",
-    "permalink": "king-gizzard-and-the-lizard-wizard-march-7-2018-astra-berlin-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-7-2018-astra-berlin-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -11996,7 +12356,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-15 02:56:35",
+    "updated_at": "2024-04-03 16:50:25",
     "created_at": "2023-03-15 02:56:35"
   },
   {
@@ -12092,7 +12452,7 @@
     "show_dayname": "Sunday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-27 19:46:29",
+    "updated_at": "2024-04-13 02:33:01",
     "created_at": "2023-03-16 00:46:08"
   },
   {
@@ -12116,13 +12476,13 @@
     "show_dayname": "Tuesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-27 19:54:43",
+    "updated_at": "2024-03-13 23:39:00",
     "created_at": "2023-03-16 00:48:27"
   },
   {
     "show_id": 1678927718,
     "showdate": "2018-03-14",
-    "permalink": "king-gizzard-and-the-lizard-wizard-march-14-2018-salon-iksv-istanbul-turkey.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-14-2018-salon-iksv-istanbul-turkey.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -12140,7 +12500,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-16 01:10:50",
+    "updated_at": "2024-03-13 23:41:57",
     "created_at": "2023-03-16 00:48:38"
   },
   {
@@ -12188,7 +12548,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-05-27 20:07:04",
+    "updated_at": "2024-02-26 03:23:50",
     "created_at": "2023-03-16 00:58:24"
   },
   {
@@ -12578,7 +12938,7 @@
   {
     "show_id": 1678931888,
     "showdate": "2018-06-13",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-13-2018-lolympia-montreal-qc-canada.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-13-2018-lolympia-montreal-qc-canada.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -12596,7 +12956,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-16 01:58:08",
+    "updated_at": "2024-02-23 16:26:18",
     "created_at": "2023-03-16 01:58:08"
   },
   {
@@ -12650,7 +13010,7 @@
   {
     "show_id": 1678932010,
     "showdate": "2018-06-16",
-    "permalink": "king-gizzard-and-the-lizard-wizard-june-16-2018-brooklyn-steel-brooklyn-ny-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-16-2018-brooklyn-steel-brooklyn-ny-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -12668,7 +13028,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-03-16 02:00:10",
+    "updated_at": "2024-04-13 01:44:02",
     "created_at": "2023-03-16 02:00:10"
   },
   {
@@ -12818,10 +13178,10 @@
   {
     "show_id": 1678932657,
     "showdate": "2018-07-13",
-    "permalink": "king-gizzard-and-the-lizard-wizard-july-13-2018-kobetamendi-bilbao-spain.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-13-2018-kobetamendi-bilbao-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "BBK Live",
     "venue_id": 334,
     "venuename": "Kobetamendi",
     "location": "Bilbao, Spain",
@@ -12836,16 +13196,16 @@
     "show_dayname": "Friday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-03-16 02:11:20",
+    "updated_at": "2024-02-26 00:11:40",
     "created_at": "2023-03-16 02:10:57"
   },
   {
     "show_id": 1678932803,
     "showdate": "2018-08-04",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-4-2018-kolomenskoe-park-moscow-russia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-4-2018-kolomenskoe-park-moscow-russia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Picnic Afisha Festival",
+    "showtitle": "Afisha Picnic Festival",
     "venue_id": 335,
     "venuename": "Kolomenskoe Park",
     "location": "Moscow, Russia",
@@ -12860,7 +13220,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-17 01:19:58",
+    "updated_at": "2024-02-25 23:57:03",
     "created_at": "2023-03-16 02:13:23"
   },
   {
@@ -12941,9 +13301,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-10-2018-way-out-west-festival-gothenburg-sweden.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Way out West Festival",
     "venue_id": 648,
-    "venuename": "Way Out West Festival",
+    "venuename": "Slottsskogen",
     "location": "Gothenburg, Sweden",
     "city": "Gothenburg",
     "state": "",
@@ -12956,7 +13316,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-24 23:48:48",
+    "updated_at": "2024-02-25 23:37:39",
     "created_at": "2023-03-16 02:39:20"
   },
   {
@@ -13082,14 +13442,14 @@
   {
     "show_id": 1678937698,
     "showdate": "2018-08-18",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-18-2018-pukkelpop-kiewit-hasselt-belgium.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-18-2018-festivalpark-kiewit-hasselt-belgium.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Pukkelpop Festival",
     "venue_id": 655,
-    "venuename": "Pukkelpop Festival",
-    "location": "Kiewit-Hasselt, Belgium",
-    "city": "Kiewit-Hasselt",
+    "venuename": "Festivalpark Kiewit",
+    "location": "Hasselt, Belgium",
+    "city": "Hasselt",
     "state": "",
     "country": "Belgium",
     "tour_id": 10,
@@ -13100,7 +13460,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-17 01:24:35",
+    "updated_at": "2024-02-25 19:46:14",
     "created_at": "2023-03-16 03:34:58"
   },
   {
@@ -13124,7 +13484,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-27 22:42:52",
+    "updated_at": "2024-03-29 23:54:21",
     "created_at": "2023-03-16 03:36:22"
   },
   {
@@ -13196,20 +13556,20 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-31 02:58:05",
+    "updated_at": "2024-03-27 18:49:45",
     "created_at": "2023-03-16 03:40:50"
   },
   {
     "show_id": 1678938185,
     "showdate": "2018-08-23",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-23-2018-glattbrug-rmlang-switzerland.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-23-2018-festivalgelande-opfikon-switzerland.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Zurich Openair Festival",
     "venue_id": 293,
-    "venuename": "Glattbrug",
-    "location": "Rümlang, Switzerland",
-    "city": "Rümlang",
+    "venuename": "Festivalgelände",
+    "location": "Opfikon, Switzerland",
+    "city": "Opfikon",
     "state": "",
     "country": "Switzerland",
     "tour_id": 10,
@@ -13220,16 +13580,16 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-16 03:43:05",
+    "updated_at": "2024-02-25 23:22:21",
     "created_at": "2023-03-16 03:43:05"
   },
   {
     "show_id": 1678938229,
     "showdate": "2018-08-24",
-    "permalink": "king-gizzard-and-the-lizard-wizard-august-24-2018-spazio-211-turin-italy.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-24-2018-spazio-211-turin-italy.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "TOdays Festival",
+    "showtitle": "Today’s Festival",
     "venue_id": 485,
     "venuename": "Spazio 211",
     "location": "Turin, Italy",
@@ -13244,7 +13604,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-03-17 01:26:09",
+    "updated_at": "2024-02-25 23:07:48",
     "created_at": "2023-03-16 03:43:49"
   },
   {
@@ -13394,12 +13754,12 @@
   {
     "show_id": 1678939685,
     "showdate": "2018-10-13",
-    "permalink": "king-gizzard-and-the-lizard-wizard-october-13-2018-desert-daze-festival-perris-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-october-13-2018-moreno-beach-perris-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Desert Daze Festival",
     "venue_id": 381,
-    "venuename": "Desert Daze Festival",
+    "venuename": "Moreno Beach",
     "location": "Perris, CA, USA",
     "city": "Perris",
     "state": "CA",
@@ -13412,7 +13772,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-03-16 04:08:05",
+    "updated_at": "2024-03-22 04:04:34",
     "created_at": "2023-03-16 04:08:05"
   },
   {
@@ -13508,7 +13868,7 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-30 04:55:47",
+    "updated_at": "2024-03-25 02:24:27",
     "created_at": "2023-03-16 04:12:00"
   },
   {
@@ -13532,18 +13892,18 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-12-20 10:42:36",
+    "updated_at": "2024-03-06 01:56:24",
     "created_at": "2023-03-16 04:13:21"
   },
   {
     "show_id": 1678940033,
     "showdate": "2018-12-31",
-    "permalink": "king-gizzard-the-lizard-wizard-december-31-2018-marion-bay-falls-festival-site-bream-creek-tas-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-31-2018-marion-bay-festival-site-bream-creek-tas-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Falls Festival",
+    "showtitle": "Falls Festival - Tasmania",
     "venue_id": 360,
-    "venuename": "Marion Bay Falls Festival Site",
+    "venuename": "Marion Bay Festival Site",
     "location": "Bream Creek, TAS, Australia",
     "city": "Bream Creek",
     "state": "TAS",
@@ -13556,7 +13916,7 @@
     "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-26 05:50:02",
+    "updated_at": "2024-04-07 15:58:28",
     "created_at": "2023-03-16 04:13:53"
   },
   {
@@ -13568,8 +13928,8 @@
     "showtitle": "Falls Festival",
     "venue_id": 394,
     "venuename": "North Byron Parklands",
-    "location": "Byron Bay, NSW, Australia",
-    "city": "Byron Bay",
+    "location": "Wooyung, NSW, Australia",
+    "city": "Wooyung",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 46,
@@ -13592,9 +13952,9 @@
     "showtitle": "Falls Festival",
     "venue_id": 283,
     "venuename": "Fremantle Oval",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 46,
     "tourname": "NYE Run 2018-19",
@@ -13652,7 +14012,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-05-08 05:33:06",
+    "updated_at": "2024-04-13 23:24:18",
     "created_at": "2023-03-10 03:00:18"
   },
   {
@@ -13820,7 +14180,7 @@
     "show_dayname": "Friday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2024-01-24 02:45:53",
+    "updated_at": "2024-04-02 19:16:25",
     "created_at": "2023-03-10 03:16:51"
   },
   {
@@ -14132,7 +14492,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 08:17:05",
+    "updated_at": "2024-03-24 04:37:43",
     "created_at": "2023-03-10 04:01:00"
   },
   {
@@ -14300,7 +14660,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 08:13:01",
+    "updated_at": "2024-04-13 02:24:05",
     "created_at": "2023-03-10 04:09:26"
   },
   {
@@ -14324,7 +14684,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2024-01-28 06:39:59",
+    "updated_at": "2024-03-24 04:57:24",
     "created_at": "2023-03-10 04:10:28"
   },
   {
@@ -14348,7 +14708,7 @@
     "show_dayname": "Monday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-09-25 08:11:32",
+    "updated_at": "2024-03-24 04:42:33",
     "created_at": "2023-03-10 04:11:31"
   },
   {
@@ -14468,7 +14828,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-24 02:44:48",
+    "updated_at": "2024-02-11 04:54:51",
     "created_at": "2023-03-10 04:27:00"
   },
   {
@@ -14554,7 +14914,7 @@
     "venuename": "TivoliVredenburg Ronda",
     "location": "Utrecht, Netherlands",
     "city": "Utrecht",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 27,
     "tourname": "World Tour 2019",
@@ -14564,7 +14924,7 @@
     "show_dayname": "Sunday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-28 03:11:08",
+    "updated_at": "2024-03-24 04:43:11",
     "created_at": "2023-03-10 04:38:33"
   },
   {
@@ -14578,7 +14938,7 @@
     "venuename": "TivoliVredenburg Ronda",
     "location": "Utrecht, Netherlands",
     "city": "Utrecht",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 27,
     "tourname": "World Tour 2019",
@@ -14588,7 +14948,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-27 21:33:16",
+    "updated_at": "2024-04-01 00:53:08",
     "created_at": "2023-03-10 04:39:17"
   },
   {
@@ -14636,7 +14996,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 07:58:33",
+    "updated_at": "2024-03-19 05:44:26",
     "created_at": "2023-03-10 04:41:20"
   },
   {
@@ -14732,7 +15092,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-12-01 01:54:03",
+    "updated_at": "2024-03-24 04:39:49",
     "created_at": "2023-03-10 04:44:30"
   },
   {
@@ -14780,7 +15140,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 07:50:06",
+    "updated_at": "2024-03-30 18:47:36",
     "created_at": "2023-03-10 04:47:14"
   },
   {
@@ -14828,7 +15188,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 07:47:59",
+    "updated_at": "2024-04-02 21:01:28",
     "created_at": "2023-03-10 04:49:12"
   },
   {
@@ -15056,9 +15416,9 @@
     "showtitle": "Laneway Festival",
     "venue_id": 263,
     "venuename": "Esplanade Reserve",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 8,
     "tourname": "Laneway Festival Tour 2020",
@@ -15077,7 +15437,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-february-21-2020-croxton-park-hotel-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Bush Fire Benefit Marathon",
     "venue_id": 236,
     "venuename": "Croxton Park Hotel",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -15092,7 +15452,7 @@
     "show_dayname": "Friday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-01-27 20:34:23",
+    "updated_at": "2024-04-15 18:32:08",
     "created_at": "2023-03-09 04:31:21"
   },
   {
@@ -15140,7 +15500,7 @@
     "show_dayname": "Tuesday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-01-21 21:00:49",
+    "updated_at": "2024-03-22 19:50:56",
     "created_at": "2023-03-09 18:47:36"
   },
   {
@@ -15188,7 +15548,7 @@
     "show_dayname": "Friday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-12-01 01:36:03",
+    "updated_at": "2024-03-24 04:40:17",
     "created_at": "2023-03-09 18:48:45"
   },
   {
@@ -15224,9 +15584,9 @@
     "showtitle": "",
     "venue_id": 282,
     "venuename": "Fremantle Arts Centre",
-    "location": "Fremantle, WA, Australia",
+    "location": "Fremantle, W.A., Australia",
     "city": "Fremantle",
-    "state": "WA",
+    "state": "W.A.",
     "country": "Australia",
     "tour_id": 7,
     "tourname": "Micro Tour 2021",
@@ -15284,16 +15644,16 @@
     "show_dayname": "Thursday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-12-01 01:33:11",
+    "updated_at": "2024-03-24 05:00:56",
     "created_at": "2023-03-09 18:49:39"
   },
   {
     "show_id": 1678387803,
     "showdate": "2021-04-23",
-    "permalink": "king-gizzard-the-lizard-wizard-april-23-2021-riverstage-brisbane-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-23-2021-riverstage-brisbane-qld-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Summer Sounds Festival",
     "venue_id": 457,
     "venuename": "Riverstage",
     "location": "Brisbane, QLD, Australia",
@@ -15308,7 +15668,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-04-30 19:12:39",
+    "updated_at": "2024-02-21 18:52:39",
     "created_at": "2023-03-09 18:50:03"
   },
   {
@@ -15317,9 +15677,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-april-24-2021-meadow-music-festival-bambra-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Meadow Music Festival",
     "venue_id": 267,
-    "venuename": "Meadow Music Festival",
+    "venuename": "Bambra Bowl",
     "location": "Bambra, VIC, Australia",
     "city": "Bambra",
     "state": "VIC",
@@ -15332,7 +15692,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 18:42:42",
+    "updated_at": "2024-04-07 04:50:55",
     "created_at": "2023-03-09 18:50:18"
   },
   {
@@ -15341,9 +15701,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-july-25-2021-splendour-xr-online-the-internet.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Splendour XR Festival",
     "venue_id": 669,
-    "venuename": "Splendour XR",
+    "venuename": "Virtual Reality",
     "location": "Online, The Internet",
     "city": "Online",
     "state": "",
@@ -15356,7 +15716,7 @@
     "show_dayname": "Sunday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2024-01-21 20:57:10",
+    "updated_at": "2024-02-25 18:48:20",
     "created_at": "2023-03-09 18:50:30"
   },
   {
@@ -15389,7 +15749,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-december-13-2021-brunswick-ballroom-naarm-melbourne-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Warm Up Acoustic Show",
     "venue_id": 207,
     "venuename": "Brunswick Ballroom",
     "location": "Naarm (Melbourne), VIC, Australia",
@@ -15404,7 +15764,7 @@
     "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-21 20:52:22",
+    "updated_at": "2024-03-19 17:40:48",
     "created_at": "2023-03-09 18:50:54"
   },
   {
@@ -15500,7 +15860,7 @@
     "show_dayname": "Wednesday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-21 20:40:08",
+    "updated_at": "2024-03-22 19:56:32",
     "created_at": "2023-03-09 18:54:00"
   },
   {
@@ -15524,7 +15884,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-01-27 20:36:15",
+    "updated_at": "2024-03-26 05:49:40",
     "created_at": "2023-03-09 00:38:42"
   },
   {
@@ -15548,7 +15908,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-08 03:08:52",
+    "updated_at": "2024-03-26 05:59:35",
     "created_at": "2023-03-09 00:38:06"
   },
   {
@@ -15572,7 +15932,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-20 03:29:49",
+    "updated_at": "2024-03-26 06:05:28",
     "created_at": "2023-03-09 00:35:47"
   },
   {
@@ -15596,7 +15956,7 @@
     "show_dayname": "Tuesday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-20 03:28:04",
+    "updated_at": "2024-03-26 06:20:54",
     "created_at": "2023-03-09 00:35:05"
   },
   {
@@ -15605,7 +15965,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-april-13-2022-arlington-theatre-santa-barbara-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Surprise Acoustic Show",
     "venue_id": 172,
     "venuename": "Arlington Theatre",
     "location": "Santa Barbara, CA, USA",
@@ -15620,18 +15980,18 @@
     "show_dayname": "Wednesday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2024-01-20 16:51:38",
+    "updated_at": "2024-03-06 01:58:08",
     "created_at": "2023-03-09 00:33:51"
   },
   {
     "show_id": 1678321848,
     "showdate": "2022-04-15",
-    "permalink": "king-gizzard-the-lizard-wizard-april-15-2022-coachella-valley-music-arts-festival-indio-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-15-2022-empire-polo-club-indio-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 678,
-    "venuename": "Coachella Valley Music & Arts Festival",
+    "showtitle": "Coachella Valley Music And Arts Festival",
+    "venue_id": 260,
+    "venuename": "Empire Polo Club",
     "location": "Indio, CA, USA",
     "city": "Indio",
     "state": "CA",
@@ -15644,7 +16004,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-27 16:48:04",
+    "updated_at": "2024-02-23 15:28:33",
     "created_at": "2023-03-09 00:30:48"
   },
   {
@@ -15692,7 +16052,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-20 03:18:32",
+    "updated_at": "2024-03-22 19:52:47",
     "created_at": "2023-03-08 23:52:00"
   },
   {
@@ -15746,12 +16106,12 @@
   {
     "show_id": 1678318710,
     "showdate": "2022-04-22",
-    "permalink": "king-gizzard-the-lizard-wizard-april-22-2022-coachella-valley-music-arts-festival-indio-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-22-2022-empire-polo-club-indio-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 678,
-    "venuename": "Coachella Valley Music & Arts Festival",
+    "showtitle": "Coachella Valley Music And Arts Festival",
+    "venue_id": 260,
+    "venuename": "Empire Polo Club",
     "location": "Indio, CA, USA",
     "city": "Indio",
     "state": "CA",
@@ -15764,7 +16124,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-07-14 00:48:56",
+    "updated_at": "2024-02-23 15:28:55",
     "created_at": "2023-03-08 23:38:30"
   },
   {
@@ -15788,7 +16148,7 @@
     "show_dayname": "Sunday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-20 03:47:50",
+    "updated_at": "2024-03-26 06:30:44",
     "created_at": "2023-03-08 23:37:45"
   },
   {
@@ -15866,12 +16226,12 @@
   {
     "show_id": 1678318190,
     "showdate": "2022-04-30",
-    "permalink": "king-gizzard-the-lizard-wizard-april-30-2022-shaky-knees-festival-atlanta-ga-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-30-2022-central-park-atlanta-ga-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Shakey Knees Festival",
     "venue_id": 670,
-    "venuename": "Shaky Knees Festival",
+    "venuename": "Central Park",
     "location": "Atlanta, GA, USA",
     "city": "Atlanta",
     "state": "GA",
@@ -15884,7 +16244,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2024-01-20 17:31:18",
+    "updated_at": "2024-02-24 03:28:41",
     "created_at": "2023-03-08 23:29:50"
   },
   {
@@ -15917,7 +16277,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-6-2022-fronton-mexico-mexico-city-mexico.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 284,
     "venuename": "Frontón México",
     "location": "Mexico City, Mexico",
@@ -15932,7 +16292,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-20 22:17:12",
+    "updated_at": "2024-03-13 01:43:34",
     "created_at": "2023-03-08 23:15:35"
   },
   {
@@ -15980,7 +16340,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-20 05:22:21",
+    "updated_at": "2024-03-13 01:47:52",
     "created_at": "2023-03-08 23:11:42"
   },
   {
@@ -16052,7 +16412,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-21 21:00:04",
+    "updated_at": "2024-02-17 19:47:31",
     "created_at": "2023-03-08 23:02:00"
   },
   {
@@ -16076,7 +16436,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-20 16:35:43",
+    "updated_at": "2024-03-24 04:49:50",
     "created_at": "2023-03-08 23:00:19"
   },
   {
@@ -16100,7 +16460,7 @@
     "show_dayname": "Sunday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-20 16:44:12",
+    "updated_at": "2024-02-10 22:09:08",
     "created_at": "2023-03-08 22:58:03"
   },
   {
@@ -16124,7 +16484,7 @@
     "show_dayname": "Tuesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-28 00:48:36",
+    "updated_at": "2024-04-12 00:38:01",
     "created_at": "2023-03-08 22:55:39"
   },
   {
@@ -16172,7 +16532,7 @@
     "show_dayname": "Thursday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-01-25 16:54:55",
+    "updated_at": "2024-04-16 16:59:22",
     "created_at": "2023-03-08 22:52:44"
   },
   {
@@ -16316,7 +16676,7 @@
     "show_dayname": "Tuesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 05:53:40",
+    "updated_at": "2024-02-25 01:43:35",
     "created_at": "2023-03-08 22:38:54"
   },
   {
@@ -16346,12 +16706,12 @@
   {
     "show_id": 1678314977,
     "showdate": "2022-06-11",
-    "permalink": "king-gizzard-the-lizard-wizard-june-11-2022-maifeld-derby-festival-mannheim-germany.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-11-2022-maimarktgelande-mannheim-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Maifeld Derby Festival",
     "venue_id": 758,
-    "venuename": "Maifeld Derby Festival",
+    "venuename": "Maimarktgelände",
     "location": "Mannheim, Germany",
     "city": "Mannheim",
     "state": "",
@@ -16364,18 +16724,18 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 05:58:14",
+    "updated_at": "2024-04-07 05:55:41",
     "created_at": "2023-03-08 22:36:17"
   },
   {
     "show_id": 1678314086,
     "showdate": "2022-06-12",
-    "permalink": "king-gizzard-the-lizard-wizard-june-12-2022-best-kept-secret-festival-hilvarenbeek-netherlands.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-12-2022-safaripark-hilvarenbeek-netherlands.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Best Kept Secret Festival",
     "venue_id": 757,
-    "venuename": "Best Kept Secret Festival",
+    "venuename": "Safaripark Beekse Bergen",
     "location": "Hilvarenbeek, Netherlands",
     "city": "Hilvarenbeek",
     "state": "",
@@ -16388,7 +16748,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-22 04:16:41",
+    "updated_at": "2024-02-24 03:38:14",
     "created_at": "2023-03-08 22:21:26"
   },
   {
@@ -16412,18 +16772,18 @@
     "show_dayname": "Tuesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-21 23:50:47",
+    "updated_at": "2024-02-10 22:08:33",
     "created_at": "2023-03-08 22:19:51"
   },
   {
     "show_id": 1678313895,
     "showdate": "2022-06-17",
-    "permalink": "king-gizzard-the-lizard-wizard-june-17-2022-bonnaroo-music-arts-festival-manchester-tn-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-17-2022-great-stage-park-manchester-tn-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Bonnaroo Music & Arts Festival",
     "venue_id": 299,
-    "venuename": "Bonnaroo Music & Arts Festival",
+    "venuename": "Great Stage Park",
     "location": "Manchester, TN, USA",
     "city": "Manchester",
     "state": "TN",
@@ -16436,7 +16796,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 17:56:48",
+    "updated_at": "2024-02-24 03:23:50",
     "created_at": "2023-03-08 22:18:15"
   },
   {
@@ -16460,7 +16820,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 06:02:46",
+    "updated_at": "2024-03-12 04:43:19",
     "created_at": "2023-03-08 22:17:18"
   },
   {
@@ -16556,7 +16916,7 @@
     "show_dayname": "Wednesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-24 02:17:04",
+    "updated_at": "2024-04-15 21:13:21",
     "created_at": "2023-03-08 21:57:51"
   },
   {
@@ -16570,7 +16930,7 @@
     "venuename": "Divadlo Archa",
     "location": "Prague, Czechia",
     "city": "Prague",
-    "state": null,
+    "state": "",
     "country": "Czechia",
     "tour_id": 3,
     "tourname": "World Tour 2022 Spring/Summer",
@@ -16580,18 +16940,18 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-20 06:23:46",
+    "updated_at": "2024-03-24 04:59:42",
     "created_at": "2023-03-08 21:36:34"
   },
   {
     "show_id": 1678311209,
     "showdate": "2022-09-30",
-    "permalink": "king-gizzard-the-lizard-wizard-september-30-2022-desert-daze-festival-perris-ca-usa.html",
+    "permalink": "king-gizzard-the-lizard-wizard-september-30-2022-moreno-beach-perris-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Desert Daze Festival",
     "venue_id": 381,
-    "venuename": "Desert Daze Festival",
+    "venuename": "Moreno Beach",
     "location": "Perris, CA, USA",
     "city": "Perris",
     "state": "CA",
@@ -16604,7 +16964,7 @@
     "show_dayname": "Friday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2024-01-20 18:59:56",
+    "updated_at": "2024-02-25 20:08:28",
     "created_at": "2023-03-08 21:33:29"
   },
   {
@@ -16613,7 +16973,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-october-2-2022-william-randolph-hearst-greek-theatre-berkeley-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 617,
     "venuename": "William Randolph Hearst Greek Theatre",
     "location": "Berkeley, CA, USA",
@@ -16628,7 +16988,7 @@
     "show_dayname": "Sunday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-31 03:43:21",
+    "updated_at": "2024-02-22 23:43:51",
     "created_at": "2023-03-08 21:31:41"
   },
   {
@@ -16652,7 +17012,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 01:10:18",
+    "updated_at": "2024-03-30 23:54:37",
     "created_at": "2023-03-08 21:30:41"
   },
   {
@@ -16676,7 +17036,7 @@
     "show_dayname": "Wednesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-21 21:08:30",
+    "updated_at": "2024-03-31 16:27:12",
     "created_at": "2023-03-08 21:29:52"
   },
   {
@@ -16733,7 +17093,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-october-10-2022-red-rocks-amphitheatre-morrison-co-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Red Rocks Night 1",
+    "showtitle": "Marathon Night 1",
     "venue_id": 447,
     "venuename": "Red Rocks Amphitheatre",
     "location": "Morrison, CO, USA",
@@ -16748,7 +17108,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 01:14:37",
+    "updated_at": "2024-03-24 04:41:14",
     "created_at": "2023-03-08 21:03:49"
   },
   {
@@ -16757,7 +17117,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-october-11-2022-red-rocks-amphitheatre-morrison-co-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Red Rocks Night 2",
+    "showtitle": "Marathon Night 2",
     "venue_id": 447,
     "venuename": "Red Rocks Amphitheatre",
     "location": "Morrison, CO, USA",
@@ -16772,7 +17132,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-12-21 21:37:47",
+    "updated_at": "2024-03-24 04:37:11",
     "created_at": "2023-03-08 20:56:04"
   },
   {
@@ -16820,7 +17180,7 @@
     "show_dayname": "Saturday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-20 18:55:44",
+    "updated_at": "2024-03-24 05:00:21",
     "created_at": "2023-03-08 13:54:17"
   },
   {
@@ -16868,7 +17228,7 @@
     "show_dayname": "Tuesday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-26 22:14:16",
+    "updated_at": "2024-03-24 05:02:25",
     "created_at": "2023-03-08 13:35:36"
   },
   {
@@ -16988,7 +17348,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-20 19:03:23",
+    "updated_at": "2024-04-06 19:38:01",
     "created_at": "2023-03-08 04:31:16"
   },
   {
@@ -17108,7 +17468,7 @@
     "show_dayname": "Monday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2024-01-20 19:29:04",
+    "updated_at": "2024-02-15 06:02:12",
     "created_at": "2023-03-08 03:24:52"
   },
   {
@@ -17117,7 +17477,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-2-2022-red-rocks-amphitheatre-morrison-co-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Red Rocks Night 3",
+    "showtitle": "Marathon Night 3",
     "venue_id": 447,
     "venuename": "Red Rocks Amphitheatre",
     "location": "Morrison, CO, USA",
@@ -17132,7 +17492,7 @@
     "show_dayname": "Wednesday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2024-01-31 03:36:54",
+    "updated_at": "2024-04-17 01:32:38",
     "created_at": "2023-03-07 05:42:21"
   },
   {
@@ -17156,21 +17516,21 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2024-01-20 19:32:52",
+    "updated_at": "2024-03-26 05:23:26",
     "created_at": "2023-03-07 05:16:35"
   },
   {
     "show_id": 1678166056,
     "showdate": "2022-12-29",
-    "permalink": "king-gizzard-the-lizard-wizard-december-29-2022-summer-haze-festival-tauranga-aotearoa-new-zealand.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-29-2022-wharepai-domain-tauranga-aotearoa-new-zealand.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Summer Haze Festival",
     "venue_id": 616,
-    "venuename": "Summer Haze Festival",
+    "venuename": "Wharepai Domain",
     "location": "Tauranga, Aotearoa (New Zealand)",
     "city": "Tauranga",
-    "state": null,
+    "state": "",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 4,
     "tourname": "NYE Run 2022-23",
@@ -17180,21 +17540,21 @@
     "show_dayname": "Thursday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-04-16 16:09:14",
+    "updated_at": "2024-04-07 16:13:42",
     "created_at": "2023-03-07 05:14:16"
   },
   {
     "show_id": 1678165804,
     "showdate": "2022-12-31",
-    "permalink": "king-gizzard-the-lizard-wizard-december-31-2022-rhythm-alps-festival-cardrona-aotearoa-new-zealand.html",
+    "permalink": "king-gizzard-the-lizard-wizard-december-31-2022-cardrona-ski-resort-wnaka-aotearoa-new-zealand.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "New Years Eve 2022",
+    "showtitle": "Rhythm & Alps Festival",
     "venue_id": 452,
-    "venuename": "Rhythm & Alps Festival",
-    "location": "Cardrona, Aotearoa (New Zealand)",
-    "city": "Cardrona",
-    "state": null,
+    "venuename": "Cardrona Ski Resort",
+    "location": "Wānaka, Aotearoa (New Zealand)",
+    "city": "Wānaka",
+    "state": "",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 4,
     "tourname": "NYE Run 2022-23",
@@ -17204,7 +17564,7 @@
     "show_dayname": "Saturday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-05-12 22:07:44",
+    "updated_at": "2024-04-07 16:08:50",
     "created_at": "2023-03-07 05:10:04"
   },
   {
@@ -17228,7 +17588,7 @@
     "show_dayname": "Friday",
     "show_month": 1,
     "show_monthname": "January",
-    "updated_at": "2023-04-26 02:08:19",
+    "updated_at": "2024-03-25 07:31:00",
     "created_at": "2023-03-07 05:07:55"
   },
   {
@@ -17276,7 +17636,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-06-30 21:10:06",
+    "updated_at": "2024-03-26 04:15:42",
     "created_at": "2023-05-25 18:12:28"
   },
   {
@@ -17300,7 +17660,7 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-01-31 03:32:22",
+    "updated_at": "2024-03-26 04:17:13",
     "created_at": "2023-03-03 01:41:38"
   },
   {
@@ -17420,7 +17780,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-09-25 02:55:46",
+    "updated_at": "2024-04-12 00:33:00",
     "created_at": "2023-03-05 21:23:09"
   },
   {
@@ -17444,7 +17804,7 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-09-25 05:59:36",
+    "updated_at": "2024-02-10 22:02:47",
     "created_at": "2023-03-05 21:25:24"
   },
   {
@@ -17588,7 +17948,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-29 13:52:13",
+    "updated_at": "2024-03-27 01:29:43",
     "created_at": "2023-03-05 21:35:53"
   },
   {
@@ -17714,12 +18074,12 @@
   {
     "show_id": 1678256416,
     "showdate": "2023-04-01",
-    "permalink": "king-gizzard-the-lizard-wizard-april-1-2023-vintage-vibes-festival-woodside-sa-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-april-1-2023-tomich-vineyard-woodside-sa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Vintage Vibes Festival",
     "venue_id": 640,
-    "venuename": "Vintage Vibes Festival",
+    "venuename": "Tomich Vineyard",
     "location": "Woodside, SA, Australia",
     "city": "Woodside",
     "state": "SA",
@@ -17732,7 +18092,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2024-01-20 05:19:14",
+    "updated_at": "2024-04-07 16:03:44",
     "created_at": "2023-03-08 06:20:16"
   },
   {
@@ -17756,7 +18116,7 @@
     "show_dayname": "Thursday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-09-25 05:54:08",
+    "updated_at": "2024-03-30 13:49:19",
     "created_at": "2023-03-08 06:19:00"
   },
   {
@@ -17813,9 +18173,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-28-2023-boston-calling-music-festival-boston-ma-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Boston Calling Music Festival",
     "venue_id": 641,
-    "venuename": "Boston Calling Music Festival",
+    "venuename": "Harvard Square",
     "location": "Boston, MA, USA",
     "city": "Boston",
     "state": "MA",
@@ -17828,7 +18188,7 @@
     "show_dayname": "Sunday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-06-04 16:23:16",
+    "updated_at": "2024-04-07 07:04:10",
     "created_at": "2023-03-08 06:24:58"
   },
   {
@@ -17852,7 +18212,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-28 00:08:20",
+    "updated_at": "2024-03-26 05:02:07",
     "created_at": "2023-03-08 06:29:57"
   },
   {
@@ -17876,7 +18236,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 22:10:44",
+    "updated_at": "2024-04-13 16:05:36",
     "created_at": "2023-03-08 06:30:16"
   },
   {
@@ -17885,7 +18245,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-3-2023-the-caverns-above-ground-amphitheater-pelham-tn-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Drag Night",
     "venue_id": 643,
     "venuename": "The Caverns Above Ground Amphitheater",
     "location": "Pelham, TN, USA",
@@ -17900,7 +18260,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 04:31:26",
+    "updated_at": "2024-02-23 00:33:21",
     "created_at": "2023-03-08 06:30:42"
   },
   {
@@ -17909,7 +18269,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-4-2023-the-caverns-above-ground-amphitheater-pelham-tn-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Acoustic Show",
     "venue_id": 643,
     "venuename": "The Caverns Above Ground Amphitheater",
     "location": "Pelham, TN, USA",
@@ -17924,7 +18284,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-23 19:12:17",
+    "updated_at": "2024-04-02 23:35:48",
     "created_at": "2023-03-08 06:33:47"
   },
   {
@@ -17948,7 +18308,7 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-07 19:18:38",
+    "updated_at": "2024-04-13 04:28:39",
     "created_at": "2023-03-08 06:34:30"
   },
   {
@@ -17972,7 +18332,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-27 20:36:42",
+    "updated_at": "2024-03-25 06:49:46",
     "created_at": "2023-03-08 06:35:01"
   },
   {
@@ -17996,7 +18356,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-02-07 20:25:45",
+    "updated_at": "2024-03-25 06:43:24",
     "created_at": "2023-03-08 06:35:22"
   },
   {
@@ -18020,7 +18380,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 16:01:58",
+    "updated_at": "2024-02-12 03:45:24",
     "created_at": "2023-03-08 06:38:20"
   },
   {
@@ -18044,7 +18404,7 @@
     "show_dayname": "Monday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-20 16:03:35",
+    "updated_at": "2024-04-13 04:32:58",
     "created_at": "2023-03-08 06:38:42"
   },
   {
@@ -18092,7 +18452,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-31 18:28:33",
+    "updated_at": "2024-04-13 04:29:31",
     "created_at": "2023-03-08 06:39:52"
   },
   {
@@ -18116,7 +18476,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-09-25 04:04:59",
+    "updated_at": "2024-03-24 05:06:40",
     "created_at": "2023-03-08 06:40:10"
   },
   {
@@ -18140,7 +18500,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-01-24 02:59:07",
+    "updated_at": "2024-03-25 02:23:01",
     "created_at": "2023-03-08 06:40:28"
   },
   {
@@ -18149,7 +18509,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-june-21-2023-hollywood-bowl-los-angeles-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 646,
     "venuename": "Hollywood Bowl",
     "location": "Los Angeles, CA, USA",
@@ -18164,20 +18524,20 @@
     "show_dayname": "Wednesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-07 19:04:10",
+    "updated_at": "2024-03-27 01:28:56",
     "created_at": "2023-03-08 06:40:44"
   },
   {
     "show_id": 1682135491,
     "showdate": "2023-07-22",
-    "permalink": "king-gizzard-the-lizard-wizard-july-22-2023-splendour-in-the-grass-festival-byron-bay-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-july-22-2023-north-byron-parklands-wooyung-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 671,
-    "venuename": "Splendour in the Grass Festival",
-    "location": "Byron Bay, NSW, Australia",
-    "city": "Byron Bay",
+    "showtitle": "Splendour In The Grass Festival",
+    "venue_id": 394,
+    "venuename": "North Byron Parklands",
+    "location": "Wooyung, NSW, Australia",
+    "city": "Wooyung",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 1,
@@ -18188,18 +18548,18 @@
     "show_dayname": "Saturday",
     "show_month": 7,
     "show_monthname": "July",
-    "updated_at": "2023-08-01 22:01:14",
+    "updated_at": "2024-02-25 18:31:00",
     "created_at": "2023-04-22 03:51:31"
   },
   {
     "show_id": 1678408793,
     "showdate": "2023-08-10",
-    "permalink": "king-gizzard-the-lizard-wizard-august-10-2023-way-out-west-festival-gothenburg-sweden.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-10-2023-slottsskogen-gothenburg-sweden.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Way Out West Festival",
     "venue_id": 648,
-    "venuename": "Way Out West Festival",
+    "venuename": "Slottsskogen",
     "location": "Gothenburg, Sweden",
     "city": "Gothenburg",
     "state": "",
@@ -18212,7 +18572,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-08-14 18:09:15",
+    "updated_at": "2024-02-25 23:42:35",
     "created_at": "2023-03-10 00:39:53"
   },
   {
@@ -18221,11 +18581,11 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-12-2023-grape-festival-piestany-slovakia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Grape Festival",
     "venue_id": 649,
-    "venuename": "Grape Festival",
-    "location": "Piestany, Slovakia",
-    "city": "Piestany",
+    "venuename": "Trenčín Airport",
+    "location": "Trenčín, Slovakia",
+    "city": "Trenčín",
     "state": "",
     "country": "Slovakia",
     "tour_id": 28,
@@ -18236,7 +18596,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-11 04:53:19",
+    "updated_at": "2024-04-07 07:50:34",
     "created_at": "2023-03-10 00:42:10"
   },
   {
@@ -18245,11 +18605,11 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-14-2023-palp-festival-verbier-switzerland.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Palp Festival - Rocklette",
     "venue_id": 650,
-    "venuename": "PALP Festival",
-    "location": "Verbier, Switzerland",
-    "city": "Verbier",
+    "venuename": "Bonatchiesse",
+    "location": "Bagnes, Switzerland",
+    "city": "Bagnes",
     "state": "",
     "country": "Switzerland",
     "tour_id": 28,
@@ -18260,7 +18620,7 @@
     "show_dayname": "Monday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-12 15:25:10",
+    "updated_at": "2024-04-07 06:23:00",
     "created_at": "2023-03-10 00:43:01"
   },
   {
@@ -18284,7 +18644,7 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 04:34:46",
+    "updated_at": "2024-04-12 00:42:20",
     "created_at": "2023-03-10 00:43:41"
   },
   {
@@ -18314,12 +18674,12 @@
   {
     "show_id": 1678409326,
     "showdate": "2023-08-17",
-    "permalink": "king-gizzard-the-lizard-wizard-august-17-2023-la-route-du-rock-festival-saint-malo-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-17-2023-le-fort-de-saint-pere-saint-malo-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
-    "venue_id": 653,
-    "venuename": "La Route du Rock Festival",
+    "showtitle": "La Route du Rock Festival",
+    "venue_id": 773,
+    "venuename": "Le Fort de Saint-Père",
     "location": "Saint-Malo, France",
     "city": "Saint-Malo",
     "state": "",
@@ -18332,7 +18692,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-30 18:06:54",
+    "updated_at": "2024-04-07 07:19:21",
     "created_at": "2023-03-10 00:48:46"
   },
   {
@@ -18356,20 +18716,20 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-27 22:10:35",
+    "updated_at": "2024-03-25 05:59:51",
     "created_at": "2023-03-10 00:50:04"
   },
   {
     "show_id": 1678409455,
     "showdate": "2023-08-20",
-    "permalink": "king-gizzard-the-lizard-wizard-august-20-2023-pukkelpop-festival-kiewit-hasselt-belgium.html",
+    "permalink": "king-gizzard-the-lizard-wizard-august-20-2023-festivalpark-kiewit-hasselt-belgium.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Pukkelpop Festival",
     "venue_id": 655,
-    "venuename": "Pukkelpop Festival",
-    "location": "Kiewit-Hasselt, Belgium",
-    "city": "Kiewit-Hasselt",
+    "venuename": "Festivalpark Kiewit",
+    "location": "Hasselt, Belgium",
+    "city": "Hasselt",
     "state": "",
     "country": "Belgium",
     "tour_id": 28,
@@ -18380,7 +18740,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-01 17:50:41",
+    "updated_at": "2024-03-25 02:30:52",
     "created_at": "2023-03-10 00:50:55"
   },
   {
@@ -18404,7 +18764,7 @@
     "show_dayname": "Monday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-30 18:03:45",
+    "updated_at": "2024-03-24 04:59:59",
     "created_at": "2023-03-10 00:51:57"
   },
   {
@@ -18452,7 +18812,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-09-25 05:06:15",
+    "updated_at": "2024-03-29 23:16:41",
     "created_at": "2023-03-10 00:54:00"
   },
   {
@@ -18461,7 +18821,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-26-2023-plaza-de-toros-de-torremolinos-torremolinos-spain.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "Canela Party",
+    "showtitle": "Canela Party Festival",
     "venue_id": 765,
     "venuename": "Plaza de Toros de Torremolinos",
     "location": "Torremolinos, Spain",
@@ -18476,7 +18836,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-30 15:17:41",
+    "updated_at": "2024-04-07 16:19:29",
     "created_at": "2023-03-10 00:55:08"
   },
   {
@@ -18500,7 +18860,7 @@
     "show_dayname": "Sunday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-02 18:57:38",
+    "updated_at": "2024-03-24 05:05:57",
     "created_at": "2023-03-10 00:55:45"
   },
   {
@@ -18524,7 +18884,7 @@
     "show_dayname": "Tuesday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-30 17:58:10",
+    "updated_at": "2024-03-25 16:15:14",
     "created_at": "2023-03-10 00:56:24"
   },
   {
@@ -18572,7 +18932,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-01-11 23:20:35",
+    "updated_at": "2024-03-30 19:52:08",
     "created_at": "2023-03-10 00:57:54"
   },
   {
@@ -18605,9 +18965,9 @@
     "permalink": "king-gizzard-the-lizard-wizard-september-3-2023-end-of-the-road-festival-salisbury-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "End of the Road Festival",
     "venue_id": 662,
-    "venuename": "End of the Road Festival",
+    "venuename": "Larmer Tree Gardens",
     "location": "Salisbury, England",
     "city": "Salisbury",
     "state": "",
@@ -18620,18 +18980,18 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-17 01:50:22",
+    "updated_at": "2024-02-25 21:23:06",
     "created_at": "2023-03-10 00:58:36"
   },
   {
     "show_id": 1700599852,
     "showdate": "2024-03-09",
-    "permalink": "king-gizzard-the-lizard-wizard-march-9-2024-play-on-the-plains-festival-deniliquin-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-9-2024-deniliquin-festival-site-deniliquin-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Play on the Plains Festival",
     "venue_id": 743,
-    "venuename": "Play on the Plains Festival",
+    "venuename": "Deniliquin Festival Site",
     "location": "Deniliquin, NSW, Australia",
     "city": "Deniliquin",
     "state": "NSW",
@@ -18644,7 +19004,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-11-21 20:50:52",
+    "updated_at": "2024-03-25 16:16:52",
     "created_at": "2023-11-21 20:50:52"
   },
   {
@@ -18668,18 +19028,18 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-01-22 21:13:30",
+    "updated_at": "2024-03-24 04:46:22",
     "created_at": "2024-01-22 21:13:30"
   },
   {
     "show_id": 1702592345,
     "showdate": "2024-03-15",
-    "permalink": "king-gizzard-the-lizard-wizard-march-15-2024-lollapalooza-chile-festival-santiago-chile.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-15-2024-parque-cerrillos-santiago-chile.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Lollapalooza Chile",
     "venue_id": 756,
-    "venuename": "Lollapalooza Chile Festival",
+    "venuename": "Parque Cerrillos",
     "location": "Santiago, Chile",
     "city": "Santiago",
     "state": "",
@@ -18692,18 +19052,18 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-14 22:19:05",
+    "updated_at": "2024-03-20 23:11:29",
     "created_at": "2023-12-14 22:19:05"
   },
   {
     "show_id": 1702577658,
     "showdate": "2024-03-17",
-    "permalink": "king-gizzard-the-lizard-wizard-march-17-2024-lollapalooza-argentina-festival-buenos-aires-argentina.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-17-2024-hipodromo-de-san-isidro-buenos-aires-argentina.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Lollapalooza Argentina",
     "venue_id": 751,
-    "venuename": "Lollapalooza Argentina Festival",
+    "venuename": "Hipódromo de San Isidro",
     "location": "Buenos Aires, Argentina",
     "city": "Buenos Aires",
     "state": "",
@@ -18716,7 +19076,7 @@
     "show_dayname": "Sunday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-14 18:14:18",
+    "updated_at": "2024-04-17 01:49:31",
     "created_at": "2023-12-14 18:14:18"
   },
   {
@@ -18740,22 +19100,22 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-14 18:19:22",
+    "updated_at": "2024-03-23 14:32:32",
     "created_at": "2023-12-14 18:08:05"
   },
   {
     "show_id": 1702577792,
     "showdate": "2024-03-21",
-    "permalink": "king-gizzard-the-lizard-wizard-march-21-2024-festival-estereo-picnic-bogota-columbia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-21-2024-parque-simon-bolivar-bogota-colombia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Festival Estéreo Picnic",
     "venue_id": 753,
-    "venuename": "Festival Estereo Picnic",
-    "location": "Bogotá, Columbia",
+    "venuename": "Parque Simón Bolívar",
+    "location": "Bogotá, Colombia",
     "city": "Bogotá",
     "state": "",
-    "country": "Columbia",
+    "country": "Colombia",
     "tour_id": 53,
     "tourname": "South America 2024",
     "showorder": 1,
@@ -18764,18 +19124,18 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-14 18:16:32",
+    "updated_at": "2024-04-17 01:53:27",
     "created_at": "2023-12-14 18:16:32"
   },
   {
     "show_id": 1702577847,
     "showdate": "2024-03-23",
-    "permalink": "king-gizzard-the-lizard-wizard-march-23-2024-lollapalooza-brasil-festival-sao-paulo-brazil.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-23-2024-autodromo-de-interlagos-sao-paulo-brazil.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Lollapalooza Brasil",
     "venue_id": 752,
-    "venuename": "Lollapalooza Brasil Festival",
+    "venuename": "Autodromo de Interlagos",
     "location": "São Paulo, Brazil",
     "city": "São Paulo",
     "state": "",
@@ -18788,7 +19148,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-12-14 18:17:27",
+    "updated_at": "2024-03-28 21:40:26",
     "created_at": "2023-12-14 18:17:27"
   },
   {
@@ -18917,7 +19277,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-22-2024-stadtpark-open-air-hamburg-germany.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 696,
     "venuename": "Stadtpark Open Air",
     "location": "Hamburg, Germany",
@@ -18932,7 +19292,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-09 00:15:28",
+    "updated_at": "2024-02-23 00:14:51",
     "created_at": "2023-09-25 15:12:21"
   },
   {
@@ -18962,12 +19322,12 @@
   {
     "show_id": 1695158578,
     "showdate": "2024-05-25",
-    "permalink": "king-gizzard-the-lizard-wizard-may-25-2024-wide-awake-festival-london-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-may-25-2024-brockwell-park-london-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Wide Awake Festival",
     "venue_id": 694,
-    "venuename": "Wide Awake Festival",
+    "venuename": "Brockwell Park",
     "location": "London, England",
     "city": "London",
     "state": "",
@@ -18980,7 +19340,7 @@
     "show_dayname": "Saturday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-09 00:16:02",
+    "updated_at": "2024-02-28 02:32:23",
     "created_at": "2023-09-19 21:22:58"
   },
   {
@@ -19061,7 +19421,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-may-31-2024-brighton-dome-brighton-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Acoustic Show",
     "venue_id": 709,
     "venuename": "Brighton Dome",
     "location": "Brighton, England",
@@ -19076,18 +19436,18 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-07 15:13:06",
+    "updated_at": "2024-02-23 00:19:24",
     "created_at": "2023-11-07 15:12:47"
   },
   {
     "show_id": 1699370023,
     "showdate": "2024-06-02",
-    "permalink": "king-gizzard-the-lizard-wizard-june-2-2024-we-love-green-festival-paris-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-2-2024-bois-de-vincennes-paris-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "We Love Green Festival",
     "venue_id": 710,
-    "venuename": "We Love Green Festival",
+    "venuename": "Bois de Vincennes",
     "location": "Paris, France",
     "city": "Paris",
     "state": "",
@@ -19100,7 +19460,7 @@
     "show_dayname": "Sunday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-07 15:13:43",
+    "updated_at": "2024-02-28 02:35:38",
     "created_at": "2023-11-07 15:13:43"
   },
   {
@@ -19130,12 +19490,12 @@
   {
     "show_id": 1699370103,
     "showdate": "2024-06-04",
-    "permalink": "king-gizzard-the-lizard-wizard-june-4-2024-unaltrofestival-milan-italy.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-4-2024-circolo-magnolia-milan-italy.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Unaltrofestival",
     "venue_id": 711,
-    "venuename": "Unaltrofestival",
+    "venuename": "Circolo Magnolia",
     "location": "Milan, Italy",
     "city": "Milan",
     "state": "",
@@ -19148,7 +19508,7 @@
     "show_dayname": "Tuesday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-11-07 15:15:03",
+    "updated_at": "2024-02-28 02:42:14",
     "created_at": "2023-11-07 15:15:03"
   },
   {
@@ -19181,7 +19541,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-16-2024-forest-hills-stadium-queens-ny-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show Night 1",
     "venue_id": 274,
     "venuename": "Forest Hills Stadium",
     "location": "Queens, NY, USA",
@@ -19196,7 +19556,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-08 02:47:05",
+    "updated_at": "2024-02-23 00:24:34",
     "created_at": "2023-09-15 17:22:30"
   },
   {
@@ -19205,7 +19565,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-17-2024-forest-hills-stadium-queens-ny-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show Night 2",
     "venue_id": 274,
     "venuename": "Forest Hills Stadium",
     "location": "Queens, NY, USA",
@@ -19220,7 +19580,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-08 02:47:24",
+    "updated_at": "2024-02-23 00:24:57",
     "created_at": "2023-09-12 17:01:39"
   },
   {
@@ -19301,7 +19661,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-august-23-2024-aretha-franklin-amphitheatre-detroit-mi-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Acoustic Show",
     "venue_id": 715,
     "venuename": "Aretha Franklin Amphitheatre",
     "location": "Detroit, MI, USA",
@@ -19316,7 +19676,7 @@
     "show_dayname": "Friday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2023-12-08 02:49:41",
+    "updated_at": "2024-02-23 00:25:38",
     "created_at": "2023-11-08 00:22:31"
   },
   {
@@ -19469,7 +19829,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-september-1-2024-huntington-bank-pavilion-at-northerly-island-chicago-il-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 692,
     "venuename": "Huntington Bank Pavilion at Northerly Island",
     "location": "Chicago, IL, USA",
@@ -19484,7 +19844,7 @@
     "show_dayname": "Sunday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-12-08 02:51:45",
+    "updated_at": "2024-02-23 00:26:06",
     "created_at": "2023-09-12 17:00:44"
   },
   {
@@ -19709,11 +20069,11 @@
     "permalink": "king-gizzard-the-lizard-wizard-september-14-2024-the-gorge-amphitheatre-george-wa-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 530,
     "venuename": "The Gorge Amphitheatre",
-    "location": "George, WA, USA",
-    "city": "George",
+    "location": "Quincy, WA, USA",
+    "city": "Quincy",
     "state": "WA",
     "country": "USA",
     "tour_id": 52,
@@ -19724,7 +20084,7 @@
     "show_dayname": "Saturday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-12-08 02:54:09",
+    "updated_at": "2024-02-23 00:26:48",
     "created_at": "2023-09-12 17:02:29"
   },
   {
@@ -19757,7 +20117,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-2-2024-the-rady-shell-at-jacobs-park-san-diego-ca-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Acoustic Show",
     "venue_id": 729,
     "venuename": "The Rady Shell at Jacobs Park",
     "location": "San Diego, CA, USA",
@@ -19772,7 +20132,7 @@
     "show_dayname": "Saturday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-12-08 02:55:16",
+    "updated_at": "2024-02-23 00:27:13",
     "created_at": "2023-11-08 00:33:21"
   },
   {
@@ -19949,7 +20309,7 @@
     "permalink": "king-gizzard-the-lizard-wizard-november-15-2024-germania-insurance-amphitheater-austin-tx-usa.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Marathon Show",
     "venue_id": 693,
     "venuename": "Germania Insurance Amphitheater",
     "location": "Austin, TX, USA",
@@ -19964,7 +20324,7 @@
     "show_dayname": "Friday",
     "show_month": 11,
     "show_monthname": "November",
-    "updated_at": "2023-12-08 02:57:01",
+    "updated_at": "2024-02-23 00:29:37",
     "created_at": "2023-09-12 17:03:56"
   },
   {
