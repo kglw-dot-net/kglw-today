@@ -4,12 +4,12 @@
 ## Routes
 
 
-### Home page (`/`)
+### Home page ([`/`][KGLW.today])
 
 Single page, shows a table of months with a link for every day in every month.
 
 
-### Now page (`/now`)
+### Now page ([`/now`])
 
 Single page, links to the current Month-Day page (based on the browser's date / timezone).
 
@@ -51,6 +51,7 @@ This site is set up using Gatsby:
 
 
 [`/jan-7`]: https://kglw.today/jan-7?source=github&campagin=readme
+[`/now`]: https://kglw.today/now?source=github&campagin=readme
 [KGLW.net]: https://kglw.net?source=kglw.today&campaign=github-readme
 [KGLW.today]: https://kglw.today?source=github&campaign=readme
 [Leay Day]: https://kglw.today/feb-29?source=github&campagin=readme
