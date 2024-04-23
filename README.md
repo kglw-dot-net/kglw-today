@@ -1,6 +1,4 @@
-# source for [KGLW.today]
-
-Brought to you by **[kglw.net]**!
+# [KGLW.today] — brought to you by **[KGLW.net]**!
 
 
 ## Routes
@@ -16,11 +14,13 @@ Single page, shows a table of months with a link for every day in every month.
 Single page, links to the current Month-Day page (based on the browser's date / timezone).
 
 
-### Month-Day pages (e.g. `/jan-7`)
+### Month-Day pages (e.g. `[/jan-7]`)
 
-Multiple pages, one for every day in every month (including [Leap Day](https://kglw.today/feb-29/)).
+Multiple pages, one for every day in every month (including [Leap Day]).
 
-URL pattern: `/mmm-YY` (where `mmm` is lowercase/slugified English abbreviation for month name, and `YY` is zero-padded number of the date).
+URL pattern: `/mmm-Y`
+* `mmm` — lowercase/slugified English abbreviation for month name
+* `Y` — number of the day in the month (no zero-padding)
 
 Links to any concerts, album releases, etc which happened on the given day in previous years.
 
@@ -50,5 +50,7 @@ This site is set up using Gatsby:
 - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
 
+[/jan-7]: https://kglw.today/jan-7?source=github&campagin=readme
+[KGLW.net]: https://kglw.net?source=kglw.today&campaign=github-readme
 [KGLW.today]: https://kglw.today?source=github&campaign=readme
-[kglw.net]: https://kglw.net?source=kglw.today&campaign=github-readme
+[Leay Day]: https://kglw.today/feb-29?source=github&campagin=readme
