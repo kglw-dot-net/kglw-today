@@ -18,9 +18,9 @@ Single page, links to the current Month-Day page (based on the browser's date / 
 
 Multiple pages, one for every day in every month (including [Leap Day]).
 
-URL pattern: `/mmm-Y`
+URL pattern: `/mmm-D`
 * `mmm` — lowercase/slugified English abbreviation for month name
-* `Y` — number of the day in the month (no zero-padding)
+* `D` — number of the day in the month (no zero-padding)
 
 Links to any concerts, album releases, etc which happened on the given day in previous years.
 
