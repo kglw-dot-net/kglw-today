@@ -25,18 +25,19 @@ URL pattern: `/mmm-Y`
 Links to any concerts, album releases, etc which happened on the given day in previous years.
 
 
-### Year-Month-Day redirects (e.g. `/2023-06-07`)
+### Year-Month-Day redirects (e.g. `/2023-06-07`, `/2023-06-08@2`)
 
-Multiple redirects, one(`*`) for every concert recorded on KGLW.net.
+Multiple redirects, one for every concert recorded on KGLW.net.
 
 URL pattern: `/YYYY-MM-DD`
 * `YYYY` — four-digit year
 * `MM` — two-digit (zero-padded) month
 * `DD` — two-digit (zero-padded) day
 
-Redirects to the appropriate concert URL on the KGLW.net site.
+URL pattern: `/YYYY-MM-DD@#`
+* `#` — [optional] one-digit, to differentiate multiple shows on the same date
 
-`*` *Does __not__ ([yet](https://github.com/kglw-dot-net/kglw-today/issues/101)) account for multiple shows on the same day.*
+Redirects to the appropriate concert URL on the KGLW.net site.
 
 
 ## Framework docs

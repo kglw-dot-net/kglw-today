@@ -16,14 +16,36 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
   const RedirectComponent = require.resolve('./src/templates/redirect.js');
 
   // for every concert date, redirect `/YYYY-MM-DD` to Songfish
-  const allConcerts = (await graphql(`query ShowUrlsQuery { allShowsJson { nodes { showdate permalink } } }`)).data.allShowsJson.nodes;
-  allConcerts.forEach(({showdate, permalink}) => {
+  (await graphql(`
+    query ShowUrlsQuery {
+      allShowsJson {
+        nodes {
+          showdate
+          showorder
+          permalink
+        }
+      }
+    }
+  `)).data.allShowsJson.nodes.forEach(({
+    showdate,
+    showorder,
+    permalink
+  }) => {
     const [yyyy,mm,dd] = showdate.split('-');
+    const url = `${yyyy}-${mm}-${dd}`;
     createPage({
-      path: `/${yyyy}-${mm}-${dd}`,
+      path: `/${url}`,
       component: RedirectComponent,
       context: {
-        redirectTo: `https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
+        redirectTo: `https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${url}`,
+      },
+    });
+    const urlWithShoworder = `${url}@${showorder}`;
+    createPage({
+      path: `/${urlWithShoworder}`,
+      component: RedirectComponent,
+      context: {
+        redirectTo: `https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${urlWithShoworder}`,
       },
     });
   });
