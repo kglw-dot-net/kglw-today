@@ -13,13 +13,15 @@ exports.createPages = async ({actions: {createPage}, graphql}) => {
     });
   }
 
+  const RedirectComponent = require.resolve('./src/templates/redirect.js');
+
   // for every concert date, redirect `/YYYY-MM-DD` to Songfish
   const allConcerts = (await graphql(`query ShowUrlsQuery { allShowsJson { nodes { showdate permalink } } }`)).data.allShowsJson.nodes;
   allConcerts.forEach(({showdate, permalink}) => {
     const [yyyy,mm,dd] = showdate.split('-');
     createPage({
       path: `/${yyyy}-${mm}-${dd}`,
-      component: require.resolve('./src/templates/redirect.js'),
+      component: RedirectComponent,
       context: {
         redirectTo: `https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${yyyy}-${mm}-${dd}`,
       },
