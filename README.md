@@ -36,7 +36,7 @@ URL pattern: `/YYYY-MM-DD`
 
 Redirects to the appropriate concert URL on the KGLW.net site.
 
-*Does __not__ account for [multiple shows on the same day](https://github.com/kglw-dot-net/kglw-today/issues/101).*
+`*` *Does __not__ ([yet](https://github.com/kglw-dot-net/kglw-today/issues/101)) account for multiple shows on the same day.*
 
 
 ## Framework docs
