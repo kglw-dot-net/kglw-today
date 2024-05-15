@@ -872,8 +872,8 @@
     "showtitle": "",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Darlinghurst, NSW, Australia",
+    "city": "Darlinghurst",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 6,
@@ -1160,8 +1160,8 @@
     "showtitle": "OAF's 4th Birthday Party",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Darlinghurst, NSW, Australia",
+    "city": "Darlinghurst",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 36,
@@ -1268,7 +1268,7 @@
     "show_dayname": "Friday",
     "show_month": 10,
     "show_monthname": "October",
-    "updated_at": "2023-09-25 02:22:43",
+    "updated_at": "2024-04-25 04:20:05",
     "created_at": "2023-03-11 21:41:46"
   },
   {
@@ -2120,8 +2120,8 @@
     "showtitle": "",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Darlinghurst, NSW, Australia",
+    "city": "Darlinghurst",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 50,
@@ -2564,7 +2564,7 @@
     "show_dayname": "Friday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-01-30 23:59:37",
+    "updated_at": "2024-05-14 16:19:04",
     "created_at": "2023-03-12 17:11:37"
   },
   {
@@ -2636,7 +2636,7 @@
     "show_dayname": "Thursday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 01:30:01",
+    "updated_at": "2024-05-14 15:56:05",
     "created_at": "2023-03-12 17:13:15"
   },
   {
@@ -2660,7 +2660,7 @@
     "show_dayname": "Friday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 01:29:51",
+    "updated_at": "2024-05-14 15:56:27",
     "created_at": "2023-03-12 17:13:30"
   },
   {
@@ -2684,7 +2684,7 @@
     "show_dayname": "Saturday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2023-05-08 01:29:38",
+    "updated_at": "2024-05-14 15:56:53",
     "created_at": "2023-03-12 17:13:46"
   },
   {
@@ -3266,7 +3266,7 @@
   {
     "show_id": 1678643989,
     "showdate": "2014-02-09",
-    "permalink": "king-gizzard-the-lizard-wizard-february-9-2014-st-kilda-foreshore-naarm-melbourne-vic-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-9-2014-odonnell-gardens-stage-st-kilda-vic-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "St. Kilda Festival",
@@ -3284,13 +3284,13 @@
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-02-24 00:53:27",
+    "updated_at": "2024-04-25 01:23:30",
     "created_at": "2023-03-12 17:59:49"
   },
   {
     "show_id": 1678644309,
     "showdate": "2014-03-01",
-    "permalink": "king-gizzard-the-lizard-wizard-march-1-2014-brownlow-hill-farm-brownlow-hill-nsw-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-1-2014-brownlow-hill-farm-cobbitty-nsw-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Secret Garden Festival",
@@ -3308,7 +3308,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-02-07 04:54:08",
+    "updated_at": "2024-04-25 01:24:01",
     "created_at": "2023-03-12 18:05:09"
   },
   {
@@ -3332,13 +3332,13 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-29 20:22:08",
+    "updated_at": "2024-04-25 01:24:33",
     "created_at": "2023-03-12 18:06:06"
   },
   {
     "show_id": 1678644452,
     "showdate": "2014-03-22",
-    "permalink": "king-gizzard-the-lizard-wizard-march-22-2014-rosemount-hotel-perth-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-22-2014-rosemount-hotel-perth-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -3356,13 +3356,13 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-24 19:22:44",
+    "updated_at": "2024-05-02 00:39:40",
     "created_at": "2023-03-12 18:07:32"
   },
   {
     "show_id": 1678644469,
     "showdate": "2014-03-23",
-    "permalink": "king-gizzard-the-lizard-wizard-march-23-2014-mojos-bar-fremantle-australia.html",
+    "permalink": "king-gizzard-the-lizard-wizard-march-23-2014-mojos-bar-fremantle-wa-australia.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -3380,7 +3380,7 @@
     "show_dayname": "Sunday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-03-24 19:23:05",
+    "updated_at": "2024-05-07 07:10:22",
     "created_at": "2023-03-12 18:07:49"
   },
   {
@@ -3404,7 +3404,7 @@
     "show_dayname": "Wednesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-04-08 23:47:02",
+    "updated_at": "2024-05-08 07:02:28",
     "created_at": "2023-03-12 18:08:09"
   },
   {
@@ -3428,7 +3428,7 @@
     "show_dayname": "Thursday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-29 19:09:09",
+    "updated_at": "2024-05-08 07:03:51",
     "created_at": "2023-03-12 18:08:45"
   },
   {
@@ -3452,7 +3452,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-04-09 00:04:49",
+    "updated_at": "2024-05-09 01:34:43",
     "created_at": "2023-03-12 18:10:46"
   },
   {
@@ -3608,8 +3608,8 @@
     "showtitle": "",
     "venue_id": 558,
     "venuename": "The Roller Den",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Erskineville, NSW, Australia",
+    "city": "Erskineville",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 24,
@@ -3716,7 +3716,7 @@
     "show_dayname": "Friday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-03-24 04:54:44",
+    "updated_at": "2024-04-30 23:25:48",
     "created_at": "2023-03-12 19:19:59"
   },
   {
@@ -3812,7 +3812,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2024-03-29 20:14:36",
+    "updated_at": "2024-05-09 02:02:11",
     "created_at": "2023-03-12 19:21:15"
   },
   {
@@ -4460,7 +4460,7 @@
     "show_dayname": "Thursday",
     "show_month": 9,
     "show_monthname": "September",
-    "updated_at": "2023-11-19 06:27:38",
+    "updated_at": "2024-04-24 20:52:33",
     "created_at": "2023-03-12 19:45:56"
   },
   {
@@ -5434,7 +5434,7 @@
     "venuename": "The Bodega Social Club",
     "location": "Nottingham, England",
     "city": "Nottingham",
-    "state": null,
+    "state": "",
     "country": "England",
     "tour_id": 19,
     "tourname": "I'm In Your Mind Fuzz Europe",
@@ -5455,10 +5455,10 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Vodaphone Mexefest",
     "venue_id": 289,
-    "venuename": "Garagem Epal",
+    "venuename": "Garagem EPAL",
     "location": "Lisbon, Portugal",
     "city": "Lisbon",
-    "state": null,
+    "state": "",
     "country": "Portugal",
     "tour_id": 19,
     "tourname": "I'm In Your Mind Fuzz Europe",
@@ -5482,7 +5482,7 @@
     "venuename": "Rough Trade East",
     "location": "London, England",
     "city": "London",
-    "state": null,
+    "state": "",
     "country": "England",
     "tour_id": 19,
     "tourname": "I'm In Your Mind Fuzz Europe",
@@ -5492,7 +5492,7 @@
     "show_dayname": "Monday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-11-03 04:32:58",
+    "updated_at": "2024-05-07 01:50:28",
     "created_at": "2023-03-12 20:36:44"
   },
   {
@@ -5528,8 +5528,8 @@
     "showtitle": "",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Darlinghurst, NSW, Australia",
+    "city": "Darlinghurst",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 18,
@@ -5552,8 +5552,8 @@
     "showtitle": "",
     "venue_id": 558,
     "venuename": "The Roller Den",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Erskineville, NSW, Australia",
+    "city": "Erskineville",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 18,
@@ -5612,7 +5612,7 @@
     "show_dayname": "Sunday",
     "show_month": 12,
     "show_monthname": "December",
-    "updated_at": "2023-11-12 02:34:33",
+    "updated_at": "2024-05-07 01:40:09",
     "created_at": "2023-03-12 20:42:17"
   },
   {
@@ -5924,7 +5924,7 @@
     "show_dayname": "Friday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-04-08 21:23:02",
+    "updated_at": "2024-05-14 05:38:32",
     "created_at": "2024-04-06 01:07:30"
   },
   {
@@ -9032,8 +9032,8 @@
     "showtitle": "",
     "venue_id": 414,
     "venuename": "Oxford Art Factory",
-    "location": "Eora (Sydney), NSW, Australia",
-    "city": "Eora (Sydney)",
+    "location": "Darlinghurst, NSW, Australia",
+    "city": "Darlinghurst",
     "state": "NSW",
     "country": "Australia",
     "tour_id": 23,
@@ -9442,7 +9442,7 @@
     "venuename": "Paradiso Grote Zaal",
     "location": "Amsterdam, Netherlands",
     "city": "Amsterdam",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 45,
     "tourname": "Europe/UK Summer 2016",
@@ -10364,7 +10364,7 @@
     "show_dayname": "Monday",
     "show_month": 4,
     "show_monthname": "April",
-    "updated_at": "2024-04-03 14:35:04",
+    "updated_at": "2024-05-02 21:49:33",
     "created_at": "2023-03-11 22:05:47"
   },
   {
@@ -11098,7 +11098,7 @@
     "venuename": "Paradiso Grote Zaal",
     "location": "Amsterdam, Netherlands",
     "city": "Amsterdam",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 17,
     "tourname": "Flying Microtonal Banana",
@@ -11912,9 +11912,9 @@
     "showtitle": "",
     "venue_id": 615,
     "venuename": "Whammy Bar",
-    "location": "Auckland, Aotearoa (New Zealand)",
+    "location": "Auckland, CBD, Aotearoa (New Zealand)",
     "city": "Auckland",
-    "state": "",
+    "state": "CBD",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 33,
     "tourname": "Australia/Aotearoa Fall 2017",
@@ -11936,9 +11936,9 @@
     "showtitle": "",
     "venue_id": 615,
     "venuename": "Whammy Bar",
-    "location": "Auckland, Aotearoa (New Zealand)",
+    "location": "Auckland, CBD, Aotearoa (New Zealand)",
     "city": "Auckland",
-    "state": "",
+    "state": "CBD",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 33,
     "tourname": "Australia/Aotearoa Fall 2017",
@@ -11960,9 +11960,9 @@
     "showtitle": "",
     "venue_id": 615,
     "venuename": "Whammy Bar",
-    "location": "Auckland, Aotearoa (New Zealand)",
+    "location": "Auckland, CBD, Aotearoa (New Zealand)",
     "city": "Auckland",
-    "state": "",
+    "state": "CBD",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 33,
     "tourname": "Australia/Aotearoa Fall 2017",
@@ -11984,9 +11984,9 @@
     "showtitle": "",
     "venue_id": 615,
     "venuename": "Whammy Bar",
-    "location": "Auckland, Aotearoa (New Zealand)",
+    "location": "Auckland, CBD, Aotearoa (New Zealand)",
     "city": "Auckland",
-    "state": "",
+    "state": "CBD",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 33,
     "tourname": "Australia/Aotearoa Fall 2017",
@@ -12044,13 +12044,13 @@
     "show_dayname": "Sunday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-01-27 17:03:07",
+    "updated_at": "2024-05-04 02:55:32",
     "created_at": "2023-03-13 02:30:18"
   },
   {
     "show_id": 1678674680,
     "showdate": "2018-02-21",
-    "permalink": "king-gizzard-and-the-lizard-wizard-february-21-2018-o2-academy-brixton-london-england.html",
+    "permalink": "king-gizzard-the-lizard-wizard-february-21-2018-o2-academy-brixton-london-england.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "",
@@ -12058,7 +12058,7 @@
     "venuename": "O2 Academy Brixton",
     "location": "London, England",
     "city": "London",
-    "state": null,
+    "state": "",
     "country": "England",
     "tour_id": 12,
     "tourname": "Europe/UK Winter 2018",
@@ -12068,7 +12068,7 @@
     "show_dayname": "Wednesday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2023-03-13 02:31:20",
+    "updated_at": "2024-05-04 03:00:41",
     "created_at": "2023-03-13 02:31:20"
   },
   {
@@ -12298,7 +12298,7 @@
     "venuename": "Paradiso Grote Zaal",
     "location": "Amsterdam, Netherlands",
     "city": "Amsterdam",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 12,
     "tourname": "Europe/UK Winter 2018",
@@ -12322,7 +12322,7 @@
     "venuename": "Paradiso Grote Zaal",
     "location": "Amsterdam, Netherlands",
     "city": "Amsterdam",
-    "state": null,
+    "state": "",
     "country": "Netherlands",
     "tour_id": 12,
     "tourname": "Europe/UK Winter 2018",
@@ -12332,7 +12332,7 @@
     "show_dayname": "Tuesday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-17 02:27:37",
+    "updated_at": "2024-05-04 02:59:52",
     "created_at": "2023-03-15 02:45:21"
   },
   {
@@ -12442,7 +12442,7 @@
     "venuename": "Neue Theaterfabrik",
     "location": "Munich, Germany",
     "city": "Munich",
-    "state": null,
+    "state": "",
     "country": "Germany",
     "tour_id": 12,
     "tourname": "Europe/UK Winter 2018",
@@ -12452,7 +12452,7 @@
     "show_dayname": "Sunday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-04-13 02:33:01",
+    "updated_at": "2024-05-05 02:29:07",
     "created_at": "2023-03-16 00:46:08"
   },
   {
@@ -12668,7 +12668,7 @@
     "show_dayname": "Thursday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-05-27 20:26:33",
+    "updated_at": "2024-05-14 01:06:50",
     "created_at": "2023-03-16 01:16:32"
   },
   {
@@ -12716,7 +12716,7 @@
     "show_dayname": "Saturday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-05-27 22:58:11",
+    "updated_at": "2024-05-14 01:24:00",
     "created_at": "2023-03-16 01:17:53"
   },
   {
@@ -14660,7 +14660,7 @@
     "show_dayname": "Saturday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-04-23 16:06:09",
+    "updated_at": "2024-04-24 01:28:43",
     "created_at": "2023-03-10 04:09:26"
   },
   {
@@ -15034,7 +15034,7 @@
     "venuename": "Columbiahalle",
     "location": "Berlin, Germany",
     "city": "Berlin",
-    "state": null,
+    "state": "",
     "country": "Germany",
     "tour_id": 27,
     "tourname": "World Tour 2019",
@@ -15500,7 +15500,7 @@
     "show_dayname": "Tuesday",
     "show_month": 2,
     "show_monthname": "February",
-    "updated_at": "2024-03-22 19:50:56",
+    "updated_at": "2024-05-04 14:13:59",
     "created_at": "2023-03-09 18:47:36"
   },
   {
@@ -15871,7 +15871,7 @@
     "artist": "King Gizzard & the Lizard Wizard",
     "showtitle": "Return of the Curse of Timeland",
     "venue_id": 450,
-    "venuename": "Reunion Park",
+    "venuename": "Burnley’s Reunion Park",
     "location": "Naarm (Melbourne), VIC, Australia",
     "city": "Naarm (Melbourne)",
     "state": "VIC",
@@ -17024,9 +17024,9 @@
     "showtitle": "",
     "venue_id": 432,
     "venuename": "PNE Forum",
-    "location": "Vancouver, Canada",
+    "location": "Vancouver, BC, Canada",
     "city": "Vancouver",
-    "state": null,
+    "state": "BC",
     "country": "Canada",
     "tour_id": 49,
     "tourname": "World Tour 2022 Fall",
@@ -17578,7 +17578,7 @@
     "venuename": "TSB Stadium",
     "location": "New Plymouth, Aotearoa (New Zealand)",
     "city": "New Plymouth",
-    "state": null,
+    "state": "",
     "country": "Aotearoa (New Zealand)",
     "tour_id": 4,
     "tourname": "NYE Run 2022-23",
@@ -17996,7 +17996,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2023-09-25 06:19:11",
+    "updated_at": "2024-05-13 17:03:39",
     "created_at": "2023-03-05 21:38:43"
   },
   {
@@ -18212,7 +18212,7 @@
     "show_dayname": "Thursday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2024-03-26 05:02:07",
+    "updated_at": "2024-04-28 18:17:22",
     "created_at": "2023-03-08 06:29:57"
   },
   {
@@ -18812,7 +18812,7 @@
     "show_dayname": "Thursday",
     "show_month": 8,
     "show_monthname": "August",
-    "updated_at": "2024-03-29 23:16:41",
+    "updated_at": "2024-05-08 22:22:33",
     "created_at": "2023-03-10 00:54:00"
   },
   {
@@ -19052,7 +19052,7 @@
     "show_dayname": "Friday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-20 23:11:29",
+    "updated_at": "2024-05-14 22:13:26",
     "created_at": "2023-12-14 22:19:05"
   },
   {
@@ -19100,7 +19100,7 @@
     "show_dayname": "Monday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-23 14:32:32",
+    "updated_at": "2024-04-24 01:18:10",
     "created_at": "2023-12-14 18:08:05"
   },
   {
@@ -19148,7 +19148,7 @@
     "show_dayname": "Saturday",
     "show_month": 3,
     "show_monthname": "March",
-    "updated_at": "2024-03-28 21:40:26",
+    "updated_at": "2024-04-24 01:16:58",
     "created_at": "2023-12-14 18:17:27"
   },
   {
@@ -19172,7 +19172,7 @@
     "show_dayname": "Wednesday",
     "show_month": 5,
     "show_monthname": "May",
-    "updated_at": "2023-11-07 15:15:46",
+    "updated_at": "2024-05-13 19:12:21",
     "created_at": "2023-11-07 15:00:48"
   },
   {
@@ -19258,7 +19258,7 @@
     "venuename": "Columbiahalle",
     "location": "Berlin, Germany",
     "city": "Berlin",
-    "state": null,
+    "state": "",
     "country": "Germany",
     "tour_id": 51,
     "tourname": "Europe/UK Spring 2024",
@@ -19466,12 +19466,12 @@
   {
     "show_id": 1702003478,
     "showdate": "2024-06-03",
-    "permalink": "king-gizzard-the-lizard-wizard-june-3-2024-les-nuits-de-fourviere-lyon-france.html",
+    "permalink": "king-gizzard-the-lizard-wizard-june-3-2024-the-great-theater-lyon-france.html",
     "artist_id": 1,
     "artist": "King Gizzard & the Lizard Wizard",
-    "showtitle": "",
+    "showtitle": "Les Nuits De Fourviere",
     "venue_id": 744,
-    "venuename": "Les Nuits de Fourviere",
+    "venuename": "The Great Theater",
     "location": "Lyon, France",
     "city": "Lyon",
     "state": "",
@@ -19484,7 +19484,7 @@
     "show_dayname": "Monday",
     "show_month": 6,
     "show_monthname": "June",
-    "updated_at": "2023-12-08 02:44:38",
+    "updated_at": "2024-05-07 04:37:33",
     "created_at": "2023-12-08 02:44:38"
   },
   {
