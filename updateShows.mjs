@@ -7,8 +7,17 @@ console.log('updating shows...');
 const filename = './src/data/shows.json';
 
 const fetchCall = await fetch('https://kglw.net/api/v2/shows.json');
-const responseToJSON = await fetchCall.json();
-const content = JSON.stringify(responseToJSON.data, null, 2);
+const {data} = await fetchCall.json();
+const formatted = data.map(showData => {
+  const {
+    created_at,
+    updated_at,
+    ...rest
+  } = showData
+  return rest
+})
+console.log(`...saving data from ${formatted.length} shows`)
+const content = JSON.stringify(formatted, null, 2);
 
 fs.writeFileSync(filename, content + '\n');
 
