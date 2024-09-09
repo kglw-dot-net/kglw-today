@@ -47,13 +47,15 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   }, {})
 
   const concertsMapping = showsOnDay
-    .map(({node: {show_year, permalink, venuename, city, country}}) => {
+    .map(({node: {show_id, showorder, show_year, permalink, venuename, city, country}}) => {
       const notes = notesByYear[show_year]?.join("; ")
       return {
-        year: show_year,
-        className: 'concert',
+        key: `${show_year}-concert-${show_id}`,
+        year: Number(`${show_year}.${showorder}`),
         content: <>
-          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noopener">{show_year} {theDayShort} @ {venuename}, {city}, {country}</a>
+          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noopener">
+            {show_year} {theDayShort} @ {venuename}{showorder === 1 ? `, ${city}, ${country}` : ` [show ${showorder}]`}
+          </a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
         </>
     }})
@@ -61,8 +63,8 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     .map(({node: {year, name, type, note, url, ...rest}}) => {
       const entry = <><cite>{name}</cite>{type ? ` ${type}` : false}</>
       return {
-        year,
-        className: 'release',
+        key: `${year}-release-${type}-${name}`,
+        year: Number(year),
         content: <>
           {year} {theDayShort}:
           &nbsp;
@@ -75,8 +77,8 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     })
   const miscMapping = miscOnDay.map(({node: {year, what}}) => {
     return {
-      year,
-      className: 'misc',
+      key: `${year}-misc`, // TODO how to distinguish multiple on same day...
+      year: Number(year),
       content: <>
         {year} {theDayShort}:
         &nbsp;
@@ -93,9 +95,16 @@ export default function MonthDay({data, pageContext: {month, day}}) {
 
       <main>
         <h1>{theDayLong} <br/> in <br/> <a href="https://kglw.today" target="_blank" rel="noopener">King Gizzard <br/> History</a></h1>
-        {birthdaysOnDay.map(({node: {year, who}}) => <em className="layout-monthday--birthday">Happy Birthday to {who}!!</em>)}
+
+        {birthdaysOnDay.map(({node: {year, who}}) =>
+          <em key={`${year}-${who}`} className="layout-monthday--birthday">Happy Birthday to {who}!!</em>)}
+
         {entriesSorted.length
-          ? <ul>{entriesSorted.map(entry => <li key={`${entry.year}-${entry.className}`} className={`${entry.className} layout-monthday--entry`}>{entry.content}</li>)}</ul>
+          ? <ul>{entriesSorted.map(entry =>
+              <li key={entry.key} className={`${entry.className} layout-monthday--entry`}>
+                {entry.content}
+              </li>)}
+            </ul>
           : <p className="layout-monthday--empty">On {theDayShort}, the band rests.</p>
         }
       </main>
@@ -149,6 +158,8 @@ export const query = graphql`
     allShowsJson(filter: {show_day: {eq: $day}, show_month: {eq: $month}}) {
       edges {
         node {
+          show_id
+          showorder
           permalink
           tourname
           show_year
