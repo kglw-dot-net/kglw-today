@@ -37,6 +37,6 @@
   "devDependencies": {
     "cypress": "^13.14.2",
     "pretty-format": "^29.7.0",
-    "start-server-and-test": "^2.0.7"
+    "start-server-and-test": "^2.0.8"
   }
 }
