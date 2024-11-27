@@ -11,28 +11,12 @@
     "gatsby"
   ],
   "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
     "data:updateShows": "node updateShows.mjs",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
     "prestart": "npm run data:updateShows",
-    "start": "gatsby develop",
     "test:serve": "start-server-and-test http://localhost:8000 'npm run test -- --config baseUrl=http://localhost:8000'",
     "test": "cypress run"
   },
   "dependencies": {
-    "gatsby": "5.13.7",
-    "gatsby-plugin-react-svg": "3.3.0",
-    "gatsby-plugin-sass": "6.13.1",
-    "gatsby-plugin-sitemap": "6.13.1",
-    "gatsby-source-filesystem": "5.13.1",
-    "gatsby-transformer-json": "5.13.1",
-    "gatsby-transformer-remark": "6.13.1",
-    "markdown-it": "14.1.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "sass": "1.78.0"
   },
   "devDependencies": {
     "cypress": "^13.16.0",
