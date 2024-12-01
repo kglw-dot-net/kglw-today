@@ -16,6 +16,6 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           install-command: npm install # `npm ci` does not work for whatever reason...
-          start: npm run develop -- --port 3000 # this will JIT-compile content, which current saves time vs a full build/serve of the site, since our test suite covers only a small portion of the finished files
+          start: npm run dev -- --port 3000 # this will JIT-compile content, which current saves time vs a full build/serve of the site, since our test suite covers only a small portion of the finished files
           wait-on: 'http://localhost:3000' # quote the url to be safe against YML parsing surprises
           config: pageLoadTimeout=15000,baseUrl=http://localhost:3000
