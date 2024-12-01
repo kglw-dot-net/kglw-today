@@ -27,7 +27,8 @@
     "test": "npm run test:unit -- --run && npm run test:integration",
     "test:integration": "cypress run",
     "test:serve": "start-server-and-test http://localhost:8000 'npm run test:integration -- --config baseUrl=http://localhost:8000'",
-    "test:unit": "vitest"
+    "test:unit": "vitest --run",
+    "test:unit:watch": "vitest --watch"
   },
   "dependencies": {
     "@tailwindcss/container-queries": "^0.1.1",
