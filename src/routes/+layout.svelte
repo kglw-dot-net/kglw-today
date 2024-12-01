@@ -5,7 +5,7 @@
 </script>
 
 
-<main>
+<main class="flex flex-col flex-nowrap items-center px-1 pb-12">
   {@render children()}
 </main>
 
@@ -20,15 +20,20 @@
 </footer>
 
 <style lang="postcss">
+  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
   :global(html) {
     color: theme(colors.zinc.200);
     background-color: theme(colors.zinc.900);
+  }
+  :global(.font-silkscreen) {
+    font-family: Silkscreen;
   }
   :global(a) {
     color: yellowgreen;
   }
   :global(a:hover) {
-    text-shadow: 1px 2px 5px hsl(from yellow h s l / .6)
+    text-shadow: 1px 2px 5px hsl(from yellow h s l / .6);
   }
 
   footer img {

@@ -8,7 +8,7 @@
 
   function monthName(month:number) {
     const firstOfThaMonth = new Date(leapYear, month, 1) // yes this is a Bone Thugs reference
-    return dateToText(firstOfThaMonth, {month:'long'}).split(' ')[0]
+    return dateToText(firstOfThaMonth, {month:'long'}).split(' ', 1)[0]
   }
 </script>
 

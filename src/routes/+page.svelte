@@ -12,7 +12,7 @@
 
 <main class="flex flex-col flex-nowrap items-center p-1">
 
-  <h1 class="my-8 text-3xl text-blue-gothic" style="font-family:Silkscreen;">Today in King Gizzard History</h1>
+  <h1 class="my-8 text-3xl text-blue-gothic font-silkscreen">Today in King Gizzard History</h1>
 
   <noscript><strong>This site requires JavaScript.</strong></noscript>
 
@@ -26,5 +26,4 @@
 
 
 <style lang="postcss">
-  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 </style>
