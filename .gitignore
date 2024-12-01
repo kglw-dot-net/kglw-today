@@ -1,3 +1,26 @@
-node_modules/
-.cache/
-public
+node_modules
+
+# Output
+.cache
+.output
+.vercel
+/.svelte-kit
+/build
+/public/~partytown/
+/public/page-data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+*storybook.log
