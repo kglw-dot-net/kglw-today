@@ -19,7 +19,7 @@ export const Head = ({pageContext:{month,day}}) => {
 // Note: the month value represents Jan=1 Dec=12 to match the source data
 export default function MonthDay({data, pageContext: {month, day}}) {
   const {
-    allAlbumsJson: {edges: albumsOnDay},
+    allAlbumsJson: {edges: albumsOnDay}, // TODO use https://kglw.net/api/v2/albums.json instead
     allBirthdaysJson: {edges: birthdaysOnDay},
     allShowsJson: {edges: showsOnDay},
     allMiscJson: {edges: miscOnDay},
