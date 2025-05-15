@@ -42,7 +42,9 @@ Redirects to the appropriate concert URL on the KGLW.net site.
 
 ## Framework docs
 
-This site is set up using Gatsby:
+> *[Work is underway](https://github.com/kglw-dot-net/kglw-today/pull/156) to migrate to [Svelte](https://svelte.dev)!*
+
+This site is set up using [Gatsby](https://www.gatsbyjs.com):
 - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
