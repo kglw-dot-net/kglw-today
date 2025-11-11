@@ -3,7 +3,7 @@ import {graphql} from 'gatsby'
 import MarkdownIt from 'markdown-it'
 
 import Layout from '../components/layout';
-import {dateToText} from '../helpers';
+import {dateToText, stringToSHA} from '../helpers';
 
 import './month-day.scss'
 
@@ -65,11 +65,12 @@ export default function MonthDay({data, pageContext: {month, day}}) {
       return {
         key: `${year}-release-${type}-${name}`,
         year: Number(year),
+        className: 'release',
         content: <>
-          {year} {theDayShort}:
-          &nbsp;
+          {year} {theDayShort}:{' '}
+          <wbr/>
           {url
-            ? <a href={url} target="_blank" rel="noopener">{entry}</a>
+            ? <a href={url} target="_blank" rel="noreferrer">{entry}</a>
             : entry
           } released {note && <span className="layout-monthday--entry--note" title={note}>📝</span>}
         </>
@@ -77,11 +78,12 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     })
   const miscMapping = miscOnDay.map(({node: {year, what}}) => {
     return {
-      key: `${year}-misc`, // TODO how to distinguish multiple on same day...
+      key: `${year}-misc-${stringToSHA(what)}`,
       year: Number(year),
+      className: 'misc',
       content: <>
-        {year} {theDayShort}:
-        &nbsp;
+        {year} {theDayShort}:{' '}
+        <wbr/>
         <span dangerouslySetInnerHTML={{__html:md.renderInline(what)}} />
       </>
     }
@@ -94,14 +96,14 @@ export default function MonthDay({data, pageContext: {month, day}}) {
     <Layout className={`layout-monthday ${isSparseLayout ? 'layout-monthday-sparse' : ''}`}>
 
       <main>
-        <h1>{theDayLong} <br/> in <br/> <a href="https://kglw.today" target="_blank" rel="noopener">King Gizzard <br/> History</a></h1>
+        <h1>{theDayLong} <br/> in <br/> <a href="https://kglw.today" target="_blank" rel="noreferrer">King Gizzard <br/> History</a></h1>
 
         {birthdaysOnDay.map(({node: {year, who}}) =>
           <em key={`${year}-${who}`} className="layout-monthday--birthday">Happy Birthday to {who}!!</em>)}
 
         {entriesSorted.length
           ? <ul>{entriesSorted.map(entry =>
-              <li key={entry.key} className={`${entry.className} layout-monthday--entry`}>
+              <li key={entry.key} className={`${entry.className ?? ""} layout-monthday--entry`}>
                 {entry.content}
               </li>)}
             </ul>
