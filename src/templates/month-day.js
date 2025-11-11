@@ -53,7 +53,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         key: `${show_year}-concert-${show_id}`,
         year: Number(`${show_year}.${showorder}`),
         content: <>
-          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noopener">
+          <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noreferrer">
             {show_year} {theDayShort} @ {venuename}{showorder === 1 ? `, ${city}, ${country}` : ` [show ${showorder}]`}
           </a>
           {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
