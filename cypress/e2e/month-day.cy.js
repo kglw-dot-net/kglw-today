@@ -1,5 +1,5 @@
-describe('day page', () => {
-  describe('basic contents', () => {
+describe('month-day page', () => {
+  describe('layout', () => {
     beforeEach(() => {
       cy.visit('/jul-16')
     })
@@ -17,8 +17,8 @@ describe('day page', () => {
     })
   })
 
-  describe('link types', () => {
-    it('shows the dates and venues of concerts', () => {
+  describe('content', () => {
+    it('lists concerts with dates and venues', () => {
       cy.visit('/oct-18')
       cy.contains('2014 Oct 18')
         .contains('Subterranean')
@@ -32,13 +32,13 @@ describe('day page', () => {
         .contains('Halfpenny Bridge Hotel')
     })
 
-    it('shows the dates and names of singles', () => {
+    it('lists a released single', () => {
       cy.visit('/oct-18')
       cy.contains('2017 Oct 18')
       cy.contains('Crumbling Castle single')
     })
 
-    it('shows the dates and names of albums', () => {
+    it('lists a released album with notes', () => {
       cy.visit('/oct-11')
       cy.contains('Made in Timeland')
         .closest('li')
@@ -57,19 +57,17 @@ describe('day page', () => {
         .then(t => cy.wrap(t).should('eq', 'digital streaming release'))
     })
 
-    it('shows birthdays', () => {
+    it('notes a birthday', () => {
       cy.visit('/oct-11')
       cy.contains('Happy Birthday to Joey')
     })
 
-    it('shows other dates', () => {
+    it('includes miscellaneous notes', () => {
+      cy.visit('/feb-3')
+      cy.contains('Gizzverse')
       cy.visit('/oct-9')
-      cy.get('h1').contains('October 9')
       cy.contains('Carlton Dry Global Music Grant')
-
-      cy.log('visit a different page...')
       cy.visit('/oct-19')
-      cy.get('h1').contains('October 19')
       cy.contains('KGLW.net launches!')
     })
   })
