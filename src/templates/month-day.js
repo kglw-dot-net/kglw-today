@@ -47,12 +47,14 @@ export default function MonthDay({data, pageContext: {month, day}}) {
   }, {})
 
   const concertsMapping = showsOnDay
-    .map(({node: {show_id, showorder, show_year, permalink, venuename, city, country}}) => {
+    .map(({node: {show_id, artist, showorder, show_year, permalink, venuename, city, country}}) => {
       const notes = notesByYear[show_year]?.join("; ")
       return {
         key: `${show_year}-concert-${show_id}`,
         year: Number(`${show_year}.${showorder}`),
+        className: `layout--entry-concert layout--entry-concert-${artist.startsWith('King Gizzard') ? 'kglw' : 'other'}`,
         content: <>
+          <span className="layout--entry--artist">{artist}</span>
           <a href={`https://kglw.net/setlists/${permalink}?src=kglw.today&campaign=${month < 10 ? `0${month}` : month}-${day < 10 ? `0${day}` : day}`} target="_blank" rel="noreferrer">
             {show_year} {theDayShort} @ {venuename}{showorder === 1 ? `, ${city}, ${country}` : ` [show ${showorder}]`}
           </a>
@@ -60,7 +62,7 @@ export default function MonthDay({data, pageContext: {month, day}}) {
         </>
     }})
   const albumsMapping = albumsOnDay
-    .map(({node: {year, name, type, note, url, ...rest}}) => {
+    .map(({node: {year, name, type, note, url}}) => {
       const entry = <><cite>{name}</cite>{type ? ` ${type}` : false}</>
       return {
         key: `${year}-release-${type}-${name}`,
@@ -160,6 +162,7 @@ export const query = graphql`
     allShowsJson(filter: {show_day: {eq: $day}, show_month: {eq: $month}}) {
       edges {
         node {
+          artist
           show_id
           showorder
           permalink

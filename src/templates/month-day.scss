@@ -57,6 +57,16 @@
     text-align: center;
   }
 
+  .layout--entry-concert-kglw {
+    .layout--entry--artist { display: none }
+  }
+  .layout--entry-concert-other {
+    .layout--entry--artist {
+      &:after { content: " performed " }
+    }
+  }
+
+
   .layout-monthday--entry--note {
     margin: 0.5em;
     cursor: pointer;
