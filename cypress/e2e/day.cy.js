@@ -26,6 +26,10 @@ describe('day page', () => {
         .contains('La Riviera, Madrid')
       cy.contains('2022 Oct 18')
         .contains('History, Toronto')
+      cy.log('also shows related band performances')
+      cy.contains('Revolver & Sun').closest('li')
+        .contains('2008 Oct 18')
+        .contains('Halfpenny Bridge Hotel')
     })
 
     it('shows the dates and names of singles', () => {
