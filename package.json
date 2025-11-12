@@ -19,7 +19,9 @@
     "prestart": "npm run data:updateShows",
     "start": "gatsby develop",
     "test:serve": "start-server-and-test http://localhost:8000 'npm run test -- --config baseUrl=http://localhost:8000'",
-    "test": "cypress run"
+    "test": "npm run test:cli",
+    "test:gui": "CYPRESS_BASE_URL=http://localhost:8000 cypress open",
+    "test:cli": "cypress run"
   },
   "dependencies": {
     "gatsby": "5.15.0",
