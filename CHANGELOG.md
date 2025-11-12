@@ -14,8 +14,10 @@ and this project attempts to adhere to [Semantic Versioning](https://semver.org/
 
 ## [alpha] — untagged
 ### Changed
+* (copy) Month/Day page: added artist names for performances not by King Gizz; tweaked punctuation/spacing
+* (style) restored icons for releases (disc) and misc-notes (pin)
 * (ops) updated dependencies
-* (ops) tweaked test task names (now `test` is normal Cypress; `test:serve` will start server and then run Cypress) and changed the port for running on CI
+* (ops) tweaked test task names (now `test` is aliased to `test:cli` which runs all Cypress tests on the command-line; `test:serve` will start server and then run Cypress; `test:gui` opens the UI for Cypress) and changed the port for running on CI
 
 
 ## [1.1.1] — 2024-02-03
