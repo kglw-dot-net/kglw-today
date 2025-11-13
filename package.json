@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "cypress": "^13.16.0",
-    "pretty-format": "^29.7.0",
+    "pretty-format": "^30.2.0",
     "start-server-and-test": "^2.1.2"
   }
 }
