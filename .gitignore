@@ -1,5 +1,11 @@
+# npm detritus
 node_modules/
+
+# lint detritus
 .eslintcache
+
+# typescript detritus
+*.tsbuildinfo
 
 # Vite / vite-ssg build output
 dist/
