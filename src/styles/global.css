@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root {
+  --color-paleblue: #70969f;
+  --color-chartreuse: #8ac755;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  color: #ccd;
+  font-family: sans-serif;
+}
+
+a {
+  color: var(--color-chartreuse);
+}
+
+a:visited {
+  color: var(--color-paleblue);
+}
+
+h1 {
+  margin-top: 0;
+  padding: 0.5em;
+  color: var(--color-paleblue);
+  font: 2em Silkscreen, sans-serif;
+}

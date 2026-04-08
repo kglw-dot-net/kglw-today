@@ -1,3 +1,9 @@
 node_modules/
+
+# Vite / vite-ssg build output
+dist/
+.vite-ssg-temp/
+
+# Gatsby build output (kept for reference until gatsby branch is retired)
 .cache/
-public
+public/
