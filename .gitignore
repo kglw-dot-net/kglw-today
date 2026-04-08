@@ -1,4 +1,5 @@
 node_modules/
+.eslintcache
 
 # Vite / vite-ssg build output
 dist/
