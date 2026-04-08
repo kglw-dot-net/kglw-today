@@ -200,12 +200,7 @@ const sortedEntries = computed((): AnyEntry[] => {
     </nav>
 
     <main>
-      <h1>
-        {{ dayLabelLong }}<br />in<br />
-        <a href="https://kglw.today" target="_blank" rel="noreferrer">
-          King Gizzard<br />History
-        </a>
-      </h1>
+      <h1>{{ dayLabelLong }} <br />in <br /><a href="https://kglw.today" target="_blank" rel="noreferrer">King Gizzard <br />History</a></h1>
 
       <em
         v-for="birthday in dayBirthdays"
