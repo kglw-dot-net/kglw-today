@@ -1,20 +1,42 @@
-# https://docs.cypress.io/guides/continuous-integration/github-actions
-
 name: CI
 
 on: push
 
 jobs:
-
-  cypress:
-    runs-on: ubuntu-22.04
+  ci:
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Cypress run
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npm run type-check
+
+      - name: Unit tests
+        run: npm run test:unit
+
+      - name: Build SSG
+        run: npm run build:ssg
+
+      - name: E2E tests
         uses: cypress-io/github-action@v6
         with:
-          start: npm run dev -- --port 3000
-          wait-on: 'http://localhost:3000'
-          config: pageLoadTimeout=15000,baseUrl=http://localhost:3000
+          # Run against the built SSG output served by vite preview —
+          # this is the closest to what gets deployed, so it catches
+          # any build-time issues that the dev server wouldn't surface.
+          start: npm run preview
+          wait-on: 'http://localhost:4173'
+          config: pageLoadTimeout=15000,baseUrl=http://localhost:4173
+          install: false

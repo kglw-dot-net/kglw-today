@@ -8,7 +8,7 @@ describe('iframe', () => {
       .should('not.be.empty')
       .should('match', /\?ui=sparse$/)
     cy.log('heading shows month name and date')
-    let dateTrim
+    let dateTrim: string
     cy.getIframeBody('iframe')
       .find('h1')
       .contains(/^\w+ \d+\b/)
