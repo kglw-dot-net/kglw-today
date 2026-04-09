@@ -1,5 +1,7 @@
 # [KGLW.today] — brought to you by **[KGLW.net]**!
 
+This site uses VueJS to generate static pages which are hosted on GitHub Pages, and uses Cypress for integration testing.
+
 
 ## Routes
 
@@ -40,18 +42,7 @@ URL pattern: `/YYYY-MM-DD@#`
 Redirects to the appropriate concert URL on the KGLW.net site.
 
 
-## Framework docs
-
-> *[Work is underway](https://github.com/kglw-dot-net/kglw-today/pull/156) to migrate to [Svelte](https://svelte.dev)!*
-
-This site is set up using [Gatsby](https://www.gatsbyjs.com):
-- [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-- [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-- [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-- [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-- [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-- [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
+---
 
 [`/jan-7`]: https://kglw.today/jan-7?source=github&campagin=readme
 [`/now`]: https://kglw.today/now?source=github&campagin=readme
