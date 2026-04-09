@@ -1,0 +1,31 @@
+src/pages/MonthDayPage.vue
+  df075eef0f99548a 3,45
+src/pages/HomePage.vue
+  df075eef0f99548a 3,6
+src/pages/NowPage.vue
+  df075eef0f99548a 3,6
+src/pages/NotFoundPage.vue
+  df075eef0f99548a 1-2,4-5,7
+src/pages/ShowRedirectPage.vue
+  df075eef0f99548a 3,39-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.6",
+  "base_commit_sha": "0c00592dcb40423e43864afca175e9c92f26cbe4",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 29,
+      "total_deletions": 25,
+      "accepted_lines": 23,
+      "overriden_lines": 1
+    }
+  }
+}
