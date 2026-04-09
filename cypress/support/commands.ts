@@ -13,6 +13,7 @@ Cypress.Commands.add('getIframeBody', (iframeSelector: string) => {
 
 // Extend the Cypress Chainable interface so TypeScript knows about the custom command.
 declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace Cypress {
     interface Chainable {
       getIframeBody(iframeSelector: string): Chainable<JQuery<HTMLBodyElement>>

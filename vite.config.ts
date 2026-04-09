@@ -2,9 +2,9 @@ import { fileURLToPath, URL } from 'node:url'
 import { readFileSync } from 'node:fs'
 
 import { defineConfig } from 'vite'
-// Importing ViteSSGOptions activates vite-ssg's `declare module 'vite'` augmentation,
+// This empty type import activates vite-ssg's `declare module 'vite'` augmentation,
 // which adds `ssgOptions` to Vite's UserConfig type so defineConfig accepts it.
-import type { ViteSSGOptions } from 'vite-ssg'
+import type {} from 'vite-ssg'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'

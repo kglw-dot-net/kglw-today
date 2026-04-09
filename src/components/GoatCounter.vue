@@ -29,6 +29,7 @@ onMounted(() => {
 })
 </script>
 
+<!-- eslint-disable vue/valid-template-root -->
 <template>
   <!-- GoatCounter injects its scripts into <head> on mount; no DOM output here -->
 </template>

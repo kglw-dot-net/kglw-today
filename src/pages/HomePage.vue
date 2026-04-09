@@ -19,7 +19,9 @@ interface CalendarMonth {
 function buildCalendar(): CalendarMonth[] {
   return Array.from({ length: 12 }, (_, monthIndex) => {
     const firstOfMonth = new Date(2000, monthIndex, 1)
-    const monthName = dateToText(firstOfMonth, { month: 'long' }).split(' ')[0]
+    // split(' ')[0] is always defined for a non-empty string, but noUncheckedIndexedAccess
+    // requires the explicit assertion. https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
+    const monthName = dateToText(firstOfMonth, { month: 'long' }).split(' ')[0]!
     const daysInMonth = new Date(2000, monthIndex + 1, 0).getDate()
 
     const days = Array.from({ length: daysInMonth }, (__, dayIndex) => {

@@ -93,7 +93,9 @@ const showNotesByYear = computed(() => {
   const map: Record<number, string[]> = {}
   for (const noteEntry of dayShowNotes.value) {
     if (!map[noteEntry.year]) map[noteEntry.year] = []
-    map[noteEntry.year].push(noteEntry.note)
+    // Non-null assertion safe: we just guaranteed the array exists above.
+    // https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
+    map[noteEntry.year]!.push(noteEntry.note)
   }
   return map
 })

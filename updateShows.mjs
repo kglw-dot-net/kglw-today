@@ -9,11 +9,8 @@ const filename = './src/data/shows.json';
 const fetchCall = await fetch('https://kglw.net/api/v2/shows.json');
 const {data} = await fetchCall.json();
 const formatted = data.map(showData => {
-  const {
-    created_at,
-    updated_at,
-    ...rest
-  } = showData
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { created_at, updated_at, ...rest } = showData
   return rest
 })
 console.log(`...saving data from ${formatted.length} shows`)
