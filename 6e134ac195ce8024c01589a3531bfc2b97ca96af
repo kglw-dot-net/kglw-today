@@ -1,0 +1,33 @@
+cypress/support/commands.ts
+  df075eef0f99548a 16
+src/components/GoatCounter.vue
+  df075eef0f99548a 32
+.oxlintrc.json
+  df075eef0f99548a 3,7-9,12
+updateShows.mjs
+  df075eef0f99548a 12-13
+eslint.config.ts
+  df075eef0f99548a 19
+vite.config.ts
+  df075eef0f99548a 5,7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.6",
+  "base_commit_sha": "6e134ac195ce8024c01589a3531bfc2b97ca96af",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 12,
+      "overriden_lines": 0
+    }
+  }
+}
