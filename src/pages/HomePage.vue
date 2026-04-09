@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
+import { useHead } from '@unhead/vue'
 import { dateToSlug, dateToText } from '@/utils/date'
+
+useHead({ title: 'Today in King Gizzard History' })
 
 // Today's date is determined client-side on mount so every visitor sees their
 // actual current day regardless of when the static build was run.
@@ -46,10 +49,6 @@ function isToday(slug: string): boolean {
 </script>
 
 <template>
-  <head>
-    <title>Today in King Gizzard History</title>
-  </head>
-
   <article class="layout-index">
     <h1>Today in King Gizzard History</h1>
 

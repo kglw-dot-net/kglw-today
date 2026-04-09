@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue'
+import { useHead } from '@unhead/vue'
 import { useRoute } from 'vue-router'
 import { showsByDate } from '@/utils/data'
 
@@ -35,6 +36,14 @@ const redirectUrl = computed(() => {
   return `https://kglw.net/setlists/${show.permalink}?src=kglw.today&campaign=${campaign}`
 })
 
+useHead(computed(() => ({
+  title: 'Redirecting…',
+  // Meta-refresh as a no-JS fallback; only injected when a valid redirect URL is known
+  meta: redirectUrl.value
+    ? [{ httpEquiv: 'refresh', content: `0; URL=${redirectUrl.value}` }]
+    : [],
+})))
+
 // Redirect on mount (client-side only — the prerendered HTML still shows a
 // fallback link in case JavaScript is disabled or the redirect is slow).
 onMounted(() => {
@@ -45,12 +54,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <head>
-    <title>Redirecting…</title>
-    <!-- Meta-refresh as a no-JS fallback -->
-    <meta v-if="redirectUrl" http-equiv="refresh" :content="`0; URL=${redirectUrl}`" />
-  </head>
-
   <main>
     <p v-if="redirectUrl">
       Redirecting to <a :href="redirectUrl">{{ redirectUrl }}</a>

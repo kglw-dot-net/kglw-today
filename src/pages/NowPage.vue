@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { useHead } from '@unhead/vue'
 import { dateToSlug } from '@/utils/date'
+
+useHead({ title: 'Right Now in King Gizzard History' })
 
 const todayDate = ref<Date | null>(null)
 onMounted(() => {
@@ -16,10 +19,6 @@ const iframeSrc = computed(() => {
 </script>
 
 <template>
-  <head>
-    <title>Right Now in King Gizzard History</title>
-  </head>
-
   <noscript>This requires JavaScript to determine what day it is for you.</noscript>
 
   <iframe

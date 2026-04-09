@@ -22,6 +22,7 @@
     "type-check": "vue-tsc --build && tsc --noEmit -p cypress/tsconfig.json"
   },
   "dependencies": {
+    "@unhead/vue": "^2.1.13",
     "markdown-it": "^14.1.1",
     "vite-ssg": "^28.3.0",
     "vue": "^3.5.31",

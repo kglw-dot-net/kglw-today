@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { useHead } from '@unhead/vue'
 import { useRoute } from 'vue-router'
 import MarkdownIt from 'markdown-it'
 import { dateToText, slugToMonthDay, adjacentSlugs } from '@/utils/date'
@@ -41,6 +42,7 @@ const dayLabelLong = computed(() =>
 
 // Page <title>
 const pageTitle = computed(() => `${dayLabelLong.value} in King Gizzard History`)
+useHead({ title: pageTitle })
 
 const prevSlug = computed(() => adjacentSlugs(route.params.monthday as string).prev)
 const nextSlug = computed(() => adjacentSlugs(route.params.monthday as string).next)
@@ -191,10 +193,6 @@ const sortedEntries = computed((): AnyEntry[] => {
 </script>
 
 <template>
-  <head>
-    <title>{{ pageTitle }}</title>
-  </head>
-
   <article :class="['layout-monthday', { 'layout-monthday-sparse': isSparseLayout }]">
     <nav>
       <RouterLink :to="`/${prevSlug}`" class="nav-prev">{{ prevLabel }}</RouterLink>
