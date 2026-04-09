@@ -20,16 +20,21 @@ import {
 
 const route = useRoute()
 
+// Optional prop: when rendered directly (e.g. from HomePage), the caller
+// supplies the slug so the route param isn't needed.
+const props = defineProps<{ monthday?: string }>()
+
 // Detect ?ui=sparse after mount (client-side only — not available during SSR)
 const isSparseLayout = ref(false)
 onMounted(() => {
   isSparseLayout.value = window.location.search === '?ui=sparse'
 })
 
-const monthDay = computed(() => {
-  const slug = route.params.monthday as string
-  return slugToMonthDay(slug)
-})
+const activeSlug = computed(() =>
+  props.monthday ?? (route.params.monthday as string),
+)
+
+const monthDay = computed(() => slugToMonthDay(activeSlug.value))
 
 // Year-2000 Date object representing this calendar day (leap year so Feb 29 exists)
 const dateObject = computed(() => {
@@ -49,8 +54,8 @@ const dayLabelLong = computed(() =>
 const pageTitle = computed(() => `${dayLabelLong.value} in King Gizzard History`)
 useHead({ title: pageTitle })
 
-const prevSlug = computed(() => adjacentSlugs(route.params.monthday as string).prev)
-const nextSlug = computed(() => adjacentSlugs(route.params.monthday as string).next)
+const prevSlug = computed(() => adjacentSlugs(activeSlug.value).prev)
+const nextSlug = computed(() => adjacentSlugs(activeSlug.value).next)
 
 // Human-readable labels for the nav arrows
 const prevLabel = computed(() => {
