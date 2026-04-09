@@ -1,154 +1,47 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
-import { dateToSlug, dateToText } from '@/utils/date'
+import { dateToSlug } from '@/utils/date'
+import FooterBar from '@/components/FooterBar.vue'
 
 useHead({ title: 'Today in King Gizzard History' })
 
-// Today's date is determined client-side on mount so every visitor sees their
-// actual current day regardless of when the static build was run.
 const todayDate = ref<Date | null>(null)
 onMounted(() => {
   todayDate.value = new Date()
 })
 
-// Build the full calendar: 12 months × days-in-that-month (using year 2000
-// as the reference so Feb 29 appears for leap year completeness).
-interface CalendarMonth {
-  name: string
-  days: Array<{ slug: string; label: string }>
-}
-
-function buildCalendar(): CalendarMonth[] {
-  return Array.from({ length: 12 }, (_, monthIndex) => {
-    const firstOfMonth = new Date(2000, monthIndex, 1)
-    // split(' ')[0] is always defined for a non-empty string, but noUncheckedIndexedAccess
-    // requires the explicit assertion. https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
-    const monthName = dateToText(firstOfMonth, { month: 'long' }).split(' ')[0]!
-    const daysInMonth = new Date(2000, monthIndex + 1, 0).getDate()
-
-    const days = Array.from({ length: daysInMonth }, (__, dayIndex) => {
-      const dayDate = new Date(2000, monthIndex, dayIndex + 1)
-      return {
-        slug: dateToSlug(dayDate),
-        label: dateToText(dayDate),
-      }
-    })
-
-    return { name: monthName, days }
-  })
-}
-
-const calendar = buildCalendar()
-
-function isToday(slug: string): boolean {
-  if (!todayDate.value) return false
-  const todaySlug = dateToSlug(todayDate.value)
-  return slug === todaySlug
-}
+// The iframe points to today's month-day page with sparse UI mode enabled.
+// This is computed client-side so it always reflects the visitor's current day.
+const iframeSrc = computed(() => {
+  if (!todayDate.value) return undefined
+  return `/${dateToSlug(todayDate.value)}?ui=sparse`
+})
 </script>
 
 <template>
-  <article class="layout-index">
-    <h1>Today in King Gizzard History</h1>
+  <noscript>This requires JavaScript to determine what day it is for you.</noscript>
 
-    <p v-if="todayDate">
-      Today is
-      <RouterLink :to="`/${dateToSlug(todayDate)}`">{{ dateToText(todayDate) }}</RouterLink>
-    </p>
-    <p v-else>
-      Loading…
-      <noscript><strong>This site requires JavaScript.</strong></noscript>
-    </p>
-
-    <div class="calendar">
-      <h2>Calendar</h2>
-      <p>Pick a different day?</p>
-      <ul>
-        <li v-for="month in calendar" :key="month.name">
-          <h3>{{ month.name }}</h3>
-          <ul>
-            <li v-for="day in month.days" :key="day.slug">
-              <RouterLink :to="`/${day.slug}`" :class="{ today: isToday(day.slug) }">
-                {{ day.label }}
-              </RouterLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </article>
+  <iframe
+    v-if="iframeSrc"
+    :src="iframeSrc"
+    title="Today in King Gizzard History"
+    class="home-iframe"
+  />
+  <FooterBar />
 </template>
 
-<style scoped>
-.layout-index {
-  width: 100%;
-  text-align: center;
-
-  > p {
-    font-size: 1.5em;
-  }
+<style>
+/* Remove body margin so the iframe fills the full viewport */
+body {
+  margin: 0 !important;
 }
+</style>
 
-.calendar {
-  h2 {
-    display: none;
-  }
-
-  a {
-    padding: 5px;
-  }
-
-  > ul {
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    list-style: none;
-
-    > li {
-      flex-basis: 3em;
-      flex-grow: 1;
-      border: 0.3px solid var(--color-paleblue);
-      padding: 0;
-    }
-  }
-
-  h3 {
-    margin: 0;
-    padding: 0.2em 0.5em;
-    background: var(--color-paleblue);
-    color: black;
-    font-size: 0.7em;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  li > ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-
-    li a {
-      display: inline-block;
-      height: 2em;
-      margin: 0 0.1em;
-      padding: 0 0.1em;
-      line-height: 2em;
-      white-space: nowrap;
-
-      &:hover:not(.today) {
-        text-shadow: #70969f66 1px 2px 5px;
-      }
-
-      &.today {
-        box-shadow: #70969fdd 1px 1px 7px 3px;
-        border-radius: 0.9em;
-      }
-    }
-  }
+<style scoped>
+.home-iframe {
+  width: 100vw;
+  height: 100vh;
+  border: 0;
 }
 </style>

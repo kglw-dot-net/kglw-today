@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useHead } from '@unhead/vue'
 import { useRoute } from 'vue-router'
 import MarkdownIt from 'markdown-it'
+import FooterBar from '@/components/FooterBar.vue'
 import { dateToText, slugToMonthDay, adjacentSlugs } from '@/utils/date'
 import {
   showsForDay,
@@ -278,6 +279,7 @@ const sortedEntries = computed((): AnyEntry[] => {
       <p v-else class="layout-monthday--empty">On {{ dayLabelShort }}, the band rests.</p>
     </main>
   </article>
+  <FooterBar />
 </template>
 
 <style scoped>
