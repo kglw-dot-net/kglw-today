@@ -12,7 +12,7 @@ import codeIconSvg from '@/assets/icon-source-code.svg?raw'
 
     <p>
       Brought to you by
-      <a href="http://kglw.net/?src=kglw.today&campaign=credits" target="_blank" rel="noreferrer">KGLW.net </a>!
+      <a href="http://kglw.net/?src=kglw.today&campaign=credits" target="_blank" rel="noreferrer">KGLW.net</a>!
     </p>
 
     <p>
