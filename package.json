@@ -3,6 +3,13 @@
   "version": "2.0.0-alpha",
   "private": true,
   "type": "module",
+  "license": "JRL",
+  "description": "Today in King Gizzard History",
+  "author": "Axe <alxndr+git-kglw-today@gmail.com; Claude Code",
+  "keywords": [
+    "music",
+    "kglw"
+  ],
   "scripts": {
     "build": "astro build",
     "data:updateShows": "node updateShows.mjs",
