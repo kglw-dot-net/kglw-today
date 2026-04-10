@@ -209,6 +209,13 @@ const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : 
       </main>
     </article>
     <FooterBar />
+    <script is:inline>
+      // is:inline keeps this script inline (not hoisted); must be inside a layout component
+      // Apply sparse layout when ?ui=sparse is present (used by the /now iframe)
+      if (window.location.search === '?ui=sparse') {
+        document.querySelector('.layout-monthday')?.classList.add('layout-monthday-sparse')
+      }
+    </script>
   </BaseLayout>
 )}
 
@@ -296,36 +303,33 @@ const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : 
     }
   }
 
-  :global(.layout-monthday-sparse) {
-    > main {
-      margin: 0;
-      box-shadow: none;
-      background: transparent;
+  /* Flat :global() selectors so Vite doesn't leave relative combinators as nested CSS,
+     which can be misinterpreted by some CSS processors.
+     !important is required because Astro's scoped styles add [data-astro-cid-xxx] attribute
+     selectors which raise specificity above these :global() rules. */
+  :global(.layout-monthday-sparse > main) {
+    margin: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
 
-      > h1 {
-        margin-top: 0;
-        font-size: 1.75em;
-      }
+  :global(.layout-monthday-sparse > main > h1) {
+    margin-top: 0 !important;
+    font-size: 1.75em !important;
+  }
 
-      ul {
-        margin-bottom: 0;
-      }
+  :global(.layout-monthday-sparse > main ul) {
+    margin-bottom: 0 !important;
+  }
 
-      .layout-monthday--empty {
-        margin-top: 1em;
-      }
-    }
+  :global(.layout-monthday-sparse > main .layout-monthday--empty) {
+    margin-top: 1em !important;
+  }
 
-    & + footer,
-    > nav {
-      display: none;
-    }
+  /* Hide nav and footer in sparse mode (used when embedded in the /now iframe) */
+  :global(.layout-monthday-sparse > nav),
+  :global(.layout-monthday-sparse + footer) {
+    display: none !important;
   }
 </style>
 
-<script>
-  // Apply sparse layout when ?ui=sparse is present (used by the /now iframe)
-  if (window.location.search === '?ui=sparse') {
-    document.querySelector('.layout-monthday')?.classList.add('layout-monthday-sparse')
-  }
-</script>

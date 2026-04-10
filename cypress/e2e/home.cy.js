@@ -1,10 +1,10 @@
-describe('homepage', () => {
+describe('calendar page', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visit('/calendar')
   })
 
   it('headline', () => {
-    cy.get('h1').contains('Today in King Gizzard History')
+    cy.get('h1').contains('King Gizzard History')
   })
 
   it('content links to a date', () => {
@@ -18,7 +18,7 @@ describe('homepage', () => {
       cy.get('.calendar')
         .find('a')
         .its('length')
-        .should('eq', 366);
+        .should('eq', 366)
     })
     it('should link to date page proper URL', () => {
       cy.get('.calendar')
