@@ -4,14 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
     "data:updateShows": "node updateShows.mjs",
+    "dev": "astro dev",
+    "lint": "eslint .",
+    "preview": "astro preview",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test preview http://localhost:4173 test:e2e",
-    "lint": "eslint .",
     "pretype-check": "echo '\\nchecking types...'",
     "type-check": "tsc --noEmit"
   },
