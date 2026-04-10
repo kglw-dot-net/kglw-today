@@ -6,19 +6,6 @@ export function dateToSlug(date: Date): string {
   return dateToText(date).toLowerCase().replace(' ', '-')
 }
 
-export async function stringToSHA(message: string): Promise<string> {
-  const msgUint8 = new TextEncoder().encode(message)
-  const hashBuffer = await crypto?.subtle?.digest?.('SHA-256', msgUint8)
-  // toHex() was added to Uint8Array in newer runtimes; cast to make it optional so
-  // TypeScript doesn't reject the call while still allowing the fast path at runtime.
-  const typedArray = new Uint8Array(hashBuffer) as Uint8Array & { toHex?: () => string }
-  if (typedArray.toHex) {
-    return typedArray.toHex()
-  }
-  const hashArray = Array.from(new Uint8Array(hashBuffer))
-  return hashArray.map((b) => b.toString(16).padStart(2, '0')).join('')
-}
-
 /** Parse a slug like "jan-1" into { month: 1, day: 1 } (1-indexed) */
 export function slugToMonthDay(slug: string): { month: number; day: number } | null {
   const monthNames: Record<string, number> = {
