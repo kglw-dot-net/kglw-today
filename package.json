@@ -7,12 +7,14 @@
     "build": "astro build",
     "data:updateShows": "node updateShows.mjs",
     "dev": "astro dev",
+    "prelint": "echo '\\nLinting...'",
     "lint": "eslint .",
     "preview": "astro preview",
+    "test": "npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test preview http://localhost:4173 test:e2e",
-    "pretype-check": "echo '\\nchecking types...'",
+    "pretype-check": "echo '\\nType-checking...'",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
