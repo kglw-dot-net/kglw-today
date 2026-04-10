@@ -1,0 +1,61 @@
+src/components/FooterBar.tsx
+  df075eef0f99548a 1-2,4-9,11-16,18-30,32
+src/components/GoatCounter.tsx
+  df075eef0f99548a 1-4,6,8-27
+src/components/ConcertEntry.tsx
+  df075eef0f99548a 1-14,16-21,23-27,29-57
+src/pages/calendar.astro
+  df075eef0f99548a 1-5,7-12,14-18,20-26,28-30,32-37,39-41,43-67,70-71,75-76,78,80-85,87-92,94-104,106-129,132-150,153-157
+package.json
+  df075eef0f99548a 2,5,7-9,12,15-19,22-28
+tsconfig.json
+  df075eef0f99548a 1-9
+src/pages/now.astro
+  df075eef0f99548a 1-18,20-25
+.gitignore
+  df075eef0f99548a 2-16
+astro.config.ts
+  df075eef0f99548a 1-8
+src/components/NowIframe.tsx
+  df075eef0f99548a 1,3-4,6-9,12-13,15-29
+src/components/MiscEntry.tsx
+  df075eef0f99548a 1-27
+src/utils/date.ts
+  df075eef0f99548a 1-2,5,9-16,18-19,22-49
+.github/workflows/deploy.yml
+  df075eef0f99548a 1,21-22,25-28,30,33-34,39
+src/pages/index.astro
+  df075eef0f99548a 1-6
+src/pages/[...slug].astro
+  df075eef0f99548a 1-21,23-25,27-28,30-33,35-40,42-48,51-60,62-63,65-67,69-163,165-166,169-175,177-224,226-241,244-262,265-294,297-315,318-329,331
+src/layouts/BaseLayout.astro
+  df075eef0f99548a 1-2,4-5,7-21
+src/styles/global.css
+  df075eef0f99548a 1,3-6,16,19-20,26-27
+src/utils/data.ts
+  df075eef0f99548a 1-6,8-29,31-38,41-46,48-53,55-102,105,107-109
+src/components/AlbumEntry.tsx
+  df075eef0f99548a 1-44
+src/pages/404.astro
+  df075eef0f99548a 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "1ea89c342ce59617aa569c1d8b0e4623004b1fd1",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 11490,
+      "total_deletions": 53,
+      "accepted_lines": 11475,
+      "overriden_lines": 1
+    }
+  }
+}
