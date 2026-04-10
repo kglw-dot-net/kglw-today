@@ -1,0 +1,29 @@
+src/__tests__/App.spec.ts
+  df075eef0f99548a 6,11,15
+src/__tests__/ConcertEntry.spec.ts
+  df075eef0f99548a 1-107
+src/__tests__/MiscEntry.spec.ts
+  df075eef0f99548a 1-53
+src/__tests__/FooterBar.spec.ts
+  df075eef0f99548a 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.6",
+  "base_commit_sha": "21e46651db6f0526808c5423f5ce786537610e59",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 260,
+      "total_deletions": 47,
+      "accepted_lines": 227,
+      "overriden_lines": 0
+    }
+  }
+}
