@@ -1,0 +1,31 @@
+package.json
+  df075eef0f99548a 11-13,28-29
+cypress/e2e/iframe.cy.js
+  df075eef0f99548a 27,29-30
+cypress/e2e/home.cy.js
+  df075eef0f99548a 3,7,21
+src/pages/[...slug].astro
+  df075eef0f99548a 212-218,306-314,316-319,321-323,325-327,329-332
+cypress.config.js
+  df075eef0f99548a 1,3,5-6,8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "9d177c86499678aefc065208f1f6eb07909a9f51",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 5012,
+      "total_deletions": 2820,
+      "accepted_lines": 12662,
+      "overriden_lines": 1
+    }
+  }
+}
