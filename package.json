@@ -1,44 +1,30 @@
 {
-  "name": "kglw.today",
-  "version": "1.1.1",
+  "name": "kglw-today",
+  "version": "2.0.0-alpha",
   "private": true,
-  "license": "JRL",
-  "description": "Today in King Gizzard History",
-  "author": "Axe <alxndr+git-kglw-today@gmail.com",
-  "keywords": [
-    "music",
-    "kglw",
-    "gatsby"
-  ],
+  "type": "module",
   "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
     "data:updateShows": "node updateShows.mjs",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "prestart": "npm run data:updateShows",
-    "start": "gatsby develop",
-    "test:serve": "start-server-and-test http://localhost:8000 'npm run test -- --config baseUrl=http://localhost:8000'",
-    "test": "npm run test:cli",
-    "test:gui": "CYPRESS_BASE_URL=http://localhost:8000 cypress open",
-    "test:cli": "cypress run"
+    "pretype-check": "echo '\\nchecking types...'",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "5.15.0",
-    "gatsby-plugin-react-svg": "^3.3",
-    "gatsby-plugin-sass": "^6.15",
-    "gatsby-plugin-sitemap": "^6.15",
-    "gatsby-source-filesystem": "^5.15",
-    "gatsby-transformer-json": "^5.15",
-    "gatsby-transformer-remark": "^6.15",
-    "markdown-it": "14.1.0",
-    "react": "18.3.1",
-    "react-dom": "^18.3",
-    "sass": "1.94.0"
+    "@astrojs/react": "5.0.3",
+    "astro": "6.1.4",
+    "markdown-it": "^14.1.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "cypress": "^13.16.0",
-    "pretty-format": "^29.7.0",
-    "start-server-and-test": "^2.1.2"
+    "@types/markdown-it": "^14.1.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "~6.0.0"
+  },
+  "engines": {
+    "node": "^20.17.0 || >=22.0.0"
   }
 }

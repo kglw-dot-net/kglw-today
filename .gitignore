@@ -1,3 +1,16 @@
 node_modules/
-.cache/
-public
+
+# Astro build output
+dist/
+
+# Astro generated types
+.astro/
+
+# TypeScript incremental build artifacts
+*.tsbuildinfo
+
+# Editor/tool caches
+.eslintcache
+
+# npm logs
+npm-debug.log*

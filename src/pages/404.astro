@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import FooterBar from '../components/FooterBar'
+import GoatCounter from '../components/GoatCounter'
+---
+<BaseLayout title="Page Not Found — King Gizzard History">
+  <GoatCounter slot="head" />
+  <main class="not-found">
+    <h1>Page not found</h1>
+    <p><a href="/calendar">Back to Calendar</a></p>
+  </main>
+  <FooterBar />
+</BaseLayout>
+
+<style>
+  .not-found {
+    max-width: 33em;
+    margin: 4em auto;
+    text-align: center;
+  }
+</style>

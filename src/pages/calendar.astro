@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import FooterBar from '../components/FooterBar'
+import GoatCounter from '../components/GoatCounter'
+import { dateToSlug, dateToText } from '../utils/date'
+
+// Build the full 366-day calendar grid at build time using year 2000 (leap year)
+// so Feb 29 is included.
+interface CalendarMonth {
+  name: string
+  days: Array<{ slug: string; label: string }>
+}
+
+function buildCalendar(): CalendarMonth[] {
+  return Array.from({ length: 12 }, (_, monthIndex) => {
+    const firstOfMonth = new Date(2000, monthIndex, 1)
+    const monthName = dateToText(firstOfMonth, { month: 'long' }).split(' ')[0]!
+    const daysInMonth = new Date(2000, monthIndex + 1, 0).getDate()
+
+    const days = Array.from({ length: daysInMonth }, (__, dayIndex) => {
+      const dayDate = new Date(2000, monthIndex, dayIndex + 1)
+      return {
+        slug: dateToSlug(dayDate),
+        label: dateToText(dayDate),
+      }
+    })
+
+    return { name: monthName, days }
+  })
+}
+
+const calendar = buildCalendar()
+---
+<BaseLayout title="Calendar — King Gizzard History">
+  <GoatCounter slot="head" />
+  <article class="layout-calendar">
+    <h1>King Gizzard History</h1>
+
+    <p id="today-line">
+      <noscript><strong>JavaScript is required for the today highlight.</strong></noscript>
+    </p>
+
+    <div class="calendar">
+      <h2>Calendar</h2>
+      <p>Pick a different day?</p>
+      <ul>
+        {calendar.map((month) => (
+          <li>
+            <h3>{month.name}</h3>
+            <ul>
+              {month.days.map((day) => (
+                <li>
+                  <a href={`/${day.slug}`} data-slug={day.slug}>{day.label}</a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </article>
+  <FooterBar />
+</BaseLayout>
+
+<style>
+  .layout-calendar {
+    width: 100%;
+    text-align: center;
+
+    > p {
+      font-size: 1.5em;
+    }
+  }
+
+  .calendar {
+    h2 { display: none; }
+
+    a { padding: 5px; }
+
+    > ul {
+      padding: 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      list-style: none;
+
+      > li {
+        flex-basis: 3em;
+        flex-grow: 1;
+        border: 0.3px solid var(--color-paleblue);
+        padding: 0;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0.2em 0.5em;
+      background: var(--color-paleblue);
+      color: black;
+      font-size: 0.7em;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    li > ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+
+      li a {
+        display: inline-block;
+        height: 2em;
+        margin: 0 0.1em;
+        padding: 0 0.1em;
+        line-height: 2em;
+        white-space: nowrap;
+
+        &:hover:not(.today) {
+          text-shadow: #70969f66 1px 2px 5px;
+        }
+
+        &.today {
+          box-shadow: #70969fdd 1px 1px 7px 3px;
+          border-radius: 0.9em;
+        }
+      }
+    }
+  }
+</style>
+
+<script>
+  // Determine today's slug client-side (timezone-aware) and highlight it in the grid.
+  const today = new Date()
+  const todaySlug = today
+    .toLocaleString('en', { numberingSystem: 'latn', month: 'short', day: 'numeric' })
+    .toLowerCase()
+    .replace(' ', '-')
+  const todayLabel = today.toLocaleString('en', {
+    numberingSystem: 'latn',
+    month: 'short',
+    day: 'numeric',
+  })
+
+  // Show "Today is [date]" with a link to the day's page
+  const todayLine = document.getElementById('today-line')
+  if (todayLine) {
+    todayLine.innerHTML = `Today is <a href="/${todaySlug}">${todayLabel}</a>`
+  }
+
+  // Add .today class to the matching calendar link
+  document.querySelectorAll<HTMLAnchorElement>(`[data-slug="${todaySlug}"]`).forEach((el) => {
+    el.classList.add('today')
+  })
+</script>

@@ -1,0 +1,331 @@
+---
+import type { GetStaticPaths } from 'astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import FooterBar from '../components/FooterBar'
+import GoatCounter from '../components/GoatCounter'
+import ConcertEntry from '../components/ConcertEntry'
+import type { ConcertEntry as ConcertEntryType } from '../components/ConcertEntry'
+import AlbumEntry from '../components/AlbumEntry'
+import type { AlbumEntry as AlbumEntryType } from '../components/AlbumEntry'
+import MiscEntry from '../components/MiscEntry'
+import type { MiscEntry as MiscEntryType } from '../components/MiscEntry'
+import {
+  shows,
+  showsForDay,
+  albumsForDay,
+  birthdaysForDay,
+  miscForDay,
+  showNotesForDay,
+  allCalendarSlugs,
+} from '../utils/data'
+import { slugToMonthDay, dateToText, adjacentSlugs } from '../utils/date'
+
+// ---------------------------------------------------------------------------
+// Static path generation
+// ---------------------------------------------------------------------------
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const paths: Array<{ params: { slug: string }; props: Record<string, unknown> }> = []
+
+  // 366 month-day pages (jan-1 … dec-31, including feb-29)
+  for (const slug of allCalendarSlugs()) {
+    paths.push({ params: { slug }, props: { pageType: 'monthday' } })
+  }
+
+  // Show redirect pages: one per YYYY-MM-DD (first show of day) and one per YYYY-MM-DD@N.
+  // Deduplicate both forms — the source data can have multiple rows per date/order.
+  const seenSlugs = new Set<string>()
+  for (const show of shows) {
+    const dateSlug = show.showdate // YYYY-MM-DD
+    const redirectBase = `https://kglw.net/setlists/${show.permalink}?src=kglw.today&campaign=`
+
+    // /YYYY-MM-DD — only the first show encountered for this date
+    if (!seenSlugs.has(dateSlug)) {
+      seenSlugs.add(dateSlug)
+      paths.push({
+        params: { slug: dateSlug },
+        props: { pageType: 'redirect', redirectTo: `${redirectBase}${dateSlug}` },
+      })
+    }
+
+    // /YYYY-MM-DD@N — one per unique date+order combination
+    const slugWithOrder = `${dateSlug}@${show.showorder}`
+    if (!seenSlugs.has(slugWithOrder)) {
+      seenSlugs.add(slugWithOrder)
+      paths.push({
+        params: { slug: slugWithOrder },
+        props: { pageType: 'redirect', redirectTo: `${redirectBase}${slugWithOrder}` },
+      })
+    }
+  }
+
+  return paths
+}
+
+// ---------------------------------------------------------------------------
+// Per-page data
+// ---------------------------------------------------------------------------
+
+const { slug } = Astro.params
+const { pageType, redirectTo } = Astro.props as {
+  pageType: 'monthday' | 'redirect'
+  redirectTo?: string
+}
+
+// --- Month-day page data (only computed when needed) ---
+
+const monthDay = pageType === 'monthday' ? slugToMonthDay(slug) : null
+
+const dateObject = monthDay ? new Date(2000, monthDay.month - 1, monthDay.day) : null
+
+const dayLabelShort = dateObject ? dateToText(dateObject) : ''
+const dayLabelLong = dateObject ? dateToText(dateObject, { month: 'long' }) : ''
+
+const pageTitle =
+  pageType === 'monthday'
+    ? `${dayLabelLong} in King Gizzard History`
+    : 'Redirecting…'
+
+const { prev: prevSlug, next: nextSlug } = adjacentSlugs(slug)
+
+function slugToLabel(s: string): string {
+  const parsed = slugToMonthDay(s)
+  if (!parsed) return s
+  return dateToText(new Date(2000, parsed.month - 1, parsed.day))
+}
+
+// Build sorted entries for the month-day page
+type AnyEntry = ConcertEntryType | AlbumEntryType | MiscEntryType
+
+const sortedEntries: AnyEntry[] = (() => {
+  if (!monthDay) return []
+
+  const { month, day } = monthDay
+
+  const showNotesByYear = showNotesForDay(month, day).reduce<Record<number, string[]>>(
+    (acc, noteEntry) => {
+      if (!acc[noteEntry.year]) acc[noteEntry.year] = []
+      acc[noteEntry.year]!.push(noteEntry.note)
+      return acc
+    },
+    {},
+  )
+
+  const concertEntries: ConcertEntryType[] = showsForDay(month, day).map((show) => ({
+    sortKey: Number(`${show.show_year}.${show.showorder}`),
+    entryType: show.artist.startsWith('King Gizzard') ? 'concert-kglw' : 'concert-other',
+    id: `${show.show_year}-concert-${show.show_id}`,
+    artist: show.artist,
+    showYear: show.show_year,
+    showOrder: show.showorder,
+    permalink: show.permalink,
+    venuename: show.venuename ?? '',
+    city: show.city ?? '',
+    country: show.country ?? '',
+    notes: showNotesByYear[show.show_year]?.join('; ') ?? null,
+  }))
+
+  const albumEntries: AlbumEntryType[] = albumsForDay(month, day).map((album) => ({
+    sortKey: album.year,
+    entryType: 'release',
+    id: `${album.year}-release-${album.type}-${album.name}`,
+    year: album.year,
+    name: album.name,
+    releaseType: album.type,
+    note: album.note,
+    url: album.url,
+  }))
+
+  const miscEntries: MiscEntryType[] = miscForDay(month, day).map((event, index) => ({
+    sortKey: event.year,
+    entryType: 'misc',
+    id: `${event.year}-misc-${index}`,
+    year: event.year,
+    markdownContent: event.what,
+  }))
+
+  return [...concertEntries, ...albumEntries, ...miscEntries].sort(
+    (a, b) => a.sortKey - b.sortKey,
+  )
+})()
+
+const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : []
+---
+
+{pageType === 'redirect' && (
+  <meta http-equiv="refresh" content={`0; URL=${redirectTo}`} />
+  <p>Redirecting to <a href={redirectTo}>{redirectTo}</a></p>
+)}
+
+{pageType === 'monthday' && (
+  <BaseLayout title={pageTitle}>
+    <GoatCounter slot="head" />
+    <article class="layout-monthday">
+      <nav>
+        <a href={`/${prevSlug}`} class="nav-prev">{slugToLabel(prevSlug)}</a>
+        <a href={`/${nextSlug}`} class="nav-next">{slugToLabel(nextSlug)}</a>
+      </nav>
+
+      <main>
+        <h1>
+          {dayLabelLong} <br /> in <br />
+          <a href="https://kglw.today" target="_blank" rel="noreferrer">
+            King Gizzard <br /> History
+          </a>
+        </h1>
+
+        {dayBirthdays.map((birthday) => (
+          <em key={`${birthday.year}-${birthday.who}`} class="layout-monthday--birthday">
+            Happy Birthday to {birthday.who}!!
+          </em>
+        ))}
+
+        {sortedEntries.length ? (
+          <ul>
+            {sortedEntries.map((entry) => (
+              entry.entryType === 'concert-kglw' || entry.entryType === 'concert-other' ? (
+                <ConcertEntry
+                  entry={entry as ConcertEntryType}
+                  dayLabelShort={dayLabelShort}
+                  month={monthDay!.month}
+                  day={monthDay!.day}
+                />
+              ) : entry.entryType === 'release' ? (
+                <AlbumEntry
+                  entry={entry as AlbumEntryType}
+                  dayLabelShort={dayLabelShort}
+                />
+              ) : (
+                <MiscEntry
+                  entry={entry as MiscEntryType}
+                  dayLabelShort={dayLabelShort}
+                />
+              )
+            ))}
+          </ul>
+        ) : (
+          <p class="layout-monthday--empty">On {dayLabelShort}, the band rests.</p>
+        )}
+      </main>
+    </article>
+    <FooterBar />
+  </BaseLayout>
+)}
+
+<style>
+  .layout-monthday {
+    max-width: 33em;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    a {
+      margin-right: 0.2em;
+    }
+
+    > main {
+      width: 100%;
+      margin: 1em auto;
+      border-radius: 1em;
+      box-shadow: -0.2em -0.1em 0.3em 0.1em #fff6 inset;
+      color: #ddd;
+      background: #6666;
+    }
+
+    main > h1 {
+      margin: 0.5em 0.1em 0.3em;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .layout-monthday--birthday {
+      display: block;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    main > ul {
+      margin: 2em 1em;
+
+      :global(li) {
+        margin: 0.5em 0.5em 1em 0.5em;
+        padding-left: 1em;
+        list-style: outside;
+        list-style-type: '🤘';
+        line-height: 1.5em;
+
+        &.misc { list-style-type: '📍'; }
+        &.release { list-style-type: '💿'; }
+      }
+    }
+
+    .layout-monthday--empty {
+      margin: 3em 1em;
+      color: #666;
+      text-align: center;
+    }
+
+    :global(.layout--entry-concert-kglw .layout--entry--artist) {
+      display: none;
+    }
+
+    :global(.layout--entry-concert-other .layout--entry--artist::after) {
+      content: ' performed ';
+    }
+
+    :global(.layout-monthday--entry--note) {
+      margin: 0.5em;
+      cursor: pointer;
+    }
+
+    > nav {
+      width: 100%;
+      order: -1;
+      margin: 0;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+
+      a {
+        padding: 1em 2em;
+      }
+    }
+  }
+
+  :global(.layout-monthday-sparse) {
+    > main {
+      margin: 0;
+      box-shadow: none;
+      background: transparent;
+
+      > h1 {
+        margin-top: 0;
+        font-size: 1.75em;
+      }
+
+      ul {
+        margin-bottom: 0;
+      }
+
+      .layout-monthday--empty {
+        margin-top: 1em;
+      }
+    }
+
+    & + footer,
+    > nav {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  // Apply sparse layout when ?ui=sparse is present (used by the /now iframe)
+  if (window.location.search === '?ui=sparse') {
+    document.querySelector('.layout-monthday')?.classList.add('layout-monthday-sparse')
+  }
+</script>

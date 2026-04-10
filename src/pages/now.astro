@@ -1,0 +1,25 @@
+---
+import NowIframe from '../components/NowIframe'
+import GoatCounter from '../components/GoatCounter'
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Right Now in King Gizzard History</title>
+    <GoatCounter />
+    <style>
+      /* Remove body margin so the iframe fills the full viewport */
+      body { margin: 0 !important; }
+      .now-iframe {
+        width: 100vw;
+        height: 100vh;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <NowIframe client:load />
+  </body>
+</html>
