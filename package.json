@@ -11,6 +11,7 @@
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test preview http://localhost:4173 test:e2e",
+    "lint": "eslint .",
     "pretype-check": "echo '\\nchecking types...'",
     "type-check": "tsc --noEmit"
   },
@@ -26,8 +27,11 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.0.0",
     "cypress": "15.13.1",
+    "eslint": "^10.2.0",
+    "eslint-plugin-astro": "^1.7.0",
     "start-server-and-test": "3.0.0",
-    "typescript": "~6.0.0"
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.58.1"
   },
   "engines": {
     "node": "^20.17.0 || >=22.0.0"
