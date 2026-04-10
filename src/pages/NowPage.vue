@@ -13,7 +13,7 @@ onMounted(() => {
 // The iframe points to today's month-day page with sparse UI mode enabled.
 // This is computed client-side so it always reflects the visitor's current day.
 const iframeSrc = computed(() => {
-  if (!todayDate.value) return undefined
+  if (!todayDate?.value) return undefined
   return `/${dateToSlug(todayDate.value)}?ui=sparse`
 })
 </script>
