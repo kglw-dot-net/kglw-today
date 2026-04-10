@@ -8,18 +8,22 @@
     "build-only": "vite build",
     "build:ssg": "vite-ssg build",
     "dev": "vite",
+    "prelint": "echo '\\nLinting...'",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint . --fix --cache",
     "lint:oxlint": "oxlint . --fix",
     "prepare": "cypress install",
     "preview": "vite preview",
+    "pretest": "echo '\\nTesting...'",
     "test": "vitest run && npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test preview http://localhost:4173 test:e2e",
     "test:unit": "vitest run",
     "test:unit:watch": "vitest",
-    "type-check": "vue-tsc --build && tsc --noEmit -p cypress/tsconfig.json"
+    "pretype-check": "echo '\\nTypechecking...'",
+    "type-check": "vue-tsc --build && tsc --noEmit -p cypress/tsconfig.json",
+    "posttype-check": "echo 'Finished typechecking.'"
   },
   "dependencies": {
     "@unhead/vue": "^2.1.13",
