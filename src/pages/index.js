@@ -1,52 +1,52 @@
-import React, {useEffect, useState} from 'react'
-import {Link} from 'gatsby'
+import React, { useEffect, useState } from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
 
-import Layout from '../components/layout';
-import {dateToSlug, dateToText} from '../helpers';
+import Layout from '../components/layout'
+import { dateToSlug, dateToText } from '../helpers'
+// index.scss is imported globally from _app.js
 
-import './index.scss'
-
-export const Head = () => <>
-  <title>Today in King Gizzard History</title>
-</>
-
-const IndexPage = () => {
-  const [todayDate, setDate] = useState(null);
+export default function IndexPage() {
+  const [todayDate, setDate] = useState(null)
   useEffect(() => {
-    setDate(new Date());
+    setDate(new Date())
   }, [])
 
-  return <Layout className="layout-index">
+  return <>
+    <Head>
+      <title>Today in King Gizzard History</title>
+    </Head>
+    <Layout className="layout-index">
       <h1>Today in King Gizzard History</h1>
       <p>
         {todayDate
-          ? <>Today is <Link to={`/${dateToSlug(todayDate)}`}>{dateToText(todayDate)}</Link></>
+          ? <>Today is <Link href={`/${dateToSlug(todayDate)}`}>{dateToText(todayDate)}</Link></>
           : <>Loading...
-           <noscript><strong>This site requires JavaScript.</strong></noscript>
+            <noscript><strong>This site requires JavaScript.</strong></noscript>
           </>
         }
       </p>
       <div className="calendar">
         <h2>Calendar</h2>
         <p>Pick a different day?</p>
-        <ul style={{}}>
+        <ul>
           {Array(12).fill().map((_, indexMonth) => {
-            const date = new Date(2000, indexMonth, 1); // n.b. despite `date` being a `const`, its value will be modified during runtime...
-            const monthName = dateToText(date, {month:'long'}).split(' ')[0];
-            return <li>
+            const date = new Date(2000, indexMonth, 1)
+            const monthName = dateToText(date, { month: 'long' }).split(' ')[0]
+            return <li key={indexMonth}>
               <h3>{monthName}</h3>
               <ul>
                 {Array(31).fill().map((_, indexDay) => {
-                  date.setDate(indexDay+1);
+                  date.setDate(indexDay + 1)
                   if (date.getMonth() === indexMonth) {
-                    const isToday = todayDate && date.getMonth() === todayDate.getMonth() && date.getDate() === todayDate.getDate();
-                    return <li>
+                    const isToday = todayDate && date.getMonth() === todayDate.getMonth() && date.getDate() === todayDate.getDate()
+                    return <li key={indexDay}>
                       <a href={`/${dateToSlug(date)}`} className={isToday ? 'today' : ''}>
                         {dateToText(date)}
                       </a>
                     </li>
                   }
-                  return false
+                  return null
                 })}
               </ul>
             </li>
@@ -54,6 +54,5 @@ const IndexPage = () => {
         </ul>
       </div>
     </Layout>
+  </>
 }
-
-export default IndexPage

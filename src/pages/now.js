@@ -1,24 +1,26 @@
-import React, {useEffect, useMemo, useState} from 'react';
-// import {dateToSlug, dateToText} from '../helpers';
+import React, { useEffect, useMemo, useState } from 'react'
+import Head from 'next/head'
+// now.scss is imported globally from _app.js
 
-import './now.scss'
+const dateObjToMonthDaySlug = (dateObj) =>
+  dateObj?.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')
 
-export const Head = () => <>
-  <title>Right Now in King Gizzard History</title>
-</>;
-
-const dateObjToMonthDaySlug = (dateObj) => dateObj?.toDateString().split(/ 0?/).slice(1, 3).join(' ')?.toLowerCase().replace(' ', '-')
-
-const NowPage = () => {
-  const [todayDate, setDate] = useState(null);
+export default function NowPage() {
+  const [todayDate, setDate] = useState(null)
   useEffect(() => {
-    setDate(new Date());
-  }, []);
-  const iframeSrc = useMemo(() => todayDate && `/${dateObjToMonthDaySlug(todayDate)}?ui=sparse`, [todayDate]);
+    setDate(new Date())
+  }, [])
+
+  const iframeSrc = useMemo(
+    () => todayDate && `/${dateObjToMonthDaySlug(todayDate)}?ui=sparse`,
+    [todayDate]
+  )
+
   return <>
+    <Head>
+      <title>Right Now in King Gizzard History</title>
+    </Head>
     <noscript>This requires JavaScript to determine what day it is for you.</noscript>
-    <iframe src={iframeSrc} title="Right Now in King Gizzard History" style={{width:'100vw',height:'100vh',border:0}} />
+    <iframe src={iframeSrc} title="Right Now in King Gizzard History" style={{ width: '100vw', height: '100vh', border: 0 }} />
   </>
 }
-
-export default NowPage
