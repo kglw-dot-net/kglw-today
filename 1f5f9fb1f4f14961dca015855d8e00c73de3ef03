@@ -1,0 +1,27 @@
+src/components/ConcertEntry.tsx
+  df075eef0f99548a 40
+src/pages/[...slug].astro
+  df075eef0f99548a 295-306
+src/styles/global.css
+  df075eef0f99548a 23-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "1f5f9fb1f4f14961dca015855d8e00c73de3ef03",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 42,
+      "total_deletions": 16,
+      "accepted_lines": 41,
+      "overriden_lines": 1
+    }
+  }
+}
