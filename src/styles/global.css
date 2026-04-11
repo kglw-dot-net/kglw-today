@@ -20,6 +20,34 @@ a:visited {
   color: var(--color-paleblue);
 }
 
+footer.sitefooter {
+  margin: 3rem 1rem;
+  text-align: center;
+}
+
+footer.sitefooter nav {
+  margin: 3rem 0;
+}
+
+footer.sitefooter p {
+  margin: 2rem 0;
+}
+
+.sitefooter__source {
+  text-decoration: none;
+  color: khaki;
+}
+
+.sitefooter__icon svg {
+  margin-right: 0.2rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.sitefooter__icon svg path {
+  fill: khaki;
+}
+
 h1 {
   margin-top: 0;
   padding: 0.5em;

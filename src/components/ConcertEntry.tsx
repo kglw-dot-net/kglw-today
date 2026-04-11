@@ -37,6 +37,7 @@ export default function ConcertEntry({ entry, dayLabelShort, month, day }: Props
   return (
     <li className={className}>
       <span className="layout--entry--artist">{entry.artist}</span>
+      {!isKglw && ' performed '}
       <a
         href={setlistUrl(entry.permalink, month, day)}
         target="_blank"

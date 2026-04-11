@@ -257,17 +257,6 @@ const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : 
 
     main > ul {
       margin: 2em 1em;
-
-      :global(li) {
-        margin: 0.5em 0.5em 1em 0.5em;
-        padding-left: 1em;
-        list-style: outside;
-        list-style-type: '🤘';
-        line-height: 1.5em;
-
-        &.misc { list-style-type: '📍'; }
-        &.release { list-style-type: '💿'; }
-      }
     }
 
     .layout-monthday--empty {
@@ -278,10 +267,6 @@ const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : 
 
     :global(.layout--entry-concert-kglw .layout--entry--artist) {
       display: none;
-    }
-
-    :global(.layout--entry-concert-other .layout--entry--artist::after) {
-      content: ' performed ';
     }
 
     :global(.layout-monthday--entry--note) {
@@ -307,6 +292,18 @@ const dayBirthdays = monthDay ? birthdaysForDay(monthDay.month, monthDay.day) : 
      which can be misinterpreted by some CSS processors.
      !important is required because Astro's scoped styles add [data-astro-cid-xxx] attribute
      selectors which raise specificity above these :global() rules. */
+
+  /* React-rendered <li> elements don't receive Astro's [data-astro-cid-xxx] scoping attribute,
+     so nested :global(li) inside a scoped rule doesn't work — use flat selectors instead. */
+  :global(.layout-monthday main > ul li) {
+    margin: 0.5em 0.5em 1em 0.5em;
+    padding-left: 1em;
+    list-style: outside;
+    list-style-type: '🤘';
+    line-height: 1.5em;
+  }
+  :global(.layout-monthday main > ul li.misc)    { list-style-type: '📍'; }
+  :global(.layout-monthday main > ul li.release) { list-style-type: '💿'; }
   :global(.layout-monthday-sparse > main) {
     margin: 0 !important;
     box-shadow: none !important;
