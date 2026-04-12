@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.youtube.com/embed/videoseries?list=PLKV-LnsZiOo_VZKhvl0b_V8mFzmt7H4f1",
+    "description": "Video Playlist 1"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLKV-LnsZiOo8MC0gwXiBsYH4Jrl-TePV9",
+    "description": "Video Playlist 2"
+  },
+  {
+    "url": "https://youtube.com/embed/ihS8MqMtVW0",
+    "description": ""
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLKV-LnsZiOo__TxfzRFnB13_KRTQjR0ZD",
+    "description": "Full Show Playlist"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLEwhAGbYUBw_EqKn5a6Bj6qhfXIgLnsxC",
+    "description": "Video Playlist 3"
+  }
+]

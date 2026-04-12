@@ -35,7 +35,7 @@
   main > ul {
     margin: 2em 1em;
 
-    li {
+    > li {
       margin: 0.5em 0.5em 1em 0.5em;
       padding-left: 1em;
       list-style: outside;
@@ -47,6 +47,26 @@
       }
       &.release {
         list-style-type: '💿';
+      }
+    }
+    ul {
+      padding: 0;
+      &:before {
+        content: ' ('
+      }
+      &:after {
+        content: ')'
+      }
+      li {
+        display: inline;
+        &:not(:last-child):after {
+          content: ' • '
+        }
+      }
+      a {
+        margin: 0;
+        padding: 0.15em;
+        opacity: 0.5;
       }
     }
   }

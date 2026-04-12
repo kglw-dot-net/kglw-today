@@ -4,6 +4,13 @@ import MarkdownIt from 'markdown-it'
 import { dateToText } from '../helpers'
 import type { Show, Album, Birthday, Misc, ShowNote } from '../types/data'
 
+export type ShowLink = {
+  url: string
+  description: string
+}
+
+export type ShowLinksMap = Record<number, ShowLink[]>
+
 const md = MarkdownIt()
 
 export type MonthDayContentProps = {
@@ -18,6 +25,7 @@ export type MonthDayContentProps = {
   birthdaysOnDay: Birthday[]
   miscOnDay: Misc[]
   notesOnDay: ShowNote[]
+  showLinksMap?: ShowLinksMap
 }
 
 export default function MonthDayContent({
@@ -25,6 +33,7 @@ export default function MonthDayContent({
   prevSlug, prevLabel,
   nextSlug, nextLabel,
   showsOnDay, albumsOnDay, birthdaysOnDay, miscOnDay, notesOnDay,
+  showLinksMap = {},
 }: MonthDayContentProps) {
   const dateObj = new Date(2000, month - 1, day)
   const theDayShort = dateToText(dateObj)
@@ -45,6 +54,7 @@ export default function MonthDayContent({
     const monthPadded = String(month).padStart(2, '0')
     const dayPadded = String(day).padStart(2, '0')
     const isKglw = artist.startsWith('King Gizzard')
+    const showLinks = showLinksMap[show_id]
     return {
       key: `${show_year}-concert-${show_id}`,
       year: Number(`${show_year}.${showorder}`),
@@ -60,6 +70,18 @@ export default function MonthDayContent({
           {show_year} {theDayShort} @ {venuename}{showorder === 1 ? `, ${city}, ${country}` : ` [show ${showorder}]`}
         </a>
         {notes && <span className="layout-monthday--entry--note" title={notes}>📝</span>}
+        {showLinks && showLinks.length > 0 && (
+          <ul className="layout-monthday--entry--show-links">
+            {showLinks.map(({ url, description }) => {
+              const linkText = description || new URL(url).hostname.replace(/^www\./, '')
+              return (
+                <li key={url}>
+                  <a href={url} target="_blank" rel="noreferrer">{linkText}</a>
+                </li>
+              )
+            })}
+          </ul>
+        )}
       </>,
     }
   })
