@@ -35,6 +35,8 @@ describe('month-day page', () => {
     it('lists links for a concert if available', () => {
       cy.visit('/mar-13')
       cy.contains('youtube.com')
+      cy.visit('/apr-27')
+      cy.contains('Archive.org')
     })
 
     it('lists a released single', () => {
