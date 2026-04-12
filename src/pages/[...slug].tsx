@@ -241,7 +241,7 @@ function MonthDayPage({
 
   return <>
     <Head>
-      <title>{theDayLong} in King Gizzard History</title>
+      <title>{`${theDayLong} in King Gizzard History`}</title>
     </Head>
     <Layout className={`layout-monthday${isSparseLayout ? ' layout-monthday-sparse' : ''}`}>
       <main>
