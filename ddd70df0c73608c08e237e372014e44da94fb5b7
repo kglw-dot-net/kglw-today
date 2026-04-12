@@ -1,0 +1,55 @@
+src/pages/index.tsx
+  df075eef0f99548a 1-57
+cypress.config.js
+  df075eef0f99548a 6
+src/types/data.ts
+  df075eef0f99548a 1-53
+src/components/footer.tsx
+  df075eef0f99548a 1-21
+next.config.ts
+  df075eef0f99548a 1-25
+src/pages/_app.tsx
+  df075eef0f99548a 1-14
+src/components/layout.tsx
+  df075eef0f99548a 1-13
+.gitignore
+  df075eef0f99548a 4
+src/types/svg.d.ts
+  df075eef0f99548a 1-5
+package.json
+  df075eef0f99548a 20-21,32-35,37-38
+src/helpers.ts
+  df075eef0f99548a 1-20
+src/pages/404.tsx
+  df075eef0f99548a 1-20
+src/types/scss.d.ts
+  df075eef0f99548a 1-2
+tsconfig.json
+  df075eef0f99548a 1-20
+src/components/goat-counter.tsx
+  df075eef0f99548a 1-28
+src/pages/now.tsx
+  df075eef0f99548a 1-26
+src/pages/[...slug].tsx
+  df075eef0f99548a 1-277
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "ddd70df0c73608c08e237e372014e44da94fb5b7",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 621,
+      "total_deletions": 3,
+      "accepted_lines": 1067,
+      "overriden_lines": 14
+    }
+  }
+}
