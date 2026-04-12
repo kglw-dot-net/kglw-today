@@ -20,12 +20,12 @@
     "build": "next build",
     "data:updateShows": "node updateShows.mjs",
     "dev": "next dev",
+    "lint": "eslint .",
     "serve": "npx serve@14 out -p 3000",
     "test": "npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test dev http://localhost:3000 test:e2e",
-    "lint": "eslint .",
     "pretype-check": "echo '\\nType-checking…'",
     "type-check": "tsc --noEmit"
   },
