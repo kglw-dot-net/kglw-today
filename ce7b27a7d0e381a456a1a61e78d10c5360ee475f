@@ -1,0 +1,25 @@
+src/components/month-day-content.tsx
+  df075eef0f99548a 2,114
+src/pages/[...slug].tsx
+  df075eef0f99548a 5,176
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "ce7b27a7d0e381a456a1a61e78d10c5360ee475f",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 2,
+      "accepted_lines": 722,
+      "overriden_lines": 1
+    }
+  }
+}
