@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-
 import Layout from '../components/layout'
 import { dateToSlug, dateToText } from '../helpers'
-// index.scss is imported globally from _app.js
+// index.scss is imported globally from _app.tsx
 
 export default function IndexPage() {
-  const [todayDate, setDate] = useState(null)
+  const [todayDate, setDate] = useState<Date | null>(null)
   useEffect(() => {
     setDate(new Date())
   }, [])
@@ -30,13 +29,13 @@ export default function IndexPage() {
         <h2>Calendar</h2>
         <p>Pick a different day?</p>
         <ul>
-          {Array(12).fill().map((_, indexMonth) => {
+          {Array(12).fill(null).map((_, indexMonth) => {
             const date = new Date(2000, indexMonth, 1)
             const monthName = dateToText(date, { month: 'long' }).split(' ')[0]
             return <li key={indexMonth}>
               <h3>{monthName}</h3>
               <ul>
-                {Array(31).fill().map((_, indexDay) => {
+                {Array(31).fill(null).map((_, indexDay) => {
                   date.setDate(indexDay + 1)
                   if (date.getMonth() === indexMonth) {
                     const isToday = todayDate && date.getMonth() === todayDate.getMonth() && date.getDate() === todayDate.getDate()

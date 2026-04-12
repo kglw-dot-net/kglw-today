@@ -1,29 +1,68 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
+import type { GetStaticPaths, GetStaticProps } from 'next'
 import MarkdownIt from 'markdown-it'
 
 import Layout from '../components/layout'
 import { dateToText } from '../helpers'
+import type { Show, Album, Birthday, Misc, ShowNote } from '../types/data'
 
-import showsData from '../data/shows.json'
-import albumsData from '../data/albums.json'
-import birthdaysData from '../data/birthdays.json'
-import miscData from '../data/misc.json'
-import showNotesData from '../data/show-notes.json'
+// Type-assert JSON imports to avoid slow inference on large files
+import showsDataJson from '../data/shows.json'
+import albumsDataJson from '../data/albums.json'
+import birthdaysDataJson from '../data/birthdays.json'
+import miscDataJson from '../data/misc.json'
+import showNotesDataJson from '../data/show-notes.json'
+
+const showsData = showsDataJson as unknown as Show[]
+const albumsData = albumsDataJson as unknown as Album[]
+const birthdaysData = birthdaysDataJson as unknown as Birthday[]
+const miscData = miscDataJson as unknown as Misc[]
+const showNotesData = showNotesDataJson as unknown as ShowNote[]
 
 const md = MarkdownIt()
 
 // Parse a month-day slug like 'jan-1' or 'feb-29' into { month, day }.
 // Month uses 1=January, 12=December to match the source data convention.
-function parseMonthDaySlug(slug) {
+function parseMonthDaySlug(slug: string): { month: number; day: number } | null {
   const formatted = slug.replace('-', ' ') // 'jan-1' → 'jan 1'
   const date = new Date(`${formatted} 2000`)
   if (isNaN(date.getTime())) return null
   return { month: date.getMonth() + 1, day: date.getDate() }
 }
 
-export function getStaticPaths() {
-  const paths = []
+// ---------------------------------------------------------------------------
+// Page prop types
+// ---------------------------------------------------------------------------
+
+type RedirectProps = {
+  pageType: 'redirect'
+  redirectTo: string
+}
+
+type MonthDayProps = {
+  pageType: 'monthday'
+  month: number
+  day: number
+  prevSlug: string
+  prevLabel: string
+  nextSlug: string
+  nextLabel: string
+  showsOnDay: Show[]
+  albumsOnDay: Album[]
+  birthdaysOnDay: Birthday[]
+  miscOnDay: Misc[]
+  notesOnDay: ShowNote[]
+}
+
+type SlugPageProps = RedirectProps | MonthDayProps
+
+// ---------------------------------------------------------------------------
+// Static generation
+// ---------------------------------------------------------------------------
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const paths: Array<{ params: { slug: string[] } }> = []
 
   // 366 month-day pages — iterate through year 2000 (a leap year) for complete coverage
   for (
@@ -37,7 +76,7 @@ export function getStaticPaths() {
 
   // Show redirect pages: one per YYYY-MM-DD (first show of day) and one per YYYY-MM-DD@N.
   // Deduplicate both forms — the source data can have multiple rows per date/order.
-  const seenSlugs = new Set()
+  const seenSlugs = new Set<string>()
   for (const show of showsData) {
     const dateSlug = show.showdate // YYYY-MM-DD
 
@@ -56,8 +95,8 @@ export function getStaticPaths() {
   return { paths, fallback: false }
 }
 
-export function getStaticProps({ params }) {
-  const slug = params.slug[0]
+export const getStaticProps: GetStaticProps<SlugPageProps, { slug: string[] }> = ({ params }) => {
+  const slug = params!.slug[0]
 
   // YYYY-MM-DD or YYYY-MM-DD@N → redirect to kglw.net setlist
   if (/^\d{4}-\d{2}-\d{2}/.test(slug)) {
@@ -100,14 +139,18 @@ export function getStaticProps({ params }) {
   }
 }
 
-export default function SlugPage(props) {
+// ---------------------------------------------------------------------------
+// Page component
+// ---------------------------------------------------------------------------
+
+export default function SlugPage(props: SlugPageProps) {
   if (props.pageType === 'redirect') {
     return <RedirectPage redirectTo={props.redirectTo} />
   }
   return <MonthDayPage {...props} />
 }
 
-function RedirectPage({ redirectTo }) {
+function RedirectPage({ redirectTo }: { redirectTo: string }) {
   return <>
     <Head>
       <meta httpEquiv="refresh" content={`0; URL=${redirectTo}`} />
@@ -116,7 +159,12 @@ function RedirectPage({ redirectTo }) {
   </>
 }
 
-function MonthDayPage({ month, day, prevSlug, prevLabel, nextSlug, nextLabel, showsOnDay, albumsOnDay, birthdaysOnDay, miscOnDay, notesOnDay }) {
+function MonthDayPage({
+  month, day,
+  prevSlug, prevLabel,
+  nextSlug, nextLabel,
+  showsOnDay, albumsOnDay, birthdaysOnDay, miscOnDay, notesOnDay,
+}: MonthDayProps) {
   const [isSparseLayout, setSparseLayout] = useState(false)
   useEffect(() => {
     setSparseLayout(window.location.search === '?ui=sparse')
@@ -126,9 +174,13 @@ function MonthDayPage({ month, day, prevSlug, prevLabel, nextSlug, nextLabel, sh
   const theDayShort = dateToText(dateObj)
   const theDayLong = dateToText(dateObj, { month: 'long' })
 
-  const notesByYear = notesOnDay.reduce((acc, { year, note }) => {
-    if (!acc[year]) acc[year] = []
-    acc[year].push(note)
+  const notesByYear = notesOnDay.reduce<Record<number, string[] | undefined>>((acc, { year, note }) => {
+    const existing = acc[year]
+    if (existing) {
+      existing.push(note)
+    } else {
+      acc[year] = [note]
+    }
     return acc
   }, {})
 

@@ -17,7 +17,8 @@
     "test": "npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
-    "test:e2e:withserver": "start-server-and-test dev http://localhost:3000 test:e2e"
+    "test:e2e:withserver": "start-server-and-test dev http://localhost:3000 test:e2e",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "markdown-it": "14.1.0",
@@ -28,7 +29,12 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^8",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^25.5.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "cypress": "^13.16.0",
-    "start-server-and-test": "^2.1.2"
+    "start-server-and-test": "^2.1.2",
+    "typescript": "^6.0.2"
   }
 }
