@@ -1,0 +1,37 @@
+cypress/support/commands.ts
+  df075eef0f99548a 1,4,7-14
+cypress/e2e/iframe.cy.ts
+  df075eef0f99548a 11,17
+cypress/e2e/home.cy.ts
+  df075eef0f99548a 21
+tsconfig.json
+  df075eef0f99548a 19
+cypress.config.js
+  df075eef0f99548a 1,5,10
+cypress/e2e/redirects.cy.ts
+  df075eef0f99548a 1-12
+cypress/e2e/calendar.cy.ts
+  df075eef0f99548a 1-25
+cypress/tsconfig.json
+  df075eef0f99548a 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "4fb5ec9031a296a25e67b5a8b900c52f29bbb5c0",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 245,
+      "total_deletions": 48,
+      "accepted_lines": 817,
+      "overriden_lines": 0
+    }
+  }
+}
