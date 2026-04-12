@@ -1,0 +1,29 @@
+src/pages/[...slug].tsx
+  df075eef0f99548a 6,160,168,175
+src/components/month-day-content.tsx
+  df075eef0f99548a 1-127
+src/components/footer.tsx
+  df075eef0f99548a 10
+src/pages/index.tsx
+  df075eef0f99548a 6-7,9,12-48,61,68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "290e84530556c545c3712c250fc8030e89dea376",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 174,
+      "total_deletions": 109,
+      "accepted_lines": 922,
+      "overriden_lines": 4
+    }
+  }
+}
