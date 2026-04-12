@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import Link from 'next/link'
+import c from 'clsx'
 
 import Layout from '../components/layout'
 import MonthDayContent from '../components/month-day-content'
@@ -172,7 +173,7 @@ function MonthDayPage(props: MonthDayProps) {
     <Head>
       <title>{`${theDayLong} in King Gizzard History`}</title>
     </Head>
-    <Layout className={`layout-monthday${isSparseLayout ? ' layout-monthday-sparse' : ''}`}>
+    <Layout className={c('layout-monthday', isSparseLayout && 'layout-monthday-sparse')}>
       <MonthDayContent {...props} />
       <nav>
         <Link href="/calendar">Calendar of all dates</Link>

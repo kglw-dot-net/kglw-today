@@ -32,6 +32,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "markdown-it": "14.1.0",
     "next": "^15",
     "react": "18.3.1",

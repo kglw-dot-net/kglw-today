@@ -1,4 +1,5 @@
 import React from 'react'
+import c from 'clsx'
 import MarkdownIt from 'markdown-it'
 import { dateToText } from '../helpers'
 import type { Show, Album, Birthday, Misc, ShowNote } from '../types/data'
@@ -110,7 +111,7 @@ export default function MonthDayContent({
       {entriesSorted.length
         ? <ul>
           {entriesSorted.map((entry) =>
-            <li key={entry.key} className={`${entry.className} layout-monthday--entry`}>
+            <li key={entry.key} className={c(entry.className, 'layout-monthday--entry')}>
               {entry.content}
             </li>
           )}
