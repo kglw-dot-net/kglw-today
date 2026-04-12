@@ -18,7 +18,7 @@ describe('homepage', () => {
       cy.get('.calendar')
         .find('a')
         .its('length')
-        .should('eq', 366);
+        .should('eq', 366)
     })
     it('should link to date page proper URL', () => {
       cy.get('.calendar')

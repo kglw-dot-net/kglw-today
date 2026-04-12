@@ -16,5 +16,5 @@
     "plugins": [{ "name": "next" }]
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", ".next", "out", "updateShows.mjs"]
+  "exclude": ["node_modules", ".next", "out", "updateShows.mjs", "cypress"]
 }

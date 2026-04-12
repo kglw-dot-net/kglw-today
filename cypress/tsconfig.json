@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "node16",
+    "moduleResolution": "node16",
+    "types": ["cypress"],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["../node_modules"]
+}
