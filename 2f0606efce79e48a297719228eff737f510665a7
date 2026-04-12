@@ -1,0 +1,33 @@
+src/pages/[...slug].tsx
+  df075eef0f99548a 9,19,26,59,128-136,146,151
+src/pages/index.tsx
+  df075eef0f99548a 8,19,26,37-44,52,57,63
+updateShowLinks.mjs
+  df075eef0f99548a 1-40
+package.json
+  df075eef0f99548a 22
+src/components/month-day-content.tsx
+  df075eef0f99548a 7-12,28,36,57,73-84
+src/data/show-links.json
+  df075eef0f99548a 1,256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "2f0606efce79e48a297719228eff737f510665a7",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 221,
+      "total_deletions": 83,
+      "accepted_lines": 98,
+      "overriden_lines": 2
+    }
+  }
+}
