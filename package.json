@@ -23,6 +23,7 @@
     "prelint": "echo '\\nLinting…'",
     "lint": "eslint .",
     "serve": "npx serve@14 out -p 3000",
+    "pretest": "echo '\\nTesting…'",
     "test": "npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
