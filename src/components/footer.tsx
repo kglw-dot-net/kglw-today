@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import CodeIcon from '../images/svg/icon-source-code.svg'
 // footer.scss is imported globally from _app.tsx
 
@@ -6,7 +7,7 @@ export default function Footer() {
   return <footer className="sitefooter">
 
     <nav>
-      <a href="/">Back to Calendar</a>
+      <Link href="/">Back to Calendar</Link>
     </nav>
 
     <p>Brought to you by <a href="http://kglw.net/?src=kglw.today&campaign=credits" target="_blank" rel="noreferrer">KGLW.net</a>!</p>

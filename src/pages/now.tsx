@@ -8,6 +8,8 @@ const dateObjToMonthDaySlug = (dateObj: Date): string =>
 export default function NowPage() {
   const [todayDate, setDate] = useState<Date | null>(null)
   useEffect(() => {
+    // Intentional: defer to client to avoid SSR hydration mismatch
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setDate(new Date())
   }, [])
 

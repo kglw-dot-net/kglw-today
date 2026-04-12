@@ -8,6 +8,8 @@ import { dateToSlug, dateToText } from '../helpers'
 export default function IndexPage() {
   const [todayDate, setDate] = useState<Date | null>(null)
   useEffect(() => {
+    // Intentional: defer to client to avoid SSR hydration mismatch
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setDate(new Date())
   }, [])
 

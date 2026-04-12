@@ -167,6 +167,8 @@ function MonthDayPage({
 }: MonthDayProps) {
   const [isSparseLayout, setSparseLayout] = useState(false)
   useEffect(() => {
+    // Intentional: window.location is client-only; defer to avoid SSR hydration mismatch
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSparseLayout(window.location.search === '?ui=sparse')
   }, [])
 
