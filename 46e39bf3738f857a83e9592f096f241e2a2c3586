@@ -1,0 +1,39 @@
+src/pages/index.tsx
+  df075eef0f99548a 11-12
+.github/workflows/main.yml
+  df075eef0f99548a 9-29,42
+src/pages/404.tsx
+  df075eef0f99548a 13
+.tool-versions
+  df075eef0f99548a 1
+src/components/footer.tsx
+  df075eef0f99548a 2,10
+package.json
+  df075eef0f99548a 7-10,15-18,28,46-47
+eslint.config.mjs
+  df075eef0f99548a 1-11
+src/pages/[...slug].tsx
+  df075eef0f99548a 170-171
+src/pages/now.tsx
+  df075eef0f99548a 11-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "46e39bf3738f857a83e9592f096f241e2a2c3586",
+  "prompts": {
+    "df075eef0f99548a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f56a72ea-4e0c-4860-994f-3ef32385ce4c",
+        "model": "<synthetic>"
+      },
+      "human_author": "Alexander",
+      "messages": [],
+      "total_additions": 61,
+      "total_deletions": 8,
+      "accepted_lines": 868,
+      "overriden_lines": 3
+    }
+  }
+}
