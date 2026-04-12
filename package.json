@@ -17,7 +17,7 @@
     "npm": ">=11"
   },
   "scripts": {
-    "prebuild": "node consolidateShowLinks.mjs",
+    "prebuild": "npm run data:consolidateShowLinks",
     "build": "next build",
     "predata:updateShows": "echo '\\nUpdating show data …'",
     "data:updateShows": "node updateShows.mjs",
