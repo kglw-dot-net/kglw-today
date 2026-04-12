@@ -35,7 +35,7 @@
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test dev http://localhost:3000 test:e2e",
-    "pretype-check": "echo '\\nType-checking…'",
+    "pretype-check": "npm run data:consolidateShowLinks && echo '\\nType-checking…'",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
