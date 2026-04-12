@@ -71,5 +71,4 @@ describe('month-day page', () => {
       cy.contains('KGLW.net launches!')
     })
   })
-
 })

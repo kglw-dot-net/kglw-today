@@ -19,7 +19,6 @@ a {
 
 .layout-index {
   width: 100%;
-  text-align: center;
 
   > p {
     font-size: 1.5em;
@@ -27,6 +26,7 @@ a {
 }
 
 h1 {
+  text-align: center;
   margin-top: 0;
   padding: 0.5em;
   color: $kglw-phase2-paleblue;
