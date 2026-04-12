@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Layout from '../components/layout'
 import Calendar from '../components/calendar'
@@ -60,11 +61,14 @@ export default function IndexPage() {
     </Head>
     <Layout className="layout-index layout-monthday">
       {todayDate
-        ? <MonthDayContent {...buildMonthDayProps(todayDate)} />
+        ? <>
+            <MonthDayContent {...buildMonthDayProps(todayDate)} />
+            <Link href="/calendar">Calendar of all dates</Link>
+          </>
         : <>
-          <h1>Today in King Gizzard History</h1>
-          <Calendar />
-        </>
+            <h1>Today in King Gizzard History</h1>
+            <Calendar />
+          </>
       }
     </Layout>
   </>
