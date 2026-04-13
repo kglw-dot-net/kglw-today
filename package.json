@@ -52,7 +52,7 @@
     "@types/node": "^25.5.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "cypress": "^13.16.0",
+    "cypress": "^15.13.1",
     "cypress-if": "^1.13.2",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.3",
