@@ -47,11 +47,11 @@ Redirects to the appropriate concert URL on the KGLW.net site.
 
 ## Framework docs
 
-This site uses NextJS, TypeScript, and React.
+This site uses [NextJS](https://nextjs.org), [TypeScript](https://www.typescriptlang.org), and [React](https://react.dev).
 
 
 [`/jan-7`]: https://kglw.today/jan-7?source=github&campagin=readme
 [`/now`]: https://kglw.today/now?source=github&campagin=readme
 [KGLW.net]: https://kglw.net?source=kglw.today&campaign=github-readme
 [KGLW.today]: https://kglw.today?source=github&campaign=readme
-[Leay Day]: https://kglw.today/feb-29?source=github&campagin=readme
+[Leap Day]: https://kglw.today/feb-29?source=github&campagin=readme
