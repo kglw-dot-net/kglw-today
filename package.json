@@ -17,18 +17,25 @@
     "npm": ">=11"
   },
   "scripts": {
+    "prebuild": "npm run data:consolidateShowLinks",
     "build": "next build",
+    "predata:updateShows": "echo '\\nUpdating show data …'",
     "data:updateShows": "node updateShows.mjs",
+    "predata:updateShowLinks": "echo '\\nUpdating show links …'",
+    "data:updateShowLinks": "node updateShowLinks.mjs",
+    "predata:consolidateShowLinks": "echo '\\nConsolidating show links …'",
+    "data:consolidateShowLinks": "node consolidateShowLinks.mjs",
+    "predev": "npm run data:consolidateShowLinks",
     "dev": "next dev",
     "prelint": "echo '\\nLinting…'",
     "lint": "eslint .",
-    "serve": "npx serve@14 out -p 3000",
+    "serve": "serve out -p 3000",
     "pretest": "echo '\\nTesting…'",
     "test": "npm run test:e2e",
     "test:e2e": "cypress run --e2e",
     "test:e2e:gui": "cypress open --e2e",
     "test:e2e:withserver": "start-server-and-test dev http://localhost:3000 test:e2e",
-    "pretype-check": "echo '\\nType-checking…'",
+    "pretype-check": "npm run data:consolidateShowLinks && echo '\\nType-checking…'",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -46,8 +53,10 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "cypress": "^13.16.0",
+    "cypress-if": "^1.13.2",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.3",
+    "serve": "^14.2.6",
     "start-server-and-test": "^2.1.2",
     "typescript": "^6.0.2"
   }

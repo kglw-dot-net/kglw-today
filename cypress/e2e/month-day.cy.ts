@@ -32,6 +32,13 @@ describe('month-day page', () => {
         .contains('Halfpenny Bridge Hotel')
     })
 
+    it('lists links for a concert if available', () => {
+      cy.visit('/mar-13')
+      cy.contains('youtube.com')
+      cy.visit('/apr-27')
+      cy.contains('Archive.org')
+    })
+
     it('lists a released single', () => {
       cy.visit('/oct-18')
       cy.contains('2017 Oct 18')

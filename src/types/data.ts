@@ -1,4 +1,4 @@
-export interface Show {
+export type Show = {
   show_id: number
   showdate: string  // YYYY-MM-DD
   permalink: string
@@ -21,7 +21,7 @@ export interface Show {
   show_monthname: string
 }
 
-export interface Album {
+export type Album = {
   year: number
   month: number
   day: number
@@ -31,21 +31,21 @@ export interface Album {
   url?: string
 }
 
-export interface Birthday {
+export type Birthday = {
   year: number
   month: number
   day: number
   who: string
 }
 
-export interface Misc {
+export type Misc = {
   year: number
   month: number
   day: number
   what: string
 }
 
-export interface ShowNote {
+export type ShowNote = {
   year: number
   month: number
   day: number

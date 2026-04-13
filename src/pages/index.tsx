@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Calendar from '../components/calendar'
 import MonthDayContent from '../components/month-day-content'
-import type { MonthDayContentProps } from '../components/month-day-content'
+import type { MonthDayContentProps, ShowLinksMap } from '../components/month-day-content'
 import { dateToSlug, dateToText } from '../helpers'
 import type { Show, Album, Birthday, Misc, ShowNote } from '../types/data'
 // index.scss is imported globally from _app.tsx
@@ -16,12 +16,14 @@ import albumsDataJson from '../data/albums.json'
 import birthdaysDataJson from '../data/birthdays.json'
 import miscDataJson from '../data/misc.json'
 import showNotesDataJson from '../data/show-notes.json'
+import showLinksDataJson from '../data/show-links.json'
 
 const showsData = showsDataJson as unknown as Show[]
 const albumsData = albumsDataJson as unknown as Album[]
 const birthdaysData = birthdaysDataJson as unknown as Birthday[]
 const miscData = miscDataJson as unknown as Misc[]
 const showNotesData = showNotesDataJson as unknown as ShowNote[]
+const showLinksData = showLinksDataJson as unknown as ShowLinksMap
 
 function buildMonthDayProps(date: Date): MonthDayContentProps {
   const month = date.getMonth() + 1
@@ -32,6 +34,14 @@ function buildMonthDayProps(date: Date): MonthDayContentProps {
   const nextDate = new Date(2000, month - 1, day)
   nextDate.setDate(nextDate.getDate() + 1)
 
+  const showsOnDay = showsData.filter((s) => s.show_month === month && s.show_day === day)
+
+  const showLinksMap: ShowLinksMap = {}
+  for (const { show_id } of showsOnDay) {
+    const links = showLinksData[show_id]
+    if (links) showLinksMap[show_id] = links
+  }
+
   return {
     month,
     day,
@@ -39,16 +49,18 @@ function buildMonthDayProps(date: Date): MonthDayContentProps {
     prevLabel: dateToText(prevDate),
     nextSlug: dateToSlug(nextDate),
     nextLabel: dateToText(nextDate),
-    showsOnDay: showsData.filter((s) => s.show_month === month && s.show_day === day),
+    showsOnDay,
     albumsOnDay: albumsData.filter((a) => a.month === month && a.day === day),
     birthdaysOnDay: birthdaysData.filter((b) => b.month === month && b.day === day),
     miscOnDay: miscData.filter((m) => m.month === month && m.day === day),
     notesOnDay: showNotesData.filter((n) => n.month === month && n.day === day),
+    showLinksMap,
   }
 }
 
 export default function IndexPage() {
   const [todayDate, setDate] = useState<Date | null>(null)
+
   useEffect(() => {
     // Intentional: defer to client to avoid SSR hydration mismatch
     // eslint-disable-next-line react-hooks/set-state-in-effect

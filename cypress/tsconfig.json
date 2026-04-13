@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "module": "node16",
     "moduleResolution": "node16",
-    "types": ["cypress"],
+    "types": ["cypress", "cypress-if"],
     "ignoreDeprecations": "6.0"
   },
   "include": ["**/*.ts"],

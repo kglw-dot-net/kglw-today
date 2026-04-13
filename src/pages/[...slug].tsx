@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import fs from 'fs'
+import path from 'path'
 import Head from 'next/head'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import Link from 'next/link'
@@ -6,6 +8,7 @@ import c from 'clsx'
 
 import Layout from '../components/layout'
 import MonthDayContent from '../components/month-day-content'
+import type { ShowLink, ShowLinksMap } from '../components/month-day-content'
 import { dateToText } from '../helpers'
 import type { Show, Album, Birthday, Misc, ShowNote } from '../types/data'
 
@@ -21,6 +24,14 @@ const albumsData = albumsDataJson as unknown as Album[]
 const birthdaysData = birthdaysDataJson as unknown as Birthday[]
 const miscData = miscDataJson as unknown as Misc[]
 const showNotesData = showNotesDataJson as unknown as ShowNote[]
+
+const SHOW_LINKS_DIR = path.join(process.cwd(), 'src/data/show-links')
+
+function readShowLinks(show_id: number): ShowLink[] {
+  const sidecarPath = path.join(SHOW_LINKS_DIR, `${show_id}.json`)
+  if (!fs.existsSync(sidecarPath)) return []
+  return JSON.parse(fs.readFileSync(sidecarPath, 'utf8')) as ShowLink[]
+}
 
 // Parse a month-day slug like 'jan-1' or 'feb-29' into { month, day }.
 // Month uses 1=January, 12=December to match the source data convention.
@@ -53,6 +64,7 @@ type MonthDayProps = {
   birthdaysOnDay: Birthday[]
   miscOnDay: Misc[]
   notesOnDay: ShowNote[]
+  showLinksMap: ShowLinksMap
 }
 
 type SlugPageProps = RedirectProps | MonthDayProps
@@ -121,6 +133,15 @@ export const getStaticProps: GetStaticProps<SlugPageProps, { slug: string[] }> =
   const nextDate = new Date(2000, month - 1, day)
   nextDate.setDate(nextDate.getDate() + 1)
 
+  const showsOnDay = showsData.filter((s) => s.show_month === month && s.show_day === day)
+
+  // Build showLinksMap for this day by reading per-show sidecar files
+  const showLinksMap: ShowLinksMap = {}
+  for (const { show_id } of showsOnDay) {
+    const links = readShowLinks(show_id)
+    if (links.length > 0) showLinksMap[show_id] = links
+  }
+
   return {
     props: {
       pageType: 'monthday',
@@ -130,11 +151,12 @@ export const getStaticProps: GetStaticProps<SlugPageProps, { slug: string[] }> =
       prevLabel: dateToText(prevDate),
       nextSlug: dateToText(nextDate).toLowerCase().replace(' ', '-'),
       nextLabel: dateToText(nextDate),
-      showsOnDay: showsData.filter((s) => s.show_month === month && s.show_day === day),
+      showsOnDay,
       albumsOnDay: albumsData.filter((a) => a.month === month && a.day === day),
       birthdaysOnDay: birthdaysData.filter((b) => b.month === month && b.day === day),
       miscOnDay: miscData.filter((m) => m.month === month && m.day === day),
       notesOnDay: showNotesData.filter((n) => n.month === month && n.day === day),
+      showLinksMap,
     },
   }
 }
