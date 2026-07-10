@@ -54,7 +54,7 @@
     "@types/react-dom": "^19.2.3",
     "cypress": "^15.13.1",
     "cypress-if": "^1.13.2",
-    "eslint": "^9.39.4",
+    "eslint": "^10.2.0",
     "eslint-config-next": "^16.2.3",
     "serve": "^14.2.6",
     "start-server-and-test": "^2.1.2",
